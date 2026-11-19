@@ -151,7 +151,7 @@ def analytics():
 
 def page(title, active, body, prefix="", desc="", og=""):
     nav = "\n".join(
-        f'        <li><a href="{prefix}{s}.html"{" class=\"active\" aria-current=\"page\"" if s == active else ""}>{n}</a></li>'
+        f'          <li><a href="{prefix}{s}.html"{" class=\"active\" aria-current=\"page\"" if s == active else ""}>{n}</a></li>'
         for s, n in CATS)
     foot = "".join(f'<a href="{prefix}{s}.html">{n}</a>' for s, n in CATS[1:])
     return f"""<!doctype html>
@@ -174,28 +174,28 @@ def page(title, active, body, prefix="", desc="", og=""):
   <script src="{prefix}js/bg-fx.js?v={asset_version('js/bg-fx.js')}" defer></script>{analytics()}
 </head>
 <body id="top">
-  <div class="topbar"><div class="wrap"><span id="today"></span><span>Science news, checked against the source.</span></div></div>
-  <header class="masthead wrap">
-    <a href="{prefix}index.html" class="logo"><img class="logo-mark" src="{prefix}brand/favicon-192.png" alt="" width="64" height="64">Science<span>Messenger</span></a>
-    <p class="tagline">What science found out today, and why it matters tomorrow.</p>
-  </header>
-  <nav class="catnav" aria-label="Categories">
-    <div class="catnav-inner">
-      <a href="{prefix}index.html" class="catnav-logo" aria-label="{SITE} home" tabindex="-1"><img src="{prefix}brand/favicon-192.png" alt="" width="30" height="30"></a>
-      <ul>
+  <header class="sitehead">
+    <div class="sitehead-inner">
+      <a href="{prefix}index.html" class="brand" aria-label="{SITE} home"><img src="{prefix}brand/favicon-192.png" alt="" width="34" height="34">Science<span>Messenger</span></a>
+      <nav class="catnav" aria-label="Categories">
+        <ul>
 {nav}
-      </ul>
+        </ul>
+      </nav>
       <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
         <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 3a9 9 0 1 0 9 9c0-.46-.04-.92-.1-1.36a5.39 5.39 0 0 1-4.4 2.26 5.4 5.4 0 0 1-3.14-9.8C12.92 3.04 12.46 3 12 3z"/></svg>
       </button>
     </div>
-  </nav>
+  </header>
   <main class="wrap">
 {body}
   </main>
   <footer class="footer">
     <div class="wrap">
-      <a href="{prefix}index.html" class="logo">Science<span>Messenger</span></a>
+      <div class="footer-brand">
+        <a href="{prefix}index.html" class="brand"><img src="{prefix}brand/favicon-192.png" alt="" width="34" height="34" loading="lazy">Science<span>Messenger</span></a>
+        <p>What science found out today, and why it matters tomorrow.</p>
+      </div>
       <nav aria-label="Footer">{foot}<a href="{prefix}credits.html">Image credits</a></nav>
       <span>© {YEAR} {SITE}. Every story links to the original research and reporting.</span>
     </div>
@@ -209,55 +209,107 @@ def page(title, active, body, prefix="", desc="", og=""):
 # ---------- Building blocks ----------
 
 def meta(s, short=True):
-    place = short_place(s["location"]) if short else s["location"]
+    place = "" if short else f' · {e(s["location"])}'
     return (f'<div class="meta"><time datetime="{s["date"]}">{fmt_date(s["date"])}</time>'
-            f' · {e(place)} · {s["read"]} min read</div>')
+            f'{place} · {s["read"]} min read</div>')
 
 
 def tag(s, prefix):
     return f'<a class="tag" href="{prefix}{s["cat"]}.html">{CATNAME[s["cat"]]}</a>'
 
 
-def card(s, prefix="", wide=False):
+def card(s, prefix=""):
     """Whole card is one link (the headline's ::after covers it); the tag stays separately clickable."""
     href = f'{prefix}news/{s["slug"]}.html'
-    sizes = "(max-width: 640px) 100vw, (max-width: 960px) 60vw, 720px" if wide else \
-            "(max-width: 640px) 100vw, (max-width: 960px) 50vw, 380px"
-    return f"""      <article class="card{' wide' if wide else ''}">
-        <div class="thumb">{img_tag(s['img'], sizes, 1280 if wide else 960, prefix=prefix)}</div>
+    return f"""      <article class="card">
+        <div class="thumb">{img_tag(s['img'], "(max-width: 640px) 100vw, (max-width: 960px) 50vw, 420px", 960, prefix=prefix)}</div>
         <div class="card-body">
           {tag(s, prefix)}
           <h3><a class="card-link" href="{href}">{e(s['headline'])}</a></h3>
-          <p>{e(s['dek'])}</p>
           {meta(s)}
+          <p>{e(s['dek'])}</p>
         </div>
       </article>"""
 
 
-def lead(main, side, prefix="", hl="h1"):
-    side_html = "\n".join(f"""      <article class="card">
-        <div class="thumb">{img_tag(s['img'], "(max-width: 640px) 100vw, (max-width: 960px) 33vw, 400px", 960, prefix=prefix)}</div>
-        {tag(s, prefix)}
-        <h3><a class="card-link" href="{prefix}news/{s['slug']}.html">{e(s['headline'])}</a></h3>
-      </article>""" for s in side)
+def mini(s, prefix=""):
+    return f"""        <article class="card mini">
+          <div class="thumb">{img_tag(s['img'], "120px", 330, prefix=prefix)}</div>
+          <div>
+            {tag(s, prefix)}
+            <h3><a class="card-link" href="{prefix}news/{s['slug']}.html">{e(s['headline'])}</a></h3>
+          </div>
+        </article>"""
+
+
+def lead(main, side, prefix="", hl="h1", side_title="Also new"):
+    """Full-bleed photo, headline block underneath, short list of other stories beside it."""
     href = f'{prefix}news/{main["slug"]}.html'
-    aside = f'<aside class="lead-side lead-side-{len(side)}">\n{side_html}\n      </aside>' if side else ""
-    return f"""    <section class="lead{'' if side else ' lead-solo'}">
-      <article class="lead-main card">
-        <div class="thumb">{img_tag(main['img'], "(max-width: 960px) 100vw, 740px", 1280, eager=True, prefix=prefix)}</div>
-        {tag(main, prefix)}
-        <{hl}><a class="card-link" href="{href}">{e(main['headline'])}</a></{hl}>
-        <p>{e(main['dek'])}</p>
-        {meta(main)}
-      </article>
-      {aside}
+    aside = (f'      <aside class="hero-side">\n        <h2 class="side-title">{e(side_title)}</h2>\n'
+             + "\n".join(mini(o, prefix) for o in side) + "\n      </aside>") if side else ""
+    return f"""    <section class="hero">
+      <a class="bleed hero-media" href="{href}" tabindex="-1" aria-hidden="true">{img_tag(main['img'], "100vw", 1280, eager=True, prefix=prefix)}</a>
+      <div class="hero-grid{'' if side else ' solo'}">
+        <article class="card hero-main">
+          {tag(main, prefix)}
+          <{hl}><a class="card-link" href="{href}">{e(main['headline'])}</a></{hl}>
+          <p class="hero-dek">{e(main['dek'])}</p>
+          {meta(main)}
+        </article>
+{aside}
+      </div>
     </section>
 """
 
 
-def feed(items, prefix=""):
-    cards = [card(s, prefix, wide=(i == 0 and len(items) > 2)) for i, s in enumerate(items)]
-    return '    <section class="feed">\n' + "\n".join(cards) + "\n    </section>\n"
+def feature(s, prefix=""):
+    """Full-bleed photo with the headline in a box overlapping its lower edge."""
+    href = f'{prefix}news/{s["slug"]}.html'
+    return f"""    <section class="bleed feature">
+      <a class="feature-media" href="{href}" tabindex="-1" aria-hidden="true">{img_tag(s['img'], "100vw", 1280, prefix=prefix)}</a>
+      <article class="card feature-box">
+        {tag(s, prefix)}
+        <h2><a class="card-link" href="{href}">{e(s['headline'])}</a></h2>
+        <p>{e(s['dek'])}</p>
+        {meta(s)}
+      </article>
+    </section>
+"""
+
+
+FB_URL = "https://www.facebook.com/profile.php?id=61596428352922"
+
+
+def rail(prefix=""):
+    topics = "".join(
+        f'<li><a href="{prefix}{slug}.html">{e(name)}<span>{sum(1 for s in STORIES if s["cat"] == slug)}</span></a></li>'
+        for slug, name in CATS[1:])
+    return f"""      <aside class="rail">
+        <div class="rail-box">
+          <h2>Follow {SITE}</h2>
+          <p>New discoveries every few hours, explained in plain words.</p>
+          <a class="btn" href="{FB_URL}" target="_blank" rel="noopener">Follow on Facebook →</a>
+        </div>
+        <div class="rail-box">
+          <h2>How we work</h2>
+          <p>We only cover findings reported by at least two independent sources, and every story links to the original research.</p>
+        </div>
+        <div class="rail-box">
+          <h2>Topics</h2>
+          <ul class="topics">{topics}</ul>
+        </div>
+      </aside>"""
+
+
+def feed(items, prefix="", cls=""):
+    cards = [card(s, prefix) for s in items]
+    return f'    <section class="feed{" " + cls if cls else ""}">\n' + "\n".join(cards) + "\n    </section>\n"
+
+
+def feed_with_rail(items, prefix=""):
+    cards = "\n".join(card(s, prefix) for s in items)
+    return (f'    <div class="with-rail">\n      <section class="feed feed-2">\n{cards}\n      </section>\n'
+            f'{rail(prefix)}\n    </div>\n')
 
 
 def head(title, sub, level="h2"):
@@ -320,14 +372,18 @@ def article_page(s):
     rest = by_date(o for o in STORIES if o["slug"] != s["slug"] and o["cat"] != s["cat"])
     more = (same + rest)[:6]
     more_title = f"More {CATNAME[s['cat']]}" if same else "More science"
+    hero_img = s["img"]
     body = f"""    <article class="article">
+      <figure class="bleed article-hero">
+        {img_tag(hero_img, "100vw", 1280, eager=True, prefix="../")}
+        <figcaption>{credit(hero_img)}</figcaption>
+      </figure>
       <header class="article-head">
         {tag(s, '../')}
         <h1>{e(s['headline'])}</h1>
         <p class="dek">{e(s['dek'])}</p>
         <div class="byline">By <b>{SITE} Staff</b> · <time datetime="{s['date']}">{fmt_date(s['date'])}</time> · {e(s['location'])} · {s['read']} min read</div>
       </header>
-{figure(s['img'], 'hero')}
       <div class="article-body">
 {chr(10).join(parts)}
       </div>
@@ -351,8 +407,13 @@ def build():
 
     # Homepage: curated top story and three side stories, then everything else newest first.
     body = lead(STORIES[0], STORIES[1:4])
+    rest = by_date(STORIES[4:])
     body += head("Latest", f"{len(STORIES)} stories, newest first")
-    body += feed(by_date(STORIES[4:]))
+    body += feed_with_rail(rest[:6])
+    if len(rest) > 6:
+        body += feature(rest[6])
+    if len(rest) > 7:
+        body += head("More stories", "") + feed(rest[7:])
     out["index.html"] = page(SITE, "index", body)
 
     # Category pages: only that category's stories, then a clearly separate "elsewhere" block.
@@ -361,9 +422,9 @@ def build():
         others = by_date(s for s in STORIES if s["cat"] != slug)
         count = f"{len(mine)} {'story' if len(mine) == 1 else 'stories'}"
         if mine:
-            body = head(name, count, "h1")
+            body = f'    <div class="cat-title"><h1>{e(name)}</h1><p>{count}</p></div>\n'
             side = mine[1:4] if len(mine) >= 3 else []
-            body += lead(mine[0], side, hl="h2")
+            body += lead(mine[0], side, hl="h2", side_title=f"More {name}")
             rest = mine[1 + len(side):]
             if rest:
                 body += head(f"More {name}", "") + feed(rest)
@@ -383,7 +444,12 @@ def build():
     for s in STORIES:
         for img in filter(None, [s["img"], s.get("img2")]):
             rows.append(f'      <li><a href="news/{s["slug"]}.html">{e(s["headline"])}</a> — {credit(img)}</li>')
+    hero_img = s["img"]
     body = f"""    <article class="article">
+      <figure class="bleed article-hero">
+        {img_tag(hero_img, "100vw", 1280, eager=True, prefix="../")}
+        <figcaption>{credit(hero_img)}</figcaption>
+      </figure>
       <header class="article-head"><h1>Image credits</h1>
         <p class="dek">Every photo on {SITE} comes from Wikimedia Commons under a public-domain or Creative Commons licence. Photos are illustrative and were not taken at the events described.</p>
       </header>

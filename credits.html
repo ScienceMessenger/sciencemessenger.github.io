@@ -13,37 +13,38 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:ital,wght@0,700;0,900;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=80809147">
+  <link rel="stylesheet" href="css/style.css?v=f27332b9">
   <script src="js/site.js?v=ab06d730" defer></script>
   <script src="js/bg-fx.js?v=8be21b26" defer></script>
   <script data-goatcounter="https://sciencemessenger.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </head>
 <body id="top">
-  <div class="topbar"><div class="wrap"><span id="today"></span><span>Science news, checked against the source.</span></div></div>
-  <header class="masthead wrap">
-    <a href="index.html" class="logo"><img class="logo-mark" src="brand/favicon-192.png" alt="" width="64" height="64">Science<span>Messenger</span></a>
-    <p class="tagline">What science found out today, and why it matters tomorrow.</p>
-  </header>
-  <nav class="catnav" aria-label="Categories">
-    <div class="catnav-inner">
-      <a href="index.html" class="catnav-logo" aria-label="Science Messenger home" tabindex="-1"><img src="brand/favicon-192.png" alt="" width="30" height="30"></a>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="space.html">Space</a></li>
-        <li><a href="health.html">Health</a></li>
-        <li><a href="earth.html">Earth & Climate</a></li>
-        <li><a href="life.html">Life</a></li>
-        <li><a href="physics.html">Physics</a></li>
-        <li><a href="tech.html">Tech</a></li>
-        <li><a href="mind.html">Mind</a></li>
-      </ul>
+  <header class="sitehead">
+    <div class="sitehead-inner">
+      <a href="index.html" class="brand" aria-label="Science Messenger home"><img src="brand/favicon-192.png" alt="" width="34" height="34">Science<span>Messenger</span></a>
+      <nav class="catnav" aria-label="Categories">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="space.html">Space</a></li>
+          <li><a href="health.html">Health</a></li>
+          <li><a href="earth.html">Earth & Climate</a></li>
+          <li><a href="life.html">Life</a></li>
+          <li><a href="physics.html">Physics</a></li>
+          <li><a href="tech.html">Tech</a></li>
+          <li><a href="mind.html">Mind</a></li>
+        </ul>
+      </nav>
       <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
         <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 3a9 9 0 1 0 9 9c0-.46-.04-.92-.1-1.36a5.39 5.39 0 0 1-4.4 2.26 5.4 5.4 0 0 1-3.14-9.8C12.92 3.04 12.46 3 12 3z"/></svg>
       </button>
     </div>
-  </nav>
+  </header>
   <main class="wrap">
     <article class="article">
+      <figure class="bleed article-hero">
+        <img src="../img/0848d88e9280-1280.jpg" srcset="../img/0848d88e9280-330.jpg 330w, ../img/0848d88e9280-500.jpg 500w, ../img/0848d88e9280-960.jpg 960w, ../img/0848d88e9280-1280.jpg 1280w" sizes="100vw" width="1280" height="561" alt="A circular metal sputtering target of the kind used to deposit ultrathin films (illustrative)" fetchpriority="high">
+        <figcaption>Photo: <a href="https://commons.wikimedia.org/wiki/File:12_Circular_Planar_Magnetron_Target.png" target="_blank" rel="noopener">Axelfusillo</a> via Wikimedia Commons, Public domain. Illustrative image.</figcaption>
+      </figure>
       <header class="article-head"><h1>Image credits</h1>
         <p class="dek">Every photo on Science Messenger comes from Wikimedia Commons under a public-domain or Creative Commons licence. Photos are illustrative and were not taken at the events described.</p>
       </header>
@@ -81,7 +82,10 @@
   </main>
   <footer class="footer">
     <div class="wrap">
-      <a href="index.html" class="logo">Science<span>Messenger</span></a>
+      <div class="footer-brand">
+        <a href="index.html" class="brand"><img src="brand/favicon-192.png" alt="" width="34" height="34" loading="lazy">Science<span>Messenger</span></a>
+        <p>What science found out today, and why it matters tomorrow.</p>
+      </div>
       <nav aria-label="Footer"><a href="space.html">Space</a><a href="health.html">Health</a><a href="earth.html">Earth & Climate</a><a href="life.html">Life</a><a href="physics.html">Physics</a><a href="tech.html">Tech</a><a href="mind.html">Mind</a><a href="credits.html">Image credits</a></nav>
       <span>© 2026 Science Messenger. Every story links to the original research and reporting.</span>
     </div>
