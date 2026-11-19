@@ -9,7 +9,10 @@ Get people to click through to the full story. Make them curious about the findi
 - Keep it short: 1–2 lines, then the link.
 
 ## Image post style (every post)
-- Every post is an image post using the story's news card `img/fb/<slug>.jpg` (1080x1350, made by `python tools/make_cards.py`). Caption = the 1–2 line teaser, then the article link. The article's og:image is the same card at 1200x630, so link previews match.
+- Every post shows the story's news card. Two ways, both fine:
+  - **Link post (default, works in the built-in browser):** caption = the 1–2 line teaser + article link. Facebook uses the article's og:image, which is the card at 1200x630 (`img/og/<slug>.jpg`). In the Business Suite composer, type the caption and link, then click the link (chain) icon so the preview attaches; check the preview shows the card before scheduling.
+  - **Photo post:** upload `img/fb/<slug>.jpg` (1080x1350) with the same caption. Needs a real file upload (Claude in Chrome's file upload, or by hand); the built-in browser cannot attach files.
+- After changing a card, re-scrape the article URL in Facebook's Sharing Debugger ("Scrape Again") before posting. Posts already created keep the preview they were made with; to change one, re-create it and delete the old one.
 - Card layout, always the same: our logo mark (ringed planet with signal arcs, no background) followed by the "Science Messenger" wordmark (white + sky blue), between two thin brand-blue rules on top, a big white serif headline, one smaller grey teaser line under it, and the story's photo below fading into black. No text label, photo credit or watermark; the logo + name badge is the only branding.
 - Card text lives in `tools/stories.json` as `"card": {"title": ..., "sub": ...}`:
   - `title`: max 60 characters, punchy, clickbaity tease of the most surprising true detail (e.g. "Physicists hunted this for 40 years. Now they see it").

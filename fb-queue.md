@@ -1,6 +1,6 @@
 # Facebook queue: first 12 posts (every 4h, local UTC+2)
 
-Approved and booked on 2026-11-19: post 1 published at 08:01, posts 2–12 scheduled Thu Nov 19 12:00 through Sat Nov 21 04:00 (every 4h, UTC+2). Next empty slot: Sat Nov 21 08:00.
+Approved and booked on 2026-11-19. Rebuilt the same day so every post shows its news card (link post, card as preview): posts 3–12 re-booked in their original slots (Thu Nov 19 16:00 through Sat Nov 21 04:00, every 4h, UTC+2) and the old photo versions deleted. Posts 1 and 2 (published 08:01 and 12:00 with the old photo) were moved to trash and re-booked as card posts in the next free slots: post 1 Sat Nov 21 08:00, post 2 Sat Nov 21 12:00. Next empty slot: Sat Nov 21 16:00.
 
 1. A spacecraft launched in 1977 just crossed a line no human-made object has ever reached. Every message we send it now takes a full day to arrive.
 https://sciencemessenger.github.io/news/voyager-1-reaches-one-light-day-from-earth.html
@@ -42,7 +42,7 @@ https://sciencemessenger.github.io/news/ultrathin-multiferroic-films-altermagnet
 
 # Batch 2: 9 posts, PENDING APPROVAL (image posts: card img/fb/<slug>.jpg + caption + link)
 
-Topics each covered by 2+ reference pages (SOURCES.md). Suggested slots after Sat Nov 21 04:00: Sat 08:00, 12:00, 16:00, 20:00, Sun 00:00, 04:00, 08:00, 12:00, 16:00 (UTC+2).
+Topics each covered by 2+ reference pages (SOURCES.md). Suggested slots (Sat 08:00 and 12:00 now hold reposts of posts 1–2): Sat 16:00, 20:00, Sun 00:00, 04:00, 08:00, 12:00, 16:00, 20:00, Mon 00:00 (UTC+2).
 
 1. A star smaller than our Sun spiralled straight into a giant star. Webb caught what was left behind, a first for astronomers.
 https://sciencemessenger.github.io/news/small-star-merges-with-supergiant-andromeda-webb.html
