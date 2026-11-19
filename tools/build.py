@@ -30,7 +30,7 @@ YEAR = date.today().year
 # Wikimedia only serves thumbnails at these standard widths; anything else is rejected.
 THUMB_WIDTHS = [330, 500, 960, 1280, 1920, 2560]
 HERO_W = 2560    # largest copy made, for full-width photos on big / high-DPI screens
-HERO_CAP = 1920  # widest a full-width photo is ever drawn (CSS px); a blurred copy fills the sides
+HERO_CAP = 1920  # widest a full-width photo is ever drawn (CSS px); plain dark band fills the sides
 
 e = html.escape
 
@@ -140,11 +140,10 @@ def img_tag(img, sizes, max_w=1280, eager=False, prefix="", cap=0):
 
 def wide_img(img, eager=False, prefix=""):
     """Full-width photo band: the photo is drawn at most HERO_CAP px wide (or its own width),
-    in a fixed shape set by CSS, with a blurred low-res copy behind it filling the rest."""
-    bg = prefix + require_local(local_src(img, local_widths(img, 330)[0]))
+    in a fixed shape set by CSS, centred on a plain dark band (no blurred backdrop)."""
     main = img_tag(img, f"(min-width: {HERO_CAP}px) {HERO_CAP}px, 100vw", HERO_W,
                    eager=eager, prefix=prefix, cap=HERO_CAP)
-    return f'<span class="wide"><img class="media-bg" src="{bg}" alt="" aria-hidden="true">{main}</span>'
+    return f'<span class="wide">{main}</span>'
 
 
 def credit(img):
@@ -347,7 +346,6 @@ def figure(img, cls="", prefix="../"):
     sizes = "(max-width: 860px) 100vw, 760px" if hero else "(max-width: 720px) 100vw, 680px"
     return f"""      <figure class="figure {cls}">
         {img_tag(img, sizes, 1280, eager=hero, prefix=prefix)}
-        <figcaption>{credit(img)}</figcaption>
       </figure>"""
 
 
@@ -402,7 +400,6 @@ def article_page(s):
     body = f"""    <article class="article">
       <figure class="bleed article-hero">
         {wide_img(hero_img, eager=True, prefix="../")}
-        <figcaption>{credit(hero_img)}</figcaption>
       </figure>
       <header class="article-head">
         {tag(s, '../')}
@@ -474,7 +471,6 @@ def build():
     body = f"""    <article class="article">
       <figure class="bleed article-hero">
         {wide_img(hero_img, eager=True, prefix="../")}
-        <figcaption>{credit(hero_img)}</figcaption>
       </figure>
       <header class="article-head"><h1>Image credits</h1>
         <p class="dek">Every photo on {SITE} comes from Wikimedia Commons under a public-domain or Creative Commons licence. Photos are illustrative and were not taken at the events described.</p>

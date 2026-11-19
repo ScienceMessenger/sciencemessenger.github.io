@@ -5,6 +5,9 @@ Read SOURCES.md before adding stories and FACEBOOK.md before posting.
 ## Images (hard rules)
 - **Public domain or CC0 only.** No CC BY / CC BY-SA or any image that requires attribution, and nothing copyrighted.
   Set `license` in tools/stories.json to exactly `Public domain` or `CC0`; build.py rejects anything else.
+  If an image would need attribution, don't use it: find a PD/CC0 one instead.
+- **No attribution where none is required.** No "Photo: author / license" captions under images on article pages,
+  and no credit text on Facebook cards. PD/CC0 needs none.
 - **Always self-hosted.** Never hotlink upload.wikimedia.org or any other host. Pipeline after editing stories:
   `python tools/fetch_image_meta.py` → `python tools/fetch_images.py` → `python tools/make_cards.py` → `python tools/build.py`, then commit `img/`.
 
