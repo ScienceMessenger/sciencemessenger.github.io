@@ -17,6 +17,7 @@ Read SOURCES.md before adding stories and FACEBOOK.md before posting.
 - No photo credit or watermark text on images or Facebook share cards.
 
 ## Sources and legal (hard rules)
+- **Space first:** aim for ~75% space stories (and FB posts) when good ones exist; the rest other science. Never pick a dull or weak space story just to hit the ratio (see SOURCES.md).
 - Story topics come from the reference pages in SOURCES.md. Use a topic only if **at least 2 different reference pages** covered the same finding.
 - Write everything in our own words: facts only, never copied or lightly reworded sentences, max two short attributed quotes, never a source's headline.
 - Headlines may tease, but must be literally true and the article must deliver on them. No fake quotes, numbers or experts.
