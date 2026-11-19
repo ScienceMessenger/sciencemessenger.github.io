@@ -8,6 +8,7 @@ import hashlib
 import html
 import json
 import os
+import sys
 import urllib.parse
 from datetime import date
 
@@ -67,21 +68,56 @@ def _thumb(img, width):
     return f"https://upload.wikimedia.org/wikipedia/commons/thumb/{h[0]}/{h[:2]}/{q}/{width}px-{q}"
 
 
-def img_tag(img, sizes, max_w=1280, eager=False):
-    """<img> with srcset, intrinsic width/height (stops layout shift) and lazy loading."""
-    alt = e(img["alt"])
-    load = ' fetchpriority="high"' if eager else ' loading="lazy" decoding="async"'
-    if img["file"] not in IMG_META:  # fall back to the redirecting URL if sizes are not cached
-        base = img["url"].split("?")[0]
-        return f'<img src="{base}?width={max_w}" alt="{alt}"{load}>'
-    ow, oh = IMG_META[img["file"]]
+# RULE: every image is self-hosted under img/ (tools/fetch_images.py downloads them).
+# Never hotlink upload.wikimedia.org: Facebook's crawler gets 403 there, so link previews lose
+# their picture, and hotlinks can be rate-limited or disappear. The build fails on a missing file.
+
+def img_key(img):
+    """Stable local filename stem for a Commons file."""
+    return hashlib.md5(img["file"].encode("utf-8")).hexdigest()[:12]
+
+
+def local_widths(img, max_w=1280):
+    ow = IMG_META[img["file"]][0]
     widths = [w for w in THUMB_WIDTHS if w < ow and w <= max_w] or [ow]
     if max_w >= ow and ow not in widths:
         widths.append(ow)
-    srcset = ", ".join(f"{e(_thumb(img, w))} {w}w" for w in widths)
+    return widths
+
+
+def local_src(img, width):
+    """Path (relative to the site root) of the self-hosted copy at this width."""
+    return f"img/{img_key(img)}-{width}.jpg"
+
+
+def require_local(path):
+    if not os.path.exists(os.path.join(ROOT, path)):
+        sys.exit(f"Missing self-hosted image {path}: run tools/fetch_image_meta.py, then tools/fetch_images.py")
+    return path
+
+
+# RULE: only public-domain or CC0 images (nothing that needs attribution, nothing copyrighted).
+ALLOWED_LICENSES = {"Public domain", "CC0", "CC0 1.0"}
+
+
+def check_license(img):
+    if img["license"] not in ALLOWED_LICENSES:
+        sys.exit(f"{img['file']} is {img['license']}: only public domain or CC0 images are allowed")
+
+
+def img_tag(img, sizes, max_w=1280, eager=False, prefix=""):
+    """<img> with srcset, intrinsic width/height (stops layout shift) and lazy loading."""
+    check_license(img)
+    alt = e(img["alt"])
+    load = ' fetchpriority="high"' if eager else ' loading="lazy" decoding="async"'
+    if img["file"] not in IMG_META:
+        sys.exit(f"No size data for {img['file']}: run tools/fetch_image_meta.py, then tools/fetch_images.py")
+    ow, oh = IMG_META[img["file"]]
+    widths = local_widths(img, max_w)
+    srcset = ", ".join(f"{prefix}{require_local(local_src(img, w))} {w}w" for w in widths)
     w = widths[-1]
     hgt = round(oh * w / ow)
-    return (f'<img src="{e(_thumb(img, w))}" srcset="{srcset}" sizes="{sizes}" '
+    return (f'<img src="{prefix}{local_src(img, w)}" srcset="{srcset}" sizes="{sizes}" '
             f'width="{w}" height="{hgt}" alt="{alt}"{load}>')
 
 
@@ -125,12 +161,13 @@ def page(title, active, body, prefix="", desc="", og=""):
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{e(title)}</title>
   <meta name="description" content="{e(desc or 'Science news you can trust, explained in plain words and linked to the original research.')}">{og}
+  <link rel="icon" href="{prefix}favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="{prefix}brand/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="{prefix}brand/favicon-192.png">
   <link rel="apple-touch-icon" href="{prefix}brand/favicon-180.png">
   {THEME_BOOT}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://upload.wikimedia.org">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:ital,wght@0,700;0,900;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{prefix}css/style.css?v={asset_version('css/style.css')}">
   <script src="{prefix}js/site.js?v={asset_version('js/site.js')}" defer></script>{analytics()}
@@ -138,12 +175,12 @@ def page(title, active, body, prefix="", desc="", og=""):
 <body id="top">
   <div class="topbar"><div class="wrap"><span id="today"></span><span>Science news, checked against the source.</span></div></div>
   <header class="masthead wrap">
-    <a href="{prefix}index.html" class="logo">Science<span>Messenger</span></a>
+    <a href="{prefix}index.html" class="logo"><img class="logo-mark" src="{prefix}brand/favicon-192.png" alt="" width="64" height="64">Science<span>Messenger</span></a>
     <p class="tagline">What science found out today, and why it matters tomorrow.</p>
   </header>
   <nav class="catnav" aria-label="Categories">
     <div class="catnav-inner">
-      <a href="{prefix}index.html" class="catnav-logo" aria-label="{SITE} home" tabindex="-1">S<span>M</span></a>
+      <a href="{prefix}index.html" class="catnav-logo" aria-label="{SITE} home" tabindex="-1"><img src="{prefix}brand/favicon-192.png" alt="" width="30" height="30"></a>
       <ul>
 {nav}
       </ul>
@@ -186,7 +223,7 @@ def card(s, prefix="", wide=False):
     sizes = "(max-width: 640px) 100vw, (max-width: 960px) 60vw, 720px" if wide else \
             "(max-width: 640px) 100vw, (max-width: 960px) 50vw, 380px"
     return f"""      <article class="card{' wide' if wide else ''}">
-        <div class="thumb">{img_tag(s['img'], sizes, 1280 if wide else 960)}</div>
+        <div class="thumb">{img_tag(s['img'], sizes, 1280 if wide else 960, prefix=prefix)}</div>
         <div class="card-body">
           {tag(s, prefix)}
           <h3><a class="card-link" href="{href}">{e(s['headline'])}</a></h3>
@@ -198,7 +235,7 @@ def card(s, prefix="", wide=False):
 
 def lead(main, side, prefix="", hl="h1"):
     side_html = "\n".join(f"""      <article class="card">
-        <div class="thumb">{img_tag(s['img'], "(max-width: 640px) 100vw, (max-width: 960px) 33vw, 400px", 960)}</div>
+        <div class="thumb">{img_tag(s['img'], "(max-width: 640px) 100vw, (max-width: 960px) 33vw, 400px", 960, prefix=prefix)}</div>
         {tag(s, prefix)}
         <h3><a class="card-link" href="{prefix}news/{s['slug']}.html">{e(s['headline'])}</a></h3>
       </article>""" for s in side)
@@ -206,7 +243,7 @@ def lead(main, side, prefix="", hl="h1"):
     aside = f'<aside class="lead-side lead-side-{len(side)}">\n{side_html}\n      </aside>' if side else ""
     return f"""    <section class="lead{'' if side else ' lead-solo'}">
       <article class="lead-main card">
-        <div class="thumb">{img_tag(main['img'], "(max-width: 960px) 100vw, 740px", 1280, eager=True)}</div>
+        <div class="thumb">{img_tag(main['img'], "(max-width: 960px) 100vw, 740px", 1280, eager=True, prefix=prefix)}</div>
         {tag(main, prefix)}
         <{hl}><a class="card-link" href="{href}">{e(main['headline'])}</a></{hl}>
         <p>{e(main['dek'])}</p>
@@ -226,11 +263,11 @@ def head(title, sub, level="h2"):
     return f'    <div class="section-head"><{level}>{e(title)}</{level}><p>{sub}</p></div>\n'
 
 
-def figure(img, cls=""):
+def figure(img, cls="", prefix="../"):
     hero = cls == "hero"
     sizes = "(max-width: 860px) 100vw, 760px" if hero else "(max-width: 720px) 100vw, 680px"
     return f"""      <figure class="figure {cls}">
-        {img_tag(img, sizes, 1280, eager=hero)}
+        {img_tag(img, sizes, 1280, eager=hero, prefix=prefix)}
         <figcaption>{credit(img)}</figcaption>
       </figure>"""
 
@@ -247,15 +284,19 @@ def pager(s):
 
 
 SITE_URL = "https://sciencemessenger.github.io"
+# Wikimedia robot policy: identify the client with a contact URL or downloads get 429-blocked.
+USER_AGENT = f"ScienceMessengerBot/1.0 ({SITE_URL}) python-urllib"
 
 
 def og_tags(s):
     """Open Graph tags so Facebook link posts show the headline, dek and picture."""
     img = s["img"]
-    src = _thumb(img, 1280) if img["file"] in IMG_META else img["url"].split("?")[0] + "?width=1280"
+    og = require_local(f"img/og/{s['slug']}.jpg")  # 1200x630 news-style card from tools/make_cards.py
+    src = f"{SITE_URL}/{og}?v={asset_version(og)}"
     tags = [("og:type", "article"), ("og:site_name", SITE), ("og:title", s["headline"]),
             ("og:description", s["dek"]), ("og:url", f"{SITE_URL}/news/{s['slug']}.html"),
-            ("og:image", src), ("og:image:alt", img["alt"])]
+            ("og:image", src), ("og:image:width", "1200"), ("og:image:height", "630"),
+            ("og:image:alt", img["alt"])]
     out = "".join(f'\n  <meta property="{k}" content="{e(v)}">' for k, v in tags)
     return out + '\n  <meta name="twitter:card" content="summary_large_image">'
 

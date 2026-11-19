@@ -1,5 +1,519 @@
 [
   {
+    "slug": "small-star-merges-with-supergiant-andromeda-webb",
+    "cat": "space",
+    "headline": "A star smaller than the Sun spiralled into a supergiant, and Webb caught the aftermath",
+    "dek": "In the Andromeda galaxy, astronomers followed a two-star system called Bao as the smaller star sank into its bloated partner. The final plunge took about seven years instead of the thousands of orbits seen in other mergers.",
+    "date": "2026-11-18",
+    "location": "Columbia University, United States",
+    "read": 4,
+    "body": [
+      "Stars that orbit each other closely can end up as one. Astronomers have long pieced such mergers together after the fact, from the glowing debris they leave behind. A study published in Nature on 18 November describes a merger that was followed while it was happening, in a system in the Andromeda galaxy, our large neighbour about 2.5 million light-years away.",
+      "The event is catalogued as AT 2025abao, and the team nicknamed it Bao. Before the merger, the bigger star (\"Big Bao\") was a puffed-up supergiant of about seven times the Sun's mass, some 350 times wider than the Sun and roughly 18,000 times brighter. Its companion (\"Little Bao\") was a modest star of about 0.7 solar masses, a little smaller and dimmer than our own.",
+      {
+        "h2": "A slow build-up, then a fast ending"
+      },
+      "Several telescopes picked up the warning signs. Archival data from NASA's NEOWISE mission show the system shining steadily until 2018, then varying by early 2023. A ground-based infrared survey called WINTER saw it brighten and make dust in 2024, and NASA's SPHEREx mission recorded it fading in visible light while growing brighter in the infrared in mid-2025. On 17 October 2025 the Zwicky Transient Facility in California spotted the eruption itself, and Swift and the Gemini North telescope followed up.",
+      "The James Webb Space Telescope looked on 24 December 2025, 47 days after the outburst peaked, under a fast-track observing slot. Lead author Viraj Karambelkar, a NASA Hubble Fellow at Columbia University, says no event of this kind has been followed up that early. Webb's mid-infrared view recorded dust the system had shed over centuries, which let the team test computer models of the merger.",
+      {
+        "quote": "\"Stellar mergers are very, very difficult to observe in real time because they are hard to predict.\" (Viraj Karambelkar, Columbia University, via Phys.org)"
+      },
+      {
+        "h2": "Swallowed in seven orbits"
+      },
+      "In the models, which were led by Karel Temmink at Radboud University in the Netherlands, the small star slipped into the outer layers of the supergiant, a stage astronomers call a common envelope. It then sank toward the core within about seven orbits, or roughly seven years. Mergers seen before between two smaller stars dragged on for thousands of orbits. Team member Kishalay De of Columbia compared the encounter to a bomb going off inside a living star.",
+      "The researchers say it is the first time a smaller star has been seen merging with a bloated supergiant, and that catching it early let them estimate how much material was thrown off. They expect NASA's upcoming Roman Space Telescope to find many more events like it.",
+      "There are limits. The masses and sizes of both stars come from models matched to the data, not from direct measurements. What the merged star looks like now, and how its mass will settle, is still unknown and will need further observations. Not every close pair ends this way: in some systems both stars survive on a tight orbit."
+    ],
+    "sources": [
+      {
+        "name": "NASA Science",
+        "url": "https://science.nasa.gov/missions/webb/nasa-data-clinches-first-of-its-kind-stellar-merger/"
+      },
+      {
+        "name": "Phys.org",
+        "url": "https://phys.org/news/2026-11-webb-kind-merger-supergiant-smaller.html"
+      },
+      {
+        "name": "Nature (paper)",
+        "url": "https://doi.org/10.1038/s41586-026-11221-z"
+      }
+    ],
+    "img": {
+      "file": "File:The Infrared Andromeda Galaxy (M31).jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Infrared_Andromeda_Galaxy_(M31).jpg",
+      "author": "NASA/JPL-Caltech/P. Barmby (Harvard-Smithsonian CfA)",
+      "license": "Public domain",
+      "alt": "The Andromeda galaxy seen in infrared light by NASA's Spitzer Space Telescope, with glowing lanes of dust in its spiral arms"
+    },
+    "card": {
+      "title": "A star dove into a supergiant. Webb saw the aftermath",
+      "sub": "The final plunge took about seven orbits, not the thousands seen in other mergers",
+      "crop": [
+        0.03,
+        0.08,
+        0.97,
+        0.56
+      ]
+    }
+  },
+  {
+    "slug": "hera-arrives-didymos-dimorphos-dart-asteroid",
+    "cat": "space",
+    "headline": "Europe's Hera probe has reached the asteroid pair NASA deliberately rammed in 2022",
+    "dek": "ESA's first planetary defence spacecraft has sent back its first close-up of Didymos, the bigger partner of the moonlet DART struck. The real crash-site investigation starts now.",
+    "date": "2026-11-05",
+    "location": "European Space Agency (ESOC), Germany",
+    "read": 4,
+    "body": [
+      "In September 2022, NASA flew a spacecraft straight into a small asteroid on purpose to see whether a collision could push it off course. Four years later, a European probe has arrived to inspect the scene. ESA's Hera spacecraft reached the Didymos asteroid system in November 2026, about a month ahead of its original schedule, and ESA released its first close-up image on 5 November.",
+      "Didymos is roughly 780 metres across. A much smaller moonlet, Dimorphos, about 150 metres wide, circles it at a distance of around a kilometre. Neither poses any threat to Earth, which is why the pair was chosen for the test.",
+      {
+        "h2": "What DART changed"
+      },
+      "NASA's Double Asteroid Redirection Test (DART) spacecraft, which weighed about 580 kilograms, hit Dimorphos on 26 September 2022 at roughly 6 kilometres per second. The impact cut the time Dimorphos takes to orbit Didymos by about 33 minutes, a much bigger change than scientists had expected. It was the first time people had measurably changed the path of a natural object in the Solar System.",
+      "What DART could not reveal was the full aftermath: the size of the crater, how much rock was blasted away, and the masses and internal makeup of the two asteroids. Those details matter for working out how hard you would need to hit a more dangerous asteroid to nudge it aside. Hera's job is to fill those gaps.",
+      {
+        "h2": "A side nobody had seen"
+      },
+      "Hera launched on 7 October 2024 and used a flyby of Mars in March 2025 to bend its path toward Didymos. Its first close-up, taken with its black-and-white Asteroid Framing Camera, shows a world covered in boulders and craters, with a ridge around its equator and patterns of grooves. Dimorphos sits mostly in shadow, so the DART impact site is not yet visible.",
+      {
+        "quote": "\"This is the other side of Didymos from the one that DART's camera showed us shortly before impact.\" (Patrick Michel, Hera principal investigator, via Popular Science)"
+      },
+      "One open question is whether debris thrown off Dimorphos crossed the short gap and landed on Didymos, adding to the features in the new picture. ESA mission scientist Michael Kueppers said the team has exciting work ahead to sort that out.",
+      "These are first-look images, not scientific results. Over the coming months Hera is due to map both asteroids in detail, and it carries two suitcase-sized CubeSats, Milani and Juventas, for even closer looks. ESA has said sharper images of Didymos and Dimorphos will follow on 25 November."
+    ],
+    "sources": [
+      {
+        "name": "ESA via ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261116023351.htm"
+      },
+      {
+        "name": "Popular Science",
+        "url": "https://www.popsci.com/science/esa-hera-asteroid/"
+      },
+      {
+        "name": "ESA (mission update)",
+        "url": "https://www.esa.int/Space_Safety/Hera/ESA_s_Hera_targets_early_arrival_at_Didymos_asteroids"
+      }
+    ],
+    "img": {
+      "file": "File:Dimorphos from DART aprox. 3 sec before impact.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dimorphos_from_DART_aprox._3_sec_before_impact.jpg",
+      "author": "NASA/Johns Hopkins APL",
+      "license": "Public domain",
+      "alt": "The boulder-strewn surface of the asteroid moonlet Dimorphos, photographed by NASA's DART spacecraft seconds before it hit"
+    },
+    "card": {
+      "title": "Four years after NASA rammed an asteroid, Hera is there",
+      "sub": "Its first close-up shows the side of Didymos that DART's camera never saw"
+    }
+  },
+  {
+    "slug": "single-nuclear-blast-could-disable-most-low-orbit-satellites",
+    "cat": "tech",
+    "headline": "One nuclear blast in orbit could disable almost every low-orbit satellite within a week, model suggests",
+    "dek": "A simulation of a single one-megaton detonation found that an artificial radiation belt would wear down roughly 98% of more than 13,000 satellites in seven days. The study is a preprint and has not yet been peer reviewed.",
+    "date": "2026-11-12",
+    "location": "University of Wisconsin–Madison, United States",
+    "read": 4,
+    "body": [
+      "Thousands of satellites now circle close to Earth, carrying internet links, imaging, weather data and navigation support. A new modelling study asks what would happen to them if a nuclear weapon went off in their midst. Its answer: the explosion itself would do limited harm, but what it leaves behind could take out almost all of them.",
+      "The work was led by Zachary Petersen, an undergraduate at the University of Wisconsin–Madison, with co-authors Hong Qin, Sarah Thiele and Sébastien Philippe, and involved researchers at Princeton University. It was posted on the preprint server arXiv on 6 November and has not yet been through peer review.",
+      {
+        "h2": "A slow-acting radiation trap"
+      },
+      "The team simulated a one-megaton bomb detonated 500 kilometres above the South Atlantic, near a region where Earth's magnetic field is weak, known as the South Atlantic Anomaly. They used real orbital data for roughly 13,300 satellites active in low Earth orbit in January 2026.",
+      "In the model, the initial flash of radiation disabled only about 3% of them. The bigger danger came afterwards. Radioactive debris from the blast releases electrons that get caught in Earth's magnetic field, forming an artificial radiation belt. Every time a satellite passes through it, it absorbs another dose, until its electronics fail. About a quarter were out of action after one day, 78% after three days and roughly 98% after a week.",
+      {
+        "quote": "\"An artificial radiation belt could turn a single nuclear detonation into a fleet-wide failure event.\" (the study's authors, as quoted by Phys.org)"
+      },
+      "Tougher hardware only slowed things down. When the team tripled how much radiation satellites could tolerate, about 97% were still disabled within two weeks, according to the preprint. ScienceAlert reports that a smaller, 100-kiloton blast in the model knocked out about 99% over roughly a year.",
+      {
+        "h2": "Dead satellites keep causing trouble"
+      },
+      "Disabled satellites cannot steer out of each other's way. The authors estimate around 20 collisions in the first two years, and ScienceAlert reports some 3,900 new debris fragments after a decade. Replacement satellites would fly straight into the lingering radiation, so restoring services could take years.",
+      "This is not purely hypothetical. In 1962 the United States tested a 1.4-megaton warhead, Starfish Prime, about 400 kilometres above the Pacific, and it disabled several of the few satellites then in orbit. The following year the Partial Test Ban Treaty banned nuclear tests in space.",
+      "The numbers come from a computer model, and they depend on its assumptions about how much radiation satellites can withstand and how the trapped particles behave. They are best read as an estimate of scale, not a forecast."
+    ],
+    "sources": [
+      {
+        "name": "Phys.org",
+        "url": "https://phys.org/news/2026-11-nuclear-blast-cripple-satellite-earth.html"
+      },
+      {
+        "name": "ScienceAlert",
+        "url": "https://www.sciencealert.com/?p=228418"
+      },
+      {
+        "name": "arXiv preprint (not peer reviewed)",
+        "url": "https://doi.org/10.48550/arXiv.2611.09827"
+      }
+    ],
+    "img": {
+      "file": "File:STS-134 International Space Station after undocking.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/STS-134_International_Space_Station_after_undocking.jpg",
+      "author": "NASA",
+      "license": "Public domain",
+      "alt": "The International Space Station above Earth, one of thousands of spacecraft in low Earth orbit"
+    },
+    "card": {
+      "title": "One nuclear blast vs 13,000 satellites: a grim model",
+      "sub": "In the simulation, 98% were disabled within a week, and the danger lingered"
+    }
+  },
+  {
+    "slug": "us-hyperscale-data-centres-use-electricity-of-a-state",
+    "cat": "tech",
+    "headline": "Just 403 giant data centres may use nearly as much electricity as an entire US state",
+    "dek": "A Harvard study estimates that America's largest data centres drew up to 99 terawatt-hours in a year, more than half of it generated from gas and coal.",
+    "date": "2026-11-16",
+    "location": "Harvard T.H. Chan School of Public Health, United States",
+    "read": 4,
+    "body": [
+      "The cloud is not weightless. A study published on 16 November in Nature Sustainability puts a number on how much power the biggest American data centres, the so-called hyperscale facilities, actually use, and where that power comes from.",
+      "Researchers at the Harvard T.H. Chan School of Public Health, led by postdoctoral fellow Gianluca Guidi with corresponding author Francesca Dominici, found 403 hyperscale centres across the US using a commercial database and satellite imagery. They then estimated each building's yearly electricity use from its size and likely operating hours, for the period May 2024 to April 2025.",
+      {
+        "h2": "A state-sized appetite"
+      },
+      "Together the 403 facilities used an estimated 68 to 99 terawatt-hours, depending on how hard they were assumed to run. That is about 1.8% of all electricity consumed in the US. The upper estimate comes close to the yearly use of a whole state such as Indiana, Michigan or Tennessee.",
+      {
+        "quote": "\"It's pretty extraordinary—a few hundred buildings are consuming as much as an entire state.\" (Gianluca Guidi, Harvard, to National Geographic)"
+      },
+      "Using Environmental Protection Agency data on the power mix serving each facility, the team estimated that about 54% of the electricity came from fossil fuels: 38% from natural gas and 15% from coal. Nuclear supplied around a fifth. That works out to roughly 25.7 million tonnes of carbon dioxide a year, two to three times an earlier estimate based on 2018 data. About a quarter of the power came from grid regions dirtier than the national average.",
+      {
+        "h2": "Concentrated, and still growing"
+      },
+      "The demand is clustered. Virginia, Oregon, Ohio and Iowa together accounted for more than half of the electricity used by the facilities studied. Hundreds more hyperscale centres are planned or under construction.",
+      "The authors stress that their numbers are estimates, not metered readings. Data were not available for every hyperscale site, and the method cannot separate ordinary cloud computing from AI workloads. Because the building boom has continued since April 2025, Guidi expects today's figures to be higher. The study also did not measure health effects from the extra power-plant pollution; Dominici says that is the team's next step.",
+      "Kasparas Spokas of the Clean Air Task Force, who was not involved, told National Geographic the findings should be a wake-up call, since the way new data-centre demand is met will shape power-sector emissions for decades."
+    ],
+    "sources": [
+      {
+        "name": "National Geographic",
+        "url": "https://www.nationalgeographic.com/environment/article/data-center-energy-usage-study"
+      },
+      {
+        "name": "Harvard T.H. Chan School of Public Health via Phys.org",
+        "url": "https://phys.org/news/2026-11-hyperscale-centers-combined-electricity-rivals.html"
+      },
+      {
+        "name": "Nature Sustainability (paper)",
+        "url": "https://doi.org/10.1038/s41893-026-01985-7"
+      }
+    ],
+    "img": {
+      "file": "File:Data storage Centre, CERN.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Data_storage_Centre,_CERN.jpg",
+      "author": "Mramoeba",
+      "license": "CC0",
+      "alt": "Rows of server racks under bright ceiling lights in a large data centre hall (CERN, not one of the facilities in the study)"
+    },
+    "card": {
+      "title": "403 buildings may use nearly as much power as a US state",
+      "sub": "Over half of that electricity came from burning gas and coal, a Harvard study finds"
+    }
+  },
+  {
+    "slug": "neanderthal-variant-daam1-occipital-lobe-schizophrenia",
+    "cat": "mind",
+    "headline": "Four missing letters of Neanderthal DNA are tied to a smaller visual brain region and lower schizophrenia risk",
+    "dek": "A variant many people outside Africa still carry sits next to a brain-development gene. Its carriers have slightly smaller occipital lobes and somewhat lower odds of schizophrenia, though nobody yet knows why.",
+    "date": "2026-11-16",
+    "location": "Max Planck Institute for Evolutionary Anthropology, Germany",
+    "read": 4,
+    "body": [
+      "Neanderthal skulls were longer and less rounded than ours, which has long hinted that the proportions of their brains differed from modern human brains. A study published on 16 November in the Proceedings of the National Academy of Sciences (PNAS) points to one small piece of Neanderthal DNA that still seems to nudge brain proportions in living people.",
+      "The authors are Hugo Zeberg, who works at the Max Planck Institute for Evolutionary Anthropology in Leipzig and the Karolinska Institutet in Stockholm, and Svante Pääbo of the Max Planck institute, who won the 2022 Nobel Prize in medicine for sequencing ancient genomes.",
+      {
+        "h2": "A tiny deletion with a long history"
+      },
+      "The variant is a deletion of four DNA letters on chromosome 14, close to a gene called DAAM1 that is involved in building the brain. According to ScienceAlert, all five Neanderthal genomes the pair examined carry the deletion, while the two Denisovan genomes do not. The Neanderthal-like stretch of DNA around it is nearly 60,000 letters long, a sign that it arrived through interbreeding rather than being inherited from an older shared ancestor. Today it turns up only in people whose ancestry lies outside sub-Saharan Africa.",
+      "Carriers show altered DAAM1 activity. Using genetic and brain data from the UK Biobank, the researchers also found that they have an occipital lobe, the part at the back of the brain that handles vision, about 0.85 cubic centimetres smaller for each copy of the variant. In data from the Psychiatric Genomics Consortium, each copy went with roughly 5% lower odds of schizophrenia, and people with two copies had odds almost 10% lower. Neanderthal ancestry as a whole showed no such pattern.",
+      {
+        "h2": "What it does not show"
+      },
+      "These are statistical associations across large populations, not proof that the variant protects anyone, and the 10% figure is a relative change in odds, not a 10-point drop in an individual's risk. Scientific American reports no link with depression, bipolar disorder or ADHD. Any connection with schooling was tiny or absent: at most about two weeks of education per copy, against an average of around 15 years. The authors write that the results caution against equating the size of a brain region with cognitive ability.",
+      {
+        "quote": "\"Whether the reduced schizophrenia risk is directly related to the smaller occipital lobe remains, at least for us, unknown.\" (Hugo Zeberg, speaking to ScienceAlert)"
+      },
+      "There is also a puzzle. Fossil skulls suggest Neanderthals had relatively large occipital regions, so a Neanderthal variant that shrinks this area in modern people is not what one might expect. Zeberg told ScienceAlert that a single variant need not reflect Neanderthal anatomy overall.",
+      "Outside researchers were broadly positive but cautious. Nadav Ahituv of the University of California, San Francisco, who reviewed the paper for PNAS, described it to Scientific American as linking an inherited Neanderthal variant to anatomical differences in people today. Speaking to Spain's Science Media Centre, archaeologist Javier Baena of the Autonomous University of Madrid called the work rigorous but said he doubted the schizophrenia effect was statistically meaningful. How the deletion changes DAAM1, and how that might affect the brain, remains to be worked out."
+    ],
+    "sources": [
+      {
+        "name": "PNAS (Zeberg & Pääbo)",
+        "url": "https://doi.org/10.1073/pnas.2624837123"
+      },
+      {
+        "name": "Scientific American",
+        "url": "https://www.scientificamerican.com/article/neanderthal-dna-linked-to-lower-risk-of-schizophrenia-in-modern-humans/"
+      },
+      {
+        "name": "ScienceAlert",
+        "url": "https://www.sciencealert.com/a-gene-inherited-from-neanderthals-is-still-shaping-human-brains-and-may-affect-schizophrenia-risk"
+      },
+      {
+        "name": "Science Media Centre Spain (expert reactions)",
+        "url": "https://sciencemediacentre.es/en/node/8281"
+      }
+    ],
+    "img": {
+      "file": "File:Le Moustier Neanderthal Skull Neues Museum Berlin.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Le_Moustier_Neanderthal_Skull_Neues_Museum_Berlin.jpg",
+      "author": "Gary Todd",
+      "license": "CC0",
+      "alt": "The Le Moustier Neanderthal skull and jaw on display in the Stone Age gallery of the Neues Museum, Berlin"
+    },
+    "card": {
+      "title": "Neanderthal DNA is still tied to how our brains are built",
+      "sub": "Two copies of one variant go with almost 10% lower odds of schizophrenia"
+    }
+  },
+  {
+    "slug": "mundafan-paleolake-arabia-hippos-poisoned-weapon-tips",
+    "cat": "life",
+    "headline": "125,000 years ago, hunters beside a lake in today's Arabian desert may have tipped their weapons with poison",
+    "dek": "Stone points from the shore of a vanished lake in Saudi Arabia's Empty Quarter carry traces of a toxic plant, alongside bones of hippos, buffalo and camels.",
+    "date": "2026-11-12",
+    "location": "Griffith University, Australia, and KAUST, Saudi Arabia",
+    "read": 4,
+    "body": [
+      "The Empty Quarter of southern Arabia is one of the largest sand deserts on Earth. About 125,000 years ago, during a warm and wet spell often called Green Arabia, part of it held a freshwater lake fringed by grassland. A study published in Science describes a campsite on that lake's shore, and some of its stone points may carry the residue of an arrow poison.",
+      "The site, 'Uruq Aljelibah, lies on the edge of the ancient Mundafan lake. Terrain models built from satellite data suggest the lake covered about 340 square kilometres and was up to 29 metres deep. The team of 26 researchers was co-led by Chris Clarkson of Griffith University in Australia and Frans van Buchem of King Abdullah University of Science and Technology (KAUST), working with Saudi Arabia's Heritage Commission and King Saud University.",
+      {
+        "h2": "A lakeside toolkit"
+      },
+      "From the main excavation the team recovered 5,511 stone tools longer than 2 centimetres, almost all of them flint and made with the Levallois method, in which a stone core is carefully shaped before a flake is struck off. Pieces that fit back together show the tools were made on the spot. Across more than 130 locations the researchers also logged over 500 plant and animal fossils. Remains of hippos, an extinct long-horned buffalo, camels, Arabian oryx, gazelles and ostriches point to animal carcasses being processed at the lake.",
+      "Residues turned up on 84% of the stone points examined, and 49% showed signs of having been fixed to a handle or shaft. Some points also carry impact damage of the kind made when a weapon strikes. Chemical traces on several of them match Acokanthera schimperi, a plant known as the arrow poison tree. Other residues came from palms, tubers, shrubs and tree resins, showing that plants were processed too.",
+      {
+        "quote": "\"Archaeological sites this old rarely preserve such a complete snapshot of daily life.\" (Chris Clarkson, Griffith University, via IFLScience)"
+      },
+      {
+        "img2": true
+      },
+      {
+        "h2": "How sure is the poison?"
+      },
+      "The researchers present the poison interpretation as tentative. According to IFLScience, there is no direct evidence that a poisoned weapon brought down any animal, and the team cannot say whether the points tipped thrusting spears or thrown projectiles. The findings also come from a single site.",
+      "The paper describes the toolmakers simply as hominins, the group that includes our own species and its close relatives, and places the site within the wider question of how and when Homo sapiens spread out of Africa into Asia. If the poison reading holds up, it would show that people living by Arabia's lost lakes knew their local plants well enough to turn one of them into a weapon."
+    ],
+    "sources": [
+      {
+        "name": "Science (Clarkson et al.)",
+        "url": "https://doi.org/10.1126/science.aef9342"
+      },
+      {
+        "name": "ScienceDaily (KAUST and Griffith University release)",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261115085537.htm"
+      },
+      {
+        "name": "IFLScience",
+        "url": "https://www.iflscience.com/poison-arrowheads-in-saudi-arabia-reveal-how-humans-survived-at-a-desert-oasis-125000-years-ago-85190"
+      }
+    ],
+    "img": {
+      "file": "File:Hippopotamus @ Barcelona zoo.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hippopotamus_@_Barcelona_zoo.jpg",
+      "author": "Pedroserafin",
+      "license": "Public domain",
+      "alt": "Two hippopotamuses sparring with open mouths in the water at Barcelona Zoo"
+    },
+    "img2": {
+      "file": "File:Acokanthera schimperi - Köhler–s Medizinal-Pflanzen-150.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Acokanthera_schimperi_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-150.jpg",
+      "author": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen",
+      "license": "Public domain",
+      "alt": "A 19th-century botanical illustration of Acokanthera schimperi, the arrow poison tree, showing flowering and fruiting branches"
+    },
+    "card": {
+      "title": "Arabia's Empty Quarter once had a lake, hippos and hunters",
+      "sub": "Their 125,000-year-old stone points carry traces of an arrow poison plant"
+    }
+  },
+  {
+    "slug": "dark-magic-mushroom-galerina-psilocybin-amatoxins-florida",
+    "cat": "life",
+    "headline": "A tiny brown Florida mushroom makes both a psychedelic and the toxins behind most mushroom deaths",
+    "dek": "Galerina indica is the first mushroom known to produce psilocybin and amatoxins together. Its genes suggest it borrowed the psychedelic recipe from other fungi.",
+    "date": "2026-11-11",
+    "location": "University of Florida, United States",
+    "read": 4,
+    "body": [
+      "Mushrooms that make psilocybin, the compound behind \"magic mushrooms\", and mushrooms that make amatoxins, the poisons responsible for most fatal mushroom poisonings, have always been treated as separate groups. A study in Current Biology describes the first species known to make both, and its authors have nicknamed it the dark magic mushroom.",
+      "The species is Galerina indica, first described from India in 2015. Researchers led by the University of Florida's Institute of Food and Agricultural Sciences found it in Florida wetlands, growing on a moss-covered palm trunk. It is small and brown, roughly the size of a thumbnail, and looks much like many other species. Matthew Smith, the senior author and Florida's state mycologist, says even trained experts struggle to tell such mushrooms apart.",
+      {
+        "h2": "A psychedelic recipe borrowed twice"
+      },
+      "First author Andrew Kunik, who did the work at the University of Florida, told ScienceAlert that the team cross-checked its results before concluding that both kinds of compound were present. The genus Galerina already includes poisonous species such as the funeral bell, Galerina marginata, which also carries amatoxins.",
+      "After sequencing the genome, the team concluded that an ancestor of G. indica could probably already make amatoxins and later picked up the genes for psilocybin through horizontal gene transfer, in which DNA moves between unrelated organisms instead of passing from parent to offspring. A separate Galerina lineage seems to have gained the psilocybin genes in an independent event.",
+      {
+        "quote": "\"Two independent horizontal gene transfer events for these specialized metabolites in one mushroom genus are unheard of.\" (Bryn Dentinger, University of Utah, via Popular Science)"
+      },
+      {
+        "h2": "A warning hidden in a blue bruise"
+      },
+      "Many psilocybin mushrooms stain blue when handled, and some foragers have taken that as a sign a mushroom lacks deadly toxins. G. indica also bruises blue, and the authors write that their finding cautions against reading blue bruising as evidence that amatoxins are absent.",
+      "Important gaps remain. The coverage does not report how much of each compound the mushroom contains, so how dangerous it would be to a person is not known. Why a fungus would make both a mind-altering chemical and a lethal one is also unclear; the researchers suggest a mixed chemical defence against animals that eat mushrooms. The specimens are kept at the Natural History Museum of Utah for further testing.",
+      "The practical message is simple: nobody should eat wild mushrooms. Small brown mushrooms are notoriously hard to identify, and this one shows that a mushroom with one kind of compound can carry a far more dangerous one as well. Smith says knowing which species grow in a region matters because some can harm people or pets."
+    ],
+    "sources": [
+      {
+        "name": "Current Biology (Kunik et al.)",
+        "url": "https://doi.org/10.1016/j.cub.2026.10.041"
+      },
+      {
+        "name": "Popular Science",
+        "url": "https://www.popsci.com/environment/dark-magic-mushroom-discovery-florida/"
+      },
+      {
+        "name": "IFLScience",
+        "url": "https://www.iflscience.com/first-known-dark-magic-mushroom-discovered-in-florida-and-its-got-a-bad-time-written-all-over-it-85200"
+      },
+      {
+        "name": "ScienceAlert",
+        "url": "https://www.sciencealert.com/the-worlds-first-dark-magic-mushroom-is-hiding-a-potentially-deadly-secret"
+      }
+    ],
+    "img": {
+      "file": "File:Galerina marginata - Bundelmosklokje.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Galerina_marginata_-_Bundelmosklokje.jpg",
+      "author": "André De Kesel",
+      "license": "CC0",
+      "alt": "A cluster of funeral bell mushrooms (Galerina marginata), a toxic relative of the dark magic mushroom, on a rotting trunk in Belgium. Not Galerina indica."
+    },
+    "card": {
+      "title": "This tiny mushroom makes a psychedelic and deadly toxins",
+      "sub": "A first for any known mushroom, and its blue bruises are no sign it is safe",
+      "focus_y": 0.3
+    }
+  },
+  {
+    "slug": "us-loses-measles-elimination-status-2026",
+    "cat": "health",
+    "headline": "After 26 years, the US is officially no longer measles-free",
+    "dek": "A regional review found that one chain of measles infections kept spreading in the country for more than a year without a break. Mexico and Bolivia lost the same status.",
+    "date": "2026-11-19",
+    "location": "Pan American Health Organization, United States",
+    "read": 3,
+    "body": [
+      "The United States has lost the measles elimination status it first earned in 2000. The Pan American Health Organization (PAHO), the World Health Organization's regional office for the Americas, announced the change on 17 November 2026. Mexico and Bolivia lost their status at the same time.",
+      "The decision followed a meeting from 10 to 13 November of an independent panel, the Regional Monitoring and Re-Verification Commission. It reviews evidence from 47 countries and territories in the Americas and advises PAHO's director, Jarbas Barbosa, who accepted its recommendations.",
+      {
+        "h2": "What 'elimination' actually means"
+      },
+      "Elimination does not mean zero cases. Travellers can still bring the virus in, and outbreaks can still happen. A country only loses the label when a single chain of infections, caused by the same genetic lineage of the virus, keeps spreading without interruption for 12 months or longer.",
+      "According to PAHO, the US chain began on 20 January 2025 and crossed the 12-month line on 20 January 2026. Mexico's began on 1 February 2025. Canada lost its own status in November 2025, after an outbreak that started in October 2024, and that loss also cost the Americas as a whole their regional elimination status.",
+      "The numbers behind the decision are stark. The CDC counted 5,412 confirmed US cases in 2026 as of 12 November, reported from 47 jurisdictions, with 43 new outbreaks this year. That compares with 2,289 cases in all of 2025. The CDC lists six deaths so far in 2026, while state health officials have reported about 10, a gap IFLScience attributes to the CDC's narrower definition. Across the Americas, PAHO counted 58,213 cases this year.",
+      {
+        "quote": "\"Elimination is not a trophy that we win once and put on a shelf.\" (Jarbas Barbosa, PAHO director)"
+      },
+      {
+        "h2": "Can the status be won back?"
+      },
+      "Yes, but it takes time. A country has to stop the endemic chain for at least 12 consecutive months and show that its vaccination, disease surveillance and outbreak response have been strengthened, including a corrective action plan reviewed by the commission. Venezuela and Brazil lost their status in 2018 and 2019 and both had it restored in 2024. Canada declared its outbreak over on 19 October 2026, but it still has to go a full year without spread of that strain.",
+      "Vaccination is the main lever. Health officials consider about 95% coverage with two doses of the measles, mumps and rubella (MMR) vaccine necessary to stop spread in every community. Among US kindergarteners in the 2025 to 2026 school year, coverage was 92.4%, according to figures cited by Scientific American, and some states sit far lower.",
+      "The label itself changes nothing on the ground: the virus spreads wherever people are unprotected, whatever the official status. Anyone unsure whether they are protected can check their records with a doctor or local health department."
+    ],
+    "sources": [
+      {
+        "name": "Pan American Health Organization (news release)",
+        "url": "https://www.paho.org/en/news/17-11-2026-paho-urges-countries-step-efforts-stop-measles-outbreaks-and-move-towards"
+      },
+      {
+        "name": "Pan American Health Organization (questions and answers)",
+        "url": "https://www.paho.org/en/news/17-11-2026-measles-americas-questions-and-answers-technical-reference-journalists-and-public"
+      },
+      {
+        "name": "CDC measles cases and outbreaks",
+        "url": "https://www.cdc.gov/measles/data-research/index.html"
+      },
+      {
+        "name": "Scientific American",
+        "url": "https://www.scientificamerican.com/article/u-s-officially-loses-measles-elimination-status-in-a-body-blow-to-public-health/"
+      },
+      {
+        "name": "IFLScience",
+        "url": "https://www.iflscience.com/after-26-years-the-us-has-officially-lost-its-measles-elimination-status-as-outbreaks-smolder-across-the-country-85208"
+      },
+      {
+        "name": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/the-us-has-lost-its-measles-elimination-status-which-its-held-for-26-years-cases-have-now-surged-to-the-highest-levels-in-decades-180989878/"
+      }
+    ],
+    "img": {
+      "file": "File:Measles virus.JPG",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Measles_virus.JPG",
+      "author": "CDC / Cynthia S. Goldsmith, William Bellini",
+      "license": "Public domain",
+      "alt": "Electron microscope image of a single measles virus particle"
+    },
+    "card": {
+      "title": "The US has officially lost its measles-free status",
+      "sub": "One chain of infections ran for over a year. Here's what that means and what comes next"
+    }
+  },
+  {
+    "slug": "rodhals-man-denmark-hunter-gatherer-diet-farming",
+    "cat": "life",
+    "headline": "His teeth show a Stone Age Danish fisher's diet changing as the first farmers arrived",
+    "dek": "Rødhals Man grew up on seafood around 6,000 years ago. From his teens, his meals shifted toward land foods that were probably grown or raised by newly arrived farmers.",
+    "date": "2026-11-19",
+    "location": "University of Gothenburg, Sweden",
+    "read": 3,
+    "body": [
+      "Around 3900 BC, farming reached Zealand, the largest island in Denmark. For thousands of years before that, people in the region had lived by fishing, hunting and gathering. A study published in the journal Antiquity on 16 November 2026 looks at one man who seems to have lived through the changeover.",
+      "He is known as Rødhals Man, after the shell midden, a mound of discarded shells, on the small island of Sejerø where his skeleton was dug up in 1956. A team of 17 researchers led by Anders Fischer of the University of Gothenburg and John Meadows of the Leibniz Centre for Archaeology in Germany re-examined the bones and the excavation records.",
+      {
+        "h2": "A life written in layers of tooth"
+      },
+      "Radiocarbon dates, adjusted for the distorting effect of a seafood diet, place his death most likely between about 3890 and 3770 BC. He was about 1.55 metres tall and died between the ages of 30 and 40. His ancient DNA is entirely that of the region's Western Hunter-Gatherers, with no farmer ancestry, and it suggests dark skin and an estimated 85% probability of blue eyes.",
+      "To track his meals over time, the team sampled thin, successive layers of dentine inside his teeth, which build up through childhood and adolescence, and measured their chemical isotopes. As a child he ate mostly marine food from shallow coastal waters. From around age 11, more open-sea fish appear. From adolescence onward, the share of protein from land sources rose sharply, which is unusual for coastal foragers of his culture. Because he did not eat freshwater fish, as inland hunters did, the authors argue that the extra land food probably came from farmers.",
+      "His grave points the same way. He lay on his back inside a frame of stones, with what may be an archer's wrist guard, a burial style closer to those of early farmers than to typical hunter-gatherer graves of the time. His arm bones show signs of heavy muscle use, possibly from years of paddling.",
+      {
+        "h2": "One man, one generation"
+      },
+      "The researchers are careful about how much one skeleton can say. Bone chemistry alone cannot tell whether he farmed, traded with farmers, or simply hunted more on land. It is also unclear whether he lived mainly on Sejerø or on a bigger island, and the 1956 dig was rushed, so small objects in the grave may have been missed.",
+      {
+        "quote": "\"It is only one person's story, and only one generation.\" (Anders Fischer, University of Gothenburg)"
+      },
+      "Still, the find is rare. Hunter-gatherers seem to vanish from the archaeological record in this region almost as soon as farmers appear, which has left open how the two groups met. Rødhals Man suggests that at least some foragers took up parts of the newcomers' way of life while keeping their own ancestry and much of their seafood diet. The team reports a similar pattern in two slightly later individuals from Evensås in western Sweden."
+    ],
+    "sources": [
+      {
+        "name": "Antiquity (paper)",
+        "url": "https://doi.org/10.15184/aqy.2026.10476"
+      },
+      {
+        "name": "University of Gothenburg",
+        "url": "https://www.gu.se/en/news/archaeologists-uncover-a-witness-to-the-neolithic-revolution"
+      },
+      {
+        "name": "IFLScience",
+        "url": "https://www.iflscience.com/this-guy-lived-through-one-of-the-most-important-revolutions-in-human-history-85199"
+      },
+      {
+        "name": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/from-a-small-island-in-denmark-this-man-lived-through-the-transition-from-hunter-gathering-to-farming-6000-years-ago-180989889/"
+      },
+      {
+        "name": "New Scientist",
+        "url": "https://www.newscientist.com/article/2598961-skeleton-found-in-denmark-was-from-man-who-witnessed-the-arrival-of-farming/"
+      }
+    ],
+    "img": {
+      "file": "File:Ertebølle strand fra Ertebølle hoved.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ertebølle_strand_fra_Ertebølle_hoved.jpg",
+      "author": "Kristian.HP",
+      "license": "CC0",
+      "alt": "Beach at Ertebølle in northern Denmark, the coastal site that gave the Ertebølle hunter-fisher culture its name"
+    },
+    "card": {
+      "title": "This Stone Age fisher lived through farming's arrival",
+      "sub": "Layers in his teeth show his diet shifting from seafood to land food"
+    }
+  },
+  {
     "slug": "voyager-1-reaches-one-light-day-from-earth",
     "cat": "space",
     "headline": "Voyager 1 is now so far away that its signals take a full day to reach us",
@@ -45,6 +559,10 @@
       "author": "NASA/JPL",
       "license": "Public domain",
       "alt": "Artist's concept of a Voyager spacecraft in flight, with its large dish antenna and instrument booms"
+    },
+    "card": {
+      "title": "Voyager 1 is now one full light-day from Earth",
+      "sub": "Every message we send the 49-year-old probe takes 24 hours to arrive"
     }
   },
   {
@@ -95,20 +613,22 @@
       }
     ],
     "img": {
-      "file": "File:Homo erectus reconstruction, Natural History Museum, London.jpg",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Homo_erectus_reconstruction,_Natural_History_Museum,_London.jpg",
-      "author": "Werner Ustorf",
-      "license": "CC BY-SA 2.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
-      "alt": "A museum reconstruction of a Homo erectus individual at the Natural History Museum, London"
+      "file": "File:Skull of Homo Erectus Hexianensis (9974495765).jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Skull_of_Homo_Erectus_Hexianensis_(9974495765).jpg",
+      "author": "Gary Todd",
+      "license": "CC0",
+      "alt": "A Homo erectus skull from Hexian, China, on display at the Anhui Provincial Museum"
     },
     "img2": {
-      "file": "File:China - Yangshuo 15 - villages and fields fill between the peak-filled landscape (140904370).jpg",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/China_-_Yangshuo_15_-_villages_and_fields_fill_between_the_peak-filled_landscape_(140904370).jpg",
-      "author": "McKay Savage",
-      "license": "CC BY 2.0",
-      "license_url": "https://creativecommons.org/licenses/by/2.0/",
-      "alt": "Limestone karst peaks near Yangshuo in Guangxi, the region where the fossil caves are found"
+      "file": "File:Guilin Scenery.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Guilin_Scenery.jpg",
+      "author": "Katie Crutchley",
+      "license": "Public domain",
+      "alt": "Karst hills and farmland near Guilin in Guangxi, southern China"
+    },
+    "card": {
+      "title": "Homo erectus lived in rainforests far later than thought",
+      "sub": "Eight fossil teeth from two caves tell a surprising story"
     }
   },
   {
@@ -156,12 +676,21 @@
       }
     ],
     "img": {
-      "file": "File:Agrotis infusa (24308248439).jpg",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Agrotis_infusa_(24308248439).jpg",
-      "author": "Donald Hobern",
-      "license": "CC BY 2.0",
-      "license_url": "https://creativecommons.org/licenses/by/2.0/",
-      "alt": "A bogong moth (Agrotis infusa) resting with its wings folded"
+      "file": "File:Owlet moth (Noctuidae, Heilocheilus julia) (29451141664).jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Owlet_moth_(Noctuidae,_Heilocheilus_julia)_(29451141664).jpg",
+      "author": "Insects Unlocked",
+      "license": "CC0",
+      "alt": "An owlet moth of the family Noctuidae, the same family as the bogong moth (not a bogong moth)"
+    },
+    "card": {
+      "title": "These moths fly 1,000 km at night with a hidden compass",
+      "sub": "They were known to read the stars. That isn't all they use",
+      "crop": [
+        0.0,
+        0.0,
+        1.0,
+        0.86
+      ]
     }
   },
   {
@@ -188,10 +717,7 @@
       {
         "quote": "\"The results are very impressive and demonstrate the power of the upgraded LHCb detector\" (Robert Fleischer, VU Amsterdam, not involved in the study)"
       },
-      "The analysis team was led from the UK, with Harry Cliff of the University of Cambridge among its leaders. Reaching five sigma will require more data. LHCb has planned a further upgrade that would increase its data sample by another factor of ten, although Physics World reports that the UK's funding agency withdrew support for UK work on building it in December 2025.",
-      {
-        "img2": true
-      }
+      "The analysis team was led from the UK, with Harry Cliff of the University of Cambridge among its leaders. Reaching five sigma will require more data. LHCb has planned a further upgrade that would increase its data sample by another factor of ten, although Physics World reports that the UK's funding agency withdrew support for UK work on building it in December 2025."
     ],
     "sources": [
       {
@@ -216,20 +742,15 @@
       }
     ],
     "img": {
-      "file": "File:Palais de la Découverte - Tunnel du LHC - Détecteur VELO - 001.jpg",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Palais_de_la_D%C3%A9couverte_-_Tunnel_du_LHC_-_D%C3%A9tecteur_VELO_-_001.jpg",
-      "author": "Thesupermat",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "alt": "A Vertex Locator (VELO) detector module from the LHCb experiment on display at the Palais de la Découverte in Paris"
+      "file": "File:CERN Collider, France-Switzerland (ASTER).jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/CERN_Collider,_France-Switzerland_(ASTER).jpg",
+      "author": "NASA/METI/AIST/Japan Space Systems",
+      "license": "Public domain",
+      "alt": "Satellite view of the area around CERN on the France–Switzerland border, above the ring of the Large Hadron Collider"
     },
-    "img2": {
-      "file": "File:Views of the LHC tunnel sector 3-4, tirage 2.jpg",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Views_of_the_LHC_tunnel_sector_3-4,_tirage_2.jpg",
-      "author": "Maximilien Brice (CERN)",
-      "license": "CC BY-SA 3.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
-      "alt": "A section of the Large Hadron Collider tunnel at CERN, sector 3-4"
+    "card": {
+      "title": "Physicists hunted this for 40 years. Now they see it",
+      "sub": "CERN finds first signs of a decay that happens once in ten billion tries"
     }
   },
   {
@@ -273,12 +794,15 @@
       }
     ],
     "img": {
-      "file": "File:Soft robot locomotion.jpg",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Soft_robot_locomotion.jpg",
-      "author": "Hdehqani",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "alt": "A soft, flexible robot designed for self-propelled movement (not the UC San Diego robot described in this story)"
+      "file": "File:Soft under-actuated fish-like robot.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Soft_under-actuated_fish-like_robot.jpg",
+      "author": "Pablo Valdivia y Alvarado",
+      "license": "CC0",
+      "alt": "A soft, fish-shaped robot built from flexible material (not the UC San Diego robot described in this story)"
+    },
+    "card": {
+      "title": "No motor, no battery, no chips. It still runs",
+      "sub": "This soft robot hits almost 5 metres per second with a steam-age trick"
     }
   },
   {
@@ -332,12 +856,15 @@
       }
     ],
     "img": {
-      "file": "File:Brain Anatomy Striatum.png",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brain_Anatomy_Striatum.png",
-      "author": "BruceBlaus",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "alt": "Medical illustration of the human brain highlighting the striatum, part of the basal ganglia"
+      "file": "File:External view of basal ganglia.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/External_view_of_basal_ganglia.jpg",
+      "author": "Paul Verheggen",
+      "license": "Public domain",
+      "alt": "Anatomical reconstruction of the basal ganglia and brainstem"
+    },
+    "card": {
+      "title": "25 million brain cells, mapped in 3 species",
+      "sub": "A new atlas of the region that decides when you move"
     }
   },
   {
@@ -404,6 +931,10 @@
       "author": "NASA ICE",
       "license": "Public domain",
       "alt": "A large rift cutting across the Pine Island Glacier ice shelf, seen from a NASA aircraft"
+    },
+    "card": {
+      "title": "The ground under West Antarctica is rising, fast",
+      "sub": "Decades, not millennia. A 3D scan of the Earth below explains why"
     }
   },
   {
@@ -464,6 +995,10 @@
       "author": "Forrest M. Mims III",
       "license": "Public domain",
       "alt": "Mauna Loa Observatory in Hawaii, where atmospheric carbon dioxide has been measured since the 1950s"
+    },
+    "card": {
+      "title": "Fossil fuel emissions are set to dip. Total CO2 is a record",
+      "sub": "The annual Global Carbon Budget explains the gap"
     }
   },
   {
@@ -522,6 +1057,10 @@
       "license": "CC0",
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "alt": "A weekly pill organiser filled with assorted tablets and capsules"
+    },
+    "card": {
+      "title": "Can people over 70 safely stop taking statins?",
+      "sub": "A trial of 1,880 people has an answer, and it comes with a catch"
     }
   },
   {
@@ -575,12 +1114,15 @@
       "alt": "Hexagonal mirror segments of the James Webb Space Telescope being prepared for cryogenic testing at NASA's Marshall Space Flight Center"
     },
     "img2": {
-      "file": "File:51 Eri b (NIRcam image) (weic2504b).jpg",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/51_Eri_b_(NIRcam_image)_(weic2504b).jpg",
-      "author": "NASA, ESA, CSA, STScI, W. Balmer (JHU), L. Pueyo (STScI), M. Perrin (STScI)",
-      "license": "CC BY 4.0",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "alt": "Earlier Webb NIRCam image of the 51 Eridani system with the star masked, showing the giant planet 51 Eridani b as a faint dot"
+      "file": "File:51 Eridani (NIRCam Image) (2025-114).png",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/51_Eridani_(NIRCam_Image)_(2025-114).png",
+      "author": "NASA, ESA, CSA, STScI, Laurent Pueyo (STScI)",
+      "license": "Public domain",
+      "alt": "Webb NIRCam image of the young planet 51 Eridani b next to its masked host star"
+    },
+    "card": {
+      "title": "A planet was hiding in old Webb telescope images",
+      "sub": "A virtual copy of the telescope helped astronomers find it"
     }
   },
   {
@@ -636,12 +1178,15 @@
       }
     ],
     "img": {
-      "file": "File:(20260628 132637884) Berlin heatwave 39 C.jpg",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/(20260628_132637884)_Berlin_heatwave_39_C.jpg",
-      "author": "Roy Zuo",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "alt": "A street display in Berlin showing an air temperature of 39 degrees Celsius during the June 2026 heatwave"
+      "file": "File:2026 heat event in France - 43°C in Colombes 2026-june 24-03 13-24.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2026_heat_event_in_France_-_43°C_in_Colombes_2026-june_24-03_13-24.jpg",
+      "author": "Tangopaso",
+      "license": "Public domain",
+      "alt": "A street thermometer showing 43°C in Colombes, near Paris, during a June 2026 heatwave"
+    },
+    "card": {
+      "title": "Heat was linked to a record 710,000 deaths in one year",
+      "sub": "The tenth Lancet Countdown report on climate and health"
     }
   },
   {
@@ -692,12 +1237,11 @@
       }
     ],
     "img": {
-      "file": "File:Perovskite oxide thin film.jpg",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Perovskite_oxide_thin_film.jpg",
-      "author": "Magnunor",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "alt": "Atomic-resolution electron microscope image of a layered perovskite oxide thin film, a material family that includes bismuth ferrite (not the films from this study)"
+      "file": "File:12 Circular Planar Magnetron Target.png",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/12_Circular_Planar_Magnetron_Target.png",
+      "author": "Axelfusillo",
+      "license": "Public domain",
+      "alt": "A circular metal sputtering target of the kind used to deposit ultrathin films (illustrative)"
     },
     "img2": {
       "file": "File:BrownUniversity-PrinceEngineeringLaboratory.jpg",
@@ -705,6 +1249,10 @@
       "author": "Apavlo at English Wikipedia",
       "license": "Public domain",
       "alt": "Prince Engineering Laboratory building at Brown University in Providence, Rhode Island"
+    },
+    "card": {
+      "title": "A chip material that stopped working when thin now works",
+      "sub": "Just a few atoms thick, it also turns into an unusual kind of magnet"
     }
   }
 ]

@@ -24,7 +24,7 @@ def main():
         q = urllib.parse.urlencode({"action": "query", "format": "json", "prop": "imageinfo",
                                     "iiprop": "size", "titles": "|".join(chunk)})
         req = urllib.request.Request("https://commons.wikimedia.org/w/api.php?" + q,
-                                     headers={"User-Agent": "static-site-build/1.0"})
+                                     headers={"User-Agent": "ScienceMessengerBot/1.0 (https://sciencemessenger.github.io) python-urllib"})
         data = json.load(urllib.request.urlopen(req, timeout=30))
         norm = {n["to"]: n["from"] for n in data["query"].get("normalized", [])}
         for p in data["query"]["pages"].values():

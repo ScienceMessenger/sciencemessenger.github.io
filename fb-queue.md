@@ -37,3 +37,36 @@ https://sciencemessenger.github.io/news/lancet-countdown-2026-heat-deaths-health
 
 12. Chip makers want a material that is magnetic and electric at the same time, just a few atoms thick. Until now it stopped working that thin.
 https://sciencemessenger.github.io/news/ultrathin-multiferroic-films-altermagnet-low-power-chips.html
+
+---
+
+# Batch 2: 9 posts, PENDING APPROVAL (image posts: card img/fb/<slug>.jpg + caption + link)
+
+Topics each covered by 2+ reference pages (SOURCES.md). Suggested slots after Sat Nov 21 04:00: Sat 08:00, 12:00, 16:00, 20:00, Sun 00:00, 04:00, 08:00, 12:00, 16:00 (UTC+2).
+
+1. A star smaller than our Sun spiralled straight into a giant star. Webb caught what was left behind, a first for astronomers.
+https://sciencemessenger.github.io/news/small-star-merges-with-supergiant-andromeda-webb.html
+
+2. One tiny mushroom found in Florida makes the psychedelic in "magic mushrooms" AND the toxins behind most mushroom deaths. No mushroom was known to do both.
+https://sciencemessenger.github.io/news/dark-magic-mushroom-galerina-psilocybin-amatoxins-florida.html
+
+3. After 26 years, the US is officially no longer measles-free. One chain of infections ran for more than a year.
+https://sciencemessenger.github.io/news/us-loses-measles-elimination-status-2026.html
+
+4. Some of your DNA comes from Neanderthals. One small piece is now tied to how part of your brain is built, and to lower odds of schizophrenia.
+https://sciencemessenger.github.io/news/neanderthal-variant-daam1-occipital-lobe-schizophrenia.html
+
+5. A model suggests one nuclear blast in orbit could disable about 98% of the 13,000+ satellites in low orbit within a week.
+https://sciencemessenger.github.io/news/single-nuclear-blast-could-disable-most-low-orbit-satellites.html
+
+6. 125,000 years ago, today's Arabian desert had a lake, hippos and hunters. Their stone points carry traces of a plant used for arrow poison.
+https://sciencemessenger.github.io/news/mundafan-paleolake-arabia-hippos-poisoned-weapon-tips.html
+
+7. Just 403 buildings in the US may use nearly as much electricity as an entire state. And more than half of that power came from gas and coal.
+https://sciencemessenger.github.io/news/us-hyperscale-data-centres-use-electricity-of-a-state.html
+
+8. In 2022 NASA rammed a spacecraft into an asteroid on purpose. Now Europe's Hera probe has arrived to inspect the damage.
+https://sciencemessenger.github.io/news/hera-arrives-didymos-dimorphos-dart-asteroid.html
+
+9. He lived 6,000 years ago, eating mostly fish. Layers in his teeth show his diet changing as the first farmers arrived in Denmark.
+https://sciencemessenger.github.io/news/rodhals-man-denmark-hunter-gatherer-diet-farming.html
