@@ -170,7 +170,8 @@ def page(title, active, body, prefix="", desc="", og=""):
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:ital,wght@0,700;0,900;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{prefix}css/style.css?v={asset_version('css/style.css')}">
-  <script src="{prefix}js/site.js?v={asset_version('js/site.js')}" defer></script>{analytics()}
+  <script src="{prefix}js/site.js?v={asset_version('js/site.js')}" defer></script>
+  <script src="{prefix}js/bg-fx.js?v={asset_version('js/bg-fx.js')}" defer></script>{analytics()}
 </head>
 <body id="top">
   <div class="topbar"><div class="wrap"><span id="today"></span><span>Science news, checked against the source.</span></div></div>
