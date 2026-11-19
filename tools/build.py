@@ -23,7 +23,7 @@ CATS = [
 CATNAME = dict(CATS)
 SITE = "Science Messenger"
 # GoatCounter site code (the "xyz" in https://xyz.goatcounter.com). Empty = no tracking script.
-GOATCOUNTER = ""
+GOATCOUNTER = "sciencemessenger"
 YEAR = date.today().year
 
 # Wikimedia only serves thumbnails at these standard widths; anything else is rejected.
