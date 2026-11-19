@@ -1,6 +1,42 @@
-# Facebook queue: first 12 posts (every 4h, local UTC+2)
+# Facebook queue
 
-Approved and booked on 2026-11-19. Rebuilt the same day so every post shows its news card (link post, card as preview): posts 3–12 re-booked in their original slots (Thu Nov 19 16:00 through Sat Nov 21 04:00, every 4h, UTC+2) and the old photo versions deleted. Posts 1 and 2 (published 08:01 and 12:00 with the old photo) were moved to trash and re-booked as card posts in the next free slots: post 1 Sat Nov 21 08:00, post 2 Sat Nov 21 12:00. Next empty slot: Sat Nov 21 16:00.
+## Schedule (3 posts/day for a US audience, see FACEBOOK.md)
+
+Slots: 9:00 AM / 1:00 PM / 9:00 PM US Eastern = **16:00 / 20:00 / 04:00 (next day)** local UTC+2.
+On 2026-11-19 all 21 booked posts (batches 1 and 2, all card link posts) were moved from the old every-4h grid onto these slots, in the same order. Checked in Business Suite's Scheduled list.
+B1-1 Voyager 1 (card link post) was published right away on Thu Nov 19 13:51 at the user's request, freeing its Sun Nov 22 20:00 slot.
+
+| Local (UTC+2) | Post |
+|---|---|
+| Thu Nov 19 16:00 | B1-3 Bogong moth |
+| Thu Nov 19 20:00 | B1-4 LHCb decay |
+| Fri Nov 20 04:00 | B1-5 Soft robot |
+| Fri Nov 20 16:00 | B1-6 Basal ganglia atlas |
+| Fri Nov 20 20:00 | B1-7 West Antarctica |
+| Sat Nov 21 04:00 | B1-8 Carbon budget |
+| Sat Nov 21 16:00 | B1-9 Statins trial |
+| Sat Nov 21 20:00 | B1-10 Webb digital twin |
+| Sun Nov 22 04:00 | B1-11 Lancet Countdown |
+| Sun Nov 22 16:00 | B1-12 Ultrathin chips |
+| Sun Nov 22 20:00 | (empty: Voyager 1 published early) |
+| Mon Nov 23 04:00 | B1-2 Homo erectus (repost) |
+| Mon Nov 23 16:00 | B2-1 Star merger |
+| Mon Nov 23 20:00 | B2-2 Dark-magic mushroom |
+| Tue Nov 24 04:00 | B2-3 Measles |
+| Tue Nov 24 16:00 | B2-4 Neanderthal DAAM1 |
+| Tue Nov 24 20:00 | B2-5 Nuclear blast |
+| Wed Nov 25 04:00 | B2-6 Mundafan paleolake |
+| Wed Nov 25 16:00 | B2-7 Data centres |
+| Wed Nov 25 20:00 | B2-8 Hera |
+| Thu Nov 26 04:00 | B2-9 Rodhals Man |
+
+**Empty slots: Sun Nov 22 20:00, then Thu Nov 26 16:00 onward.** The queue runs out after Thu Nov 26 04:00, so add new stories before about Tue Nov 24 (keep 2 days booked).
+
+---
+
+# Batch 1: 12 posts (card link posts)
+
+Approved 2026-11-19. Posts 1 and 2 were first published with the old photo, then trashed and re-booked as card posts.
 
 1. A spacecraft launched in 1977 just crossed a line no human-made object has ever reached. Every message we send it now takes a full day to arrive.
 https://sciencemessenger.github.io/news/voyager-1-reaches-one-light-day-from-earth.html
@@ -40,9 +76,9 @@ https://sciencemessenger.github.io/news/ultrathin-multiferroic-films-altermagnet
 
 ---
 
-# Batch 2: 9 posts, PENDING APPROVAL (image posts: card img/fb/<slug>.jpg + caption + link)
+# Batch 2: 9 posts (card link posts), booked
 
-Topics each covered by 2+ reference pages (SOURCES.md). Suggested slots (Sat 08:00 and 12:00 now hold reposts of posts 1–2): Sat 16:00, 20:00, Sun 00:00, 04:00, 08:00, 12:00, 16:00, 20:00, Mon 00:00 (UTC+2).
+Topics each covered by 2+ reference pages (SOURCES.md). Booked as card link posts; slots are in the schedule table above.
 
 1. A star smaller than our Sun spiralled straight into a giant star. Webb caught what was left behind, a first for astronomers.
 https://sciencemessenger.github.io/news/small-star-merges-with-supergiant-andromeda-webb.html
