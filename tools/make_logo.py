@@ -111,7 +111,7 @@ def cover():
     im.paste(mark, (x, 120), m)
     d.text((x, 270), "Science", font=big, fill=CREAM)
     d.text((x + d.textlength("Science", font=big), 270), "Messenger", font=big, fill=SKY)
-    d.text((x + 4, 378), "What science found out today, and why it matters.", font=ital, fill=(190, 202, 216))
+    d.text((x + 4, 378), "Discoveries worth interrupting your day for.", font=ital, fill=(190, 202, 216))
     cats = "SPACE  ·  HEALTH  ·  EARTH  ·  LIFE  ·  PHYSICS  ·  TECH  ·  MIND"
     d.text((x + 4, 440), cats, font=sans, fill=(170, 186, 204))
     return im.convert("RGB")

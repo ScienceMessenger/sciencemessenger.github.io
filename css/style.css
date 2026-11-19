@@ -175,7 +175,14 @@ body { overflow-x: clip; }
 
 /* ---------- Hero: full-bleed photo, headline underneath ---------- */
 .hero-media { display: block; background: #0b1220; }
-.hero-media img { width: 100%; height: clamp(280px, 62vh, 640px); object-fit: cover; }
+/* Full-width photo band (build.py wide_img). The photo keeps one fixed shape at every size:
+   it grows with the screen up to 1920px (or its own pixel width, so it never blurs), never
+   taller than 64% of the window, and a blurred, darkened copy fills whatever is left. */
+.wide { position: relative; display: block; overflow: hidden; background: #070e1b; isolation: isolate; }
+.wide .media-bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1;
+  filter: blur(32px) brightness(.45) saturate(1.3); transform: scale(1.2); }
+.wide img:not(.media-bg) { display: block; margin: 0 auto; height: auto; object-fit: cover;
+  --ratio: 2.2; aspect-ratio: var(--ratio); width: min(100%, 1920px, calc(64vh * var(--ratio))); }
 .hero-grid {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 340px;
@@ -225,7 +232,7 @@ body { overflow-x: clip; }
   gap: 4px 16px;
   align-items: baseline;
   justify-content: space-between;
-  border-top: 1px solid var(--ink);
+  border-top: 1px solid var(--rule);
   margin: 48px 0 28px;
   padding-top: 14px;
 }
@@ -260,7 +267,6 @@ body { overflow-x: clip; }
 /* ---------- Feature: full-bleed photo, headline box overlapping it ---------- */
 .feature { background: linear-gradient(#070e1b 70%, transparent 70%); }
 .feature-media { display: block; }
-.feature-media img { width: 100%; height: clamp(300px, 70vh, 680px); object-fit: cover; }
 .feature-box {
   position: relative;
   max-width: 760px;
@@ -321,6 +327,7 @@ body { overflow-x: clip; }
   .rail { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; }
 }
 @media (max-width: 960px) {
+  .wide img:not(.media-bg) { --ratio: 1.8; }
   .sitehead-inner { flex-wrap: wrap; gap: 0 8px; padding: 0 4px 0 16px; }
   .brand { min-height: 56px; }
   .theme-toggle { margin-left: auto; }
@@ -343,7 +350,7 @@ body { overflow-x: clip; }
 }
 @media (max-width: 640px) {
   .brand { font-size: 20px; }
-  .hero-media img { height: 46vh; min-height: 240px; }
+  .wide img:not(.media-bg) { --ratio: 1.5; }
   .hero-grid { padding-top: 22px; }
   .hero-dek { font-size: 18px; }
   .hero-side { grid-template-columns: 1fr; }
@@ -351,7 +358,6 @@ body { overflow-x: clip; }
   .mini img { aspect-ratio: 1; }
   .feed, .feed-2 { grid-template-columns: 1fr; gap: 36px; }
   .rail { grid-template-columns: 1fr; }
-  .feature-media img { height: 52vh; }
   .feature-box { margin: -60px 16px 0; padding: 22px 20px 26px; }
   .feature-box p { font-size: 16px; }
   .section-head { margin-top: 36px; }
@@ -363,7 +369,6 @@ body { overflow-x: clip; }
 /* ---------- Article page ---------- */
 .article { max-width: var(--measure); margin: 0 auto; padding: 0 0 24px; }
 .article-hero { margin-top: 0; margin-bottom: 40px; background: #070e1b; }
-.article-hero img { width: 100%; height: clamp(260px, 64vh, 660px); object-fit: cover; }
 .article-hero figcaption { max-width: 1200px; margin: 0 auto; padding: 8px 16px; font-size: 12px; color: #9aa6b2; text-align: right; }
 .article-hero figcaption a { text-decoration: underline; text-underline-offset: 2px; }
 .article-head { text-align: center; }

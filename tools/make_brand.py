@@ -91,7 +91,7 @@ def cover(K=2):
     d.text((x, base), "Science", font=mf, fill=CREAM, anchor="ls")
     d.text((x + w1, base), "Messenger", font=mf, fill=SKY, anchor="ls")
     d.rectangle([x, 246 * K, x + w1 + w2, 249 * K], fill=CREAM)
-    d.text((cx, 300 * K), "What science found out today, and why it matters tomorrow.",
+    d.text((cx, 300 * K), "Discoveries worth interrupting your day for.",
            font=ital(25 * K), fill=MUTED, anchor="ms")
     cats = ["SPACE", "HEALTH", "EARTH & CLIMATE", "LIFE", "PHYSICS", "TECH", "MIND"]
     cf = sans(17 * K)

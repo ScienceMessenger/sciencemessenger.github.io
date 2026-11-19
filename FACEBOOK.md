@@ -21,10 +21,15 @@ Get people to click through to the full story. Make them curious about the findi
 - Don't change the layout per post. If a crop hides the subject, set `"focus_y"` (0 = top, 1 = bottom) in the story's `card`. If the photo has text baked in (credits, captions, labels), cut it out with `"crop": [left, top, right, bottom]` (fractions); no credit text may show on a card.
 
 ## Schedule
-- One post every 4 hours, 24/7: 00:00, 04:00, 08:00, 12:00, 16:00, 20:00 local (UTC+2), which is 6 posts a day.
+- Audience is American, so slots are set in US Eastern time. **3 posts a day**, every day:
+  - Morning **9:00 AM ET** (6 AM PT) = **16:00** local (UTC+2)
+  - Lunch **1:00 PM ET** (10 AM PT) = **20:00** local
+  - Evening **9:00 PM ET** (6 PM PT) = **04:00** local, the next calendar day
+- These conversions hold while the US is on EST (until 14 Mar 2027). When daylight saving changes on either side, recompute local times so the ET times stay fixed.
 - Schedule in the Meta Business Suite Planner. Fill the next empty slot and never stack two posts in one slot.
-- Start right away: when a new batch of posts is approved, publish the first one immediately (Publish, not Schedule), then schedule the rest one per 4-hour slot after it.
-- No gaps: the page should never go more than 4 hours without a post. Keep the queue booked at least 2 days ahead, and when it's about to run out, add new stories and posts.
+- When a new batch of posts is approved, schedule it into the next free slots. Don't publish outside these three slots.
+- Keep the queue booked at least 2 days ahead (6 posts), and when it's about to run out, add new stories and posts.
+- Once the page has followers, check Insights in Meta Business Suite ("when your audience is online") and shift the slots to match.
 - Never boost a post (that's a paid ad). Dismiss the Boost pop-up with "Maybe later".
 
 ## Limits

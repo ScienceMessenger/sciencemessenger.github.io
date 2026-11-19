@@ -44,17 +44,17 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Infrared_Andromeda_Galaxy_(M31).jpg",
       "author": "NASA/JPL-Caltech/P. Barmby (Harvard-Smithsonian CfA)",
       "license": "Public domain",
-      "alt": "The Andromeda galaxy seen in infrared light by NASA's Spitzer Space Telescope, with glowing lanes of dust in its spiral arms"
+      "alt": "The Andromeda galaxy seen in infrared light by NASA's Spitzer Space Telescope, with glowing lanes of dust in its spiral arms",
+      "crop": [
+        0.045,
+        0.215,
+        0.955,
+        0.485
+      ]
     },
     "card": {
       "title": "A star dove into a supergiant. Webb saw the aftermath",
-      "sub": "The final plunge took about seven orbits, not the thousands seen in other mergers",
-      "crop": [
-        0.03,
-        0.08,
-        0.97,
-        0.56
-      ]
+      "sub": "The final plunge took about seven orbits, not the thousands seen in other mergers"
     }
   },
   {

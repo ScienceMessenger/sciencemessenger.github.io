@@ -28,7 +28,9 @@ GOATCOUNTER = "sciencemessenger"
 YEAR = date.today().year
 
 # Wikimedia only serves thumbnails at these standard widths; anything else is rejected.
-THUMB_WIDTHS = [330, 500, 960, 1280, 1920]
+THUMB_WIDTHS = [330, 500, 960, 1280, 1920, 2560]
+HERO_W = 2560    # largest copy made, for full-width photos on big / high-DPI screens
+HERO_CAP = 1920  # widest a full-width photo is ever drawn (CSS px); a blurred copy fills the sides
 
 e = html.escape
 
@@ -73,12 +75,23 @@ def _thumb(img, width):
 # their picture, and hotlinks can be rate-limited or disappear. The build fails on a missing file.
 
 def img_key(img):
-    """Stable local filename stem for a Commons file."""
-    return hashlib.md5(img["file"].encode("utf-8")).hexdigest()[:12]
+    """Stable local filename stem for a Commons file (plus its crop, if any)."""
+    k = img["file"] + (repr([round(f, 4) for f in img["crop"]]) if img.get("crop") else "")
+    return hashlib.md5(k.encode("utf-8")).hexdigest()[:12]
 
 
-def local_widths(img, max_w=1280):
-    ow = IMG_META[img["file"]][0]
+def img_size(img):
+    """Pixel size of the self-hosted image: the original minus the optional "crop"
+    [left, top, right, bottom] fractions (used to cut labels and text out of infographics)."""
+    ow, oh = IMG_META[img["file"]]
+    if img.get("crop"):
+        l, t, r, b = img["crop"]
+        ow, oh = round(r * ow) - round(l * ow), round(b * oh) - round(t * oh)
+    return ow, oh
+
+
+def local_widths(img, max_w=HERO_W):
+    ow = img_size(img)[0]
     widths = [w for w in THUMB_WIDTHS if w < ow and w <= max_w] or [ow]
     if max_w >= ow and ow not in widths:
         widths.append(ow)
@@ -105,20 +118,33 @@ def check_license(img):
         sys.exit(f"{img['file']} is {img['license']}: only public domain or CC0 images are allowed")
 
 
-def img_tag(img, sizes, max_w=1280, eager=False, prefix=""):
+def img_tag(img, sizes, max_w=1280, eager=False, prefix="", cap=0):
     """<img> with srcset, intrinsic width/height (stops layout shift) and lazy loading."""
     check_license(img)
     alt = e(img["alt"])
     load = ' fetchpriority="high"' if eager else ' loading="lazy" decoding="async"'
     if img["file"] not in IMG_META:
         sys.exit(f"No size data for {img['file']}: run tools/fetch_image_meta.py, then tools/fetch_images.py")
-    ow, oh = IMG_META[img["file"]]
+    ow, oh = img_size(img)
     widths = local_widths(img, max_w)
     srcset = ", ".join(f"{prefix}{require_local(local_src(img, w))} {w}w" for w in widths)
     w = widths[-1]
     hgt = round(oh * w / ow)
+    styles = [f"object-position:{e(img['focus'])}"] if img.get("focus") else []
+    if cap and ow < cap:  # never stretch a small photo past its own width (that is what looks blurry)
+        styles.append(f"max-width:{ow}px")
+    style = f' style="{";".join(styles)}"' if styles else ""
     return (f'<img src="{prefix}{local_src(img, w)}" srcset="{srcset}" sizes="{sizes}" '
-            f'width="{w}" height="{hgt}" alt="{alt}"{load}>')
+            f'width="{w}" height="{hgt}" alt="{alt}"{style}{load}>')
+
+
+def wide_img(img, eager=False, prefix=""):
+    """Full-width photo band: the photo is drawn at most HERO_CAP px wide (or its own width),
+    in a fixed shape set by CSS, with a blurred low-res copy behind it filling the rest."""
+    bg = prefix + require_local(local_src(img, local_widths(img, 330)[0]))
+    main = img_tag(img, f"(min-width: {HERO_CAP}px) {HERO_CAP}px, 100vw", HERO_W,
+                   eager=eager, prefix=prefix, cap=HERO_CAP)
+    return f'<span class="wide"><img class="media-bg" src="{bg}" alt="" aria-hidden="true">{main}</span>'
 
 
 def credit(img):
@@ -194,7 +220,7 @@ def page(title, active, body, prefix="", desc="", og=""):
     <div class="wrap">
       <div class="footer-brand">
         <a href="{prefix}index.html" class="brand"><img src="{prefix}brand/favicon-192.png" alt="" width="34" height="34" loading="lazy">Science<span>Messenger</span></a>
-        <p>What science found out today, and why it matters tomorrow.</p>
+        <p>Discoveries worth interrupting your day for.</p>
       </div>
       <nav aria-label="Footer">{foot}<a href="{prefix}credits.html">Image credits</a></nav>
       <span>© {YEAR} {SITE}. Every story links to the original research and reporting.</span>
@@ -248,7 +274,7 @@ def lead(main, side, prefix="", hl="h1", side_title="Also new"):
     aside = (f'      <aside class="hero-side">\n        <h2 class="side-title">{e(side_title)}</h2>\n'
              + "\n".join(mini(o, prefix) for o in side) + "\n      </aside>") if side else ""
     return f"""    <section class="hero">
-      <a class="bleed hero-media" href="{href}" tabindex="-1" aria-hidden="true">{img_tag(main['img'], "100vw", 1280, eager=True, prefix=prefix)}</a>
+      <a class="bleed hero-media" href="{href}" tabindex="-1" aria-hidden="true">{wide_img(main['img'], eager=True, prefix=prefix)}</a>
       <div class="hero-grid{'' if side else ' solo'}">
         <article class="card hero-main">
           {tag(main, prefix)}
@@ -266,7 +292,7 @@ def feature(s, prefix=""):
     """Full-bleed photo with the headline in a box overlapping its lower edge."""
     href = f'{prefix}news/{s["slug"]}.html'
     return f"""    <section class="bleed feature">
-      <a class="feature-media" href="{href}" tabindex="-1" aria-hidden="true">{img_tag(s['img'], "100vw", 1280, prefix=prefix)}</a>
+      <a class="feature-media" href="{href}" tabindex="-1" aria-hidden="true">{wide_img(s['img'], prefix=prefix)}</a>
       <article class="card feature-box">
         {tag(s, prefix)}
         <h2><a class="card-link" href="{href}">{e(s['headline'])}</a></h2>
@@ -375,7 +401,7 @@ def article_page(s):
     hero_img = s["img"]
     body = f"""    <article class="article">
       <figure class="bleed article-hero">
-        {img_tag(hero_img, "100vw", 1280, eager=True, prefix="../")}
+        {wide_img(hero_img, eager=True, prefix="../")}
         <figcaption>{credit(hero_img)}</figcaption>
       </figure>
       <header class="article-head">
@@ -447,7 +473,7 @@ def build():
     hero_img = s["img"]
     body = f"""    <article class="article">
       <figure class="bleed article-hero">
-        {img_tag(hero_img, "100vw", 1280, eager=True, prefix="../")}
+        {wide_img(hero_img, eager=True, prefix="../")}
         <figcaption>{credit(hero_img)}</figcaption>
       </figure>
       <header class="article-head"><h1>Image credits</h1>

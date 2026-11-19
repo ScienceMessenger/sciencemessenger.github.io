@@ -7,7 +7,7 @@ Rule: all images are self-hosted. Facebook's crawler gets 403 from upload.wikime
 and hotlinked images can vanish or be rate-limited. build.py refuses to build if a file is missing.
 
 For each Commons image it saves img/<key>-<width>.jpg at every srcset width build.py uses
-(key = build.img_key). Share cards (img/og, img/fb) are made afterwards by tools/make_cards.py.
+(key = build.img_key). An optional "crop" on the image is applied first. Share cards (img/og, img/fb) are made afterwards by tools/make_cards.py.
 Existing files are skipped unless --force is given.
 """
 import io
@@ -64,18 +64,23 @@ def main():
     if missing:
         sys.exit("Run tools/fetch_image_meta.py first; no size data for: " + ", ".join(sorted(missing)))
 
-    seen = {}
+    seen = {}  # file -> (img, largest width needed): lead photos can run full width, in-article ones can't
     for s in build.STORIES:
-        for img in filter(None, (s["img"], s.get("img2"))):
-            seen[img["file"]] = img
+        for img, max_w in ((s.get("img2"), 1280), (s["img"], build.HERO_W)):
+            if img:
+                seen[img["file"]] = (img, max(max_w, seen.get(img["file"], (None, 0))[1]))
 
-    for file, img in seen.items():
-        widths = build.local_widths(img)
+    for file, (img, max_w) in seen.items():
+        widths = build.local_widths(img, max_w)
         paths = {w: os.path.join(build.ROOT, build.local_src(img, w)) for w in widths}
         todo = [p for p in paths.values() if force or not os.path.exists(p)]
         if not todo:
             continue
         src = fetch(build._thumb(img, 10**9))  # original file: thumbnail renders are rate-limited much harder
+        if img.get("crop"):  # [left, top, right, bottom] fractions: cut labels/text out of infographics
+            l, t, r, b = img["crop"]
+            src = src.crop((round(l * src.width), round(t * src.height),
+                            round(r * src.width), round(b * src.height)))
         for w, p in paths.items():
             if p in todo:
                 save(resize(src, w), p)
