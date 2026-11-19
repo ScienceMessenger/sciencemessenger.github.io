@@ -1,6 +1,6 @@
 # Facebook queue: first 12 posts (every 4h, local UTC+2)
 
-Drafts for approval. Each post is text plus a link; the preview picture comes from the article's og:image. Fill the first empty 4-hour slots once approved.
+Approved and booked on 2026-11-19: post 1 published at 08:01, posts 2–12 scheduled Thu Nov 19 12:00 through Sat Nov 21 04:00 (every 4h, UTC+2). Next empty slot: Sat Nov 21 08:00.
 
 1. A spacecraft launched in 1977 just crossed a line no human-made object has ever reached. Every message we send it now takes a full day to arrive.
 https://sciencemessenger.github.io/news/voyager-1-reaches-one-light-day-from-earth.html
