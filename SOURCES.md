@@ -30,6 +30,7 @@ Take stories that are both **solid** and **interesting**. If one of the two is m
 - **Interesting:** there's a clear "what did they find" hook and a reason the reader should care.
 - **Skip:** single-study miracle cures, "X causes cancer" from small or animal-only studies, company press releases with no data, and anything that only appears on tabloids or aggregators.
 - **Space first (~75%):** about 3 of every 4 stories in each batch (and 3 of every 4 Facebook posts) should be space news: astronomy, planets, missions, telescopes, rockets, astronauts, asteroids, cosmology. Only interesting, solid ones count; never pad with a weak space story. If there aren't enough good space stories, fill the rest with the best other science rather than lowering the bar. When scheduling, spread the non-space posts out instead of bunching them.
+- **Top priority: aliens, life, new physics.** Stories about possible alien life, life's origins or habitable worlds (biosignatures, organics, oceans on moons, life's building blocks in space) and possible new physics (dark energy/matter surprises, broken Standard Model, cosmology tensions) go first whenever they're solid. They still need the two-source rule and must not overstate: "hints of", never "found aliens"; fringe claims (e.g. an asteroid being artificial) are labelled as unsupported or left out.
 - **Picture:** a public-domain or CC0 Commons image that shows the subject (the telescope, the animal, the organ, the place).
 
 ## Writing rules: accurate, own words, no copyrighted material

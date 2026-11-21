@@ -106,3 +106,36 @@ https://sciencemessenger.github.io/news/hera-arrives-didymos-dimorphos-dart-aste
 
 9. He lived 6,000 years ago, eating mostly fish. Layers in his teeth show his diet changing as the first farmers arrived in Denmark.
 https://sciencemessenger.github.io/news/rodhals-man-denmark-hunter-gatherer-diet-farming.html
+
+---
+
+# Batch 3: 9 space posts (card link posts), DRAFT, awaiting approval
+
+All space. Proposed slots: the free Sun Nov 22 20:00, then Thu Nov 26 16:00 to Sat Nov 28 20:00 in this order.
+
+1. (Sun Nov 22 20:00) Only one spacecraft has ever orbited Mercury. After eight years and nine flybys, a European-Japanese mission has reached it, and it carries two orbiters.
+https://sciencemessenger.github.io/news/bepicolombo-arrives-mercury-orbit-mixs-xray-telescope.html
+
+2. (Thu Nov 26 16:00) A giant planet was crossing its star every 8 days. Then, while astronomers were watching, it stopped. Something they can't see is to blame.
+https://sciencemessenger.github.io/news/toi-2535b-hot-jupiter-transits-vanish-hidden-planet.html
+
+3. (Thu Nov 26 20:00) Earth has a second moon right now. It's only a few metres wide, and it won't stay for long.
+https://sciencemessenger.github.io/news/earth-mini-moon-2026-qq8-temporary-capture.html
+
+4. (Fri Nov 27 04:00) A dead star is sending out a radio pulse every 8 minutes. Its partner turned out to be a star a lot like our Sun.
+https://sciencemessenger.github.io/news/white-dwarf-radio-pulses-sun-like-companion-gpm-j0715.html
+
+5. (Fri Nov 27 16:00) Twelve specks of dust caught by a NASA plane high above Earth seem to have come from beyond Neptune. They hold a clue about water at the edge of the solar system.
+https://sciencemessenger.github.io/news/stratosphere-dust-kuiper-belt-heavy-water-ice.html
+
+6. (Fri Nov 27 20:00) Was the first-ever black hole picture real? Scientists rebuilt it with an AI that had only seen everyday photos.
+https://sciencemessenger.github.io/news/ai-reimages-m87-black-hole-ring-csiro.html
+
+7. (Sat Nov 28 04:00) Two giant black holes were already feeding side by side 900 million years after the Big Bang. No one can fully explain how even one got that big that fast.
+https://sciencemessenger.github.io/news/earliest-compact-quasar-pair-j1602-4228-webb-gemini.html
+
+8. (Sat Nov 28 16:00) A tiny asteroid is drifting off course and nobody knows why. The favourite explanation just took a hit.
+https://sciencemessenger.github.io/news/asteroid-1998-ky26-acceleration-too-warm-for-ice-hayabusa2.html
+
+9. (Sat Nov 28 20:00) A space telescope just mapped 900 million galaxies. That's only about 14% of the sky it plans to cover.
+https://sciencemessenger.github.io/news/euclid-dr1-foundation-900-million-galaxies.html

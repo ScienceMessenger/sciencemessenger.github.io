@@ -1,5 +1,581 @@
 [
   {
+    "slug": "bepicolombo-arrives-mercury-orbit-mixs-xray-telescope",
+    "cat": "space",
+    "headline": "After eight years and nine planetary flybys, BepiColombo has reached Mercury",
+    "dek": "The European-Japanese mission is beginning its capture into orbit around the smallest planet, which only one spacecraft has orbited before. Its X-ray telescope has already passed its first test on a distant nebula.",
+    "date": "2026-11-21",
+    "location": "European Space Agency (ESOC), Germany",
+    "read": 4,
+    "body": [
+      "Getting into orbit around Mercury is harder than it sounds. The planet sits deep in the Sun's gravity well, so a spacecraft falling toward it picks up enormous speed that has to be shed before it can stay. BepiColombo, a joint mission of the European Space Agency (ESA) and the Japan Aerospace Exploration Agency (JAXA), has spent eight years doing exactly that, and 21 November 2026 is the date set for its capture by Mercury's gravity.",
+      "Only one spacecraft has orbited Mercury before: NASA's MESSENGER, from 2011 to 2015. BepiColombo will be the first mission to put two orbiters around the planet at the same time.",
+      {
+        "h2": "The long way round"
+      },
+      "BepiColombo launched in October 2018 as a stack of three craft: ESA's Mercury Planetary Orbiter (MPO), JAXA's Mercury Magnetospheric Orbiter, known as Mio, and a propulsion stage called the Mercury Transfer Module. To lose speed it swung past Earth once, Venus twice and Mercury six times.",
+      "The trip did not go to plan. In 2024 a power fault stopped the transfer module's electric thrusters from running at full strength, and the team had to redesign the route. That pushed arrival back from December 2025 to November 2026 and meant flying just 165 kilometres above Mercury on the fourth flyby, closer than the 200 kilometres originally treated as safe. The transfer module was released on 3 September 2026, its job done.",
+      {
+        "quote": "\"For the first time, we'll have a single mission with two orbiters going around the same planet.\" (Geraint Jones, ESA BepiColombo project scientist, via IFLScience)"
+      },
+      {
+        "h2": "What comes next"
+      },
+      "Capture is only the start. ESA has planned a series of engine burns running into early 2027 to shape the orbits. MPO and Mio are due to separate on 9 and 10 December. Mio will settle into a stretched orbit lasting about nine hours to study Mercury's magnetic field and its thin wisp of an atmosphere, while MPO lowers itself into a tighter loop of about two and a half hours to map the surface. Science operations are scheduled to begin in April 2027.",
+      "There is plenty to explain. Mercury's iron core reaches about 85 per cent of the way to the surface, a far bigger share than Earth's. The planet has a global magnetic field, though a weak one, and it is slowly shrinking as it cools. Its permanently shadowed polar craters appear to hold ice, and its surface is pocked with odd shallow pits called hollows that MESSENGER found but could not fully explain.",
+      "One instrument is already showing what it can do. The Mercury Imaging X-ray Spectrometer (MIXS), built by a consortium led by the University of Leicester in the UK, is the first imaging X-ray telescope sent on a planetary mission. It will map which chemical elements make up Mercury's rocks by catching the X-rays they give off when the Sun's X-rays strike them. In a 39-hour calibration run on 11 and 12 September it observed the Crab Nebula, about 6,500 light-years away, and produced images slightly sharper than in its 2015 laboratory tests, with no stray light and no sign of radiation damage to its detector.",
+      {
+        "quote": "\"MIXS is generally performing fantastically well in space!\" (Emma Bunce, MIXS principal investigator, University of Leicester, via Phys.org)"
+      },
+      "Some instrument effects are still being studied, and all the dates after capture are plans that could shift. The first real science from Mercury's orbit is still months away."
+    ],
+    "sources": [
+      {
+        "name": "IFLScience",
+        "url": "https://www.iflscience.com/after-8-years-many-flybys-and-a-daring-maneuver-bepicolombo-has-finally-arrived-at-mercury-85248"
+      },
+      {
+        "name": "Scientific American",
+        "url": "https://www.scientificamerican.com/article/two-probes-are-about-to-arrive-at-mercury-for-an-up-close-look-at-this-puzzling-planet/"
+      },
+      {
+        "name": "University of Leicester via ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261120075547.htm"
+      },
+      {
+        "name": "Phys.org",
+        "url": "https://phys.org/news/2026-11-mercury-bound-ray-telescope-images.html"
+      },
+      {
+        "name": "ESA (arrival updates)",
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/BepiColombo/Latest_updates_BepiColombo_s_arrival_at_Mercury"
+      }
+    ],
+    "img": {
+      "file": "File:Mercury in color - Prockter07-edit1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mercury_in_color_-_Prockter07-edit1.jpg",
+      "author": "NASA/Johns Hopkins University Applied Physics Laboratory/Carnegie Institution of Washington",
+      "license": "Public domain",
+      "alt": "Mercury in enhanced colour, a cratered grey-brown globe, photographed by NASA's MESSENGER spacecraft during its first flyby"
+    },
+    "card": {
+      "title": "Only one probe has ever orbited Mercury. Now two more arrive",
+      "sub": "Europe and Japan's BepiColombo took eight years and nine flybys to get there"
+    }
+  },
+  {
+    "slug": "white-dwarf-radio-pulses-sun-like-companion-gpm-j0715",
+    "cat": "space",
+    "headline": "A dead star is beaming radio pulses every eight minutes, and its partner looks a lot like our Sun",
+    "dek": "Australian astronomers traced a repeating radio signal to a white dwarf circling a Sun-like star. The pulses are clean enough to follow the dead star around its orbit, and they even picked up a storm on its companion.",
+    "date": "2026-11-12",
+    "location": "ICRAR / Curtin University, Australia",
+    "read": 4,
+    "body": [
+      "Since 2021, radio astronomers have been finding a strange kind of signal: sources that switch on and off on a cycle of minutes to hours, much slower than ordinary pulsars. About a dozen of these long-period transients are now known, and what powers them is still debated. A study published on 12 November in Nature Astronomy pins one of them on a pairing nobody had seen before: a white dwarf orbiting a star much like the Sun.",
+      "The source is called GPM J071507−114153. It flashes about every 7.9 minutes, which the team takes to be the spin of the white dwarf, the Earth-sized leftover core of a dead star. The research was led by Sam McSweeney, who did the work at the Curtin University node of the International Centre for Radio Astronomy Research (ICRAR) and is now a commissioning scientist at the SKA Observatory, with Natasha Hurley-Walker and colleagues.",
+      {
+        "h2": "From a sky survey to one faint star"
+      },
+      "The signal turned up in a survey of the Milky Way made with the Murchison Widefield Array (MWA) in Western Australia. Doctoral student Csanád Horváth developed the search method that flagged it, and the Pawsey Supercomputing Research Centre processed more than 100 hours of observations. The MeerKAT radio telescope in South Africa then narrowed the position to a tiny patch of sky containing a single faint star. Spectra from the Keck I telescope in Hawaii showed it to be a G-type star, with a temperature and mass close to the Sun's.",
+      "That was a surprise. Earlier long-period transients with a white dwarf involved small, cool red dwarfs, and in those systems it was unclear which star made the pulses. Here the arrival times of the pulses shift by up to a few seconds as the white dwarf swings around its partner, which places the source at or near the white dwarf.",
+      {
+        "quote": "\"This is the first time the pulses are clear enough to see the white dwarf moving in its orbit around its companion.\" (Sam McSweeney, SKA Observatory, via Space.com)"
+      },
+      {
+        "h2": "A storm seen through radio light"
+      },
+      "The pulses are also modulated on a cycle of about 1.3 days, which the team reads as the orbital period of the two stars. They are visible for roughly six hours of each orbit and then fade. As the white dwarf passed behind its companion, the polarisation of its pulses changed quickly, which the authors link to the radio waves crossing the Sun-like star's hot outer atmosphere. The team says one episode was most likely a prominence, a huge loop of magnetised gas thrown up from the star's surface, similar to the flares on the Sun that drive auroras on Earth.",
+      "The researchers place the system more than 5,000 light-years away. Some coverage gave a figure closer to 10,000 light-years; the paper's own distance estimate was not available to us, so the exact value should be treated as uncertain. Timing also suggests the Sun-like star is not overflowing onto the white dwarf, so the radio beam seems to need some other kind of interaction between the two.",
+      "One system cannot settle what powers all long-period transients, and the authors note the class may contain more than one type of object. The MWA and MeerKAT are forerunners of the Square Kilometre Array telescopes being built in Australia and South Africa, which the team expects to find many more."
+    ],
+    "sources": [
+      {
+        "name": "Phys.org",
+        "url": "https://phys.org/news/2026-11-rare-star-emits-radio-minutes.html"
+      },
+      {
+        "name": "Phys.org (The Conversation)",
+        "url": "https://phys.org/news/2026-11-dead-star-radio-minutes-partner.html"
+      },
+      {
+        "name": "Space.com",
+        "url": "https://www.space.com/astronomy/stars/astronomers-trace-mystery-radio-signals-back-to-cosmic-odd-couple-of-white-dwarf-and-sun-like-star"
+      },
+      {
+        "name": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261114202136.htm"
+      },
+      {
+        "name": "IFLScience",
+        "url": "https://www.iflscience.com/strange-repeating-radio-signals-reveal-a-flare-on-a-sun-like-star-10000-light-years-away-85204"
+      },
+      {
+        "name": "Curtin University (release)",
+        "url": "https://www.curtin.edu.au/research/news/researchers-discover-rare-star-system-that-emits-radio-signals-every-eight-minutes?type=media"
+      },
+      {
+        "name": "Nature Astronomy (paper)",
+        "url": "https://doi.org/10.1038/s41550-026-03016-z"
+      }
+    ],
+    "img": {
+      "file": "File:J0806 (binary star - artist's conception).jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/J0806_(binary_star_-_artist's_conception).jpg",
+      "author": "NASA/CXC/GSFC/T. Strohmayer; illustration: D. Berry",
+      "license": "Public domain",
+      "alt": "Artist's illustration of a white dwarf star in a tight orbit with a companion star, from a different binary system"
+    },
+    "card": {
+      "title": "A dead star pulses every 8 minutes beside a Sun-like star",
+      "sub": "Its radio beam even caught a storm erupting on its partner, 5,000+ light-years away"
+    }
+  },
+  {
+    "slug": "stratosphere-dust-kuiper-belt-heavy-water-ice",
+    "cat": "space",
+    "headline": "Dust grains caught high above Earth carry traces of ancient ice from beyond Neptune",
+    "dek": "NASA scientists studied 12 microscopic particles collected in the stratosphere. Their minerals were altered by water rich in heavy oxygen, a signature that is rare in meteorites.",
+    "date": "2026-11-12",
+    "location": "NASA Johnson Space Center, United States",
+    "read": 4,
+    "body": [
+      "Thousands of tonnes of cosmic dust settle onto Earth every year, and NASA has spent decades catching some of it with high-altitude aircraft such as the ER-2. In a study published in Science Advances, researchers led by Lindsay Keller at NASA's Johnson Space Center in Houston report that a handful of these grains came from the Kuiper Belt, the icy zone beyond Neptune, and that they preserve the fingerprint of water unlike the water recorded in most meteorites.",
+      "The team examined 12 particles, each 10 to 30 micrometres across, using electron microscopes at Johnson and an ion microprobe at the University of California, Los Angeles, an instrument that measures isotopes in tiny samples.",
+      {
+        "h2": "Scars from a long trip"
+      },
+      "To work out where a grain came from, the researchers counted tracks left in it by energetic particles from the Sun. The longer a grain drifts through space, the more of these tracks it collects, and dust from the far reaches of the solar system spends a long time spiralling inward. These 12 carried roughly 100 times as many tracks as expected for dust from the asteroid belt or from comets in Jupiter's family, which points to the Kuiper Belt. In 2022, Keller and George Flynn of the State University of New York estimated that up to a quarter of the interplanetary dust reaching the inner solar system may come from there.",
+      "Inside, the grains are dominated by clays such as saponite and serpentine and other minerals that form only when rock reacts with fluids, in this case water mixed with carbon dioxide at low temperatures. They are also rich in carbon, about four times more than some carbon-rich meteorites. The authors suggest the starting material was glassy silicate grains dotted with tiny specks of iron-nickel metal and sulfides.",
+      {
+        "h2": "Heavy water from a separate store"
+      },
+      "Oxygen comes in three stable forms: oxygen-16, oxygen-17 and oxygen-18. The grains are enriched in the two heavier ones, which means the water that altered them was too. Using chemical models, the team estimates that the original water's ratio of oxygen-18 to oxygen-16 was up to roughly 15 percent above that of Earth's ocean water. That figure is an upper limit worked out from the minerals, because the water itself is long gone.",
+      "Scientists have expected ice like this in the outer solar system, where light-driven chemistry is thought to have pushed heavy oxygen into ice. NASA's Genesis mission supported the idea when it found that the Sun holds proportionally more light oxygen than Earth and most meteorites. But hard evidence was scarce, limited to hints in one primitive meteorite and in comet 67P.",
+      {
+        "quote": "\"Compelling evidence for the presence of a major heavy water reservoir beyond the orbits of the gas giant planets.\" (Lindsay Keller and colleagues, NASA Johnson Space Center, in Science Advances)"
+      },
+      "Because the signature is so rare in meteorites, the team argues that this outer store of ice barely mixed with material closer to the Sun. They point to Saturn, and perhaps Uranus and Neptune, as a possible barrier: simulations predict a zone of higher gas pressure just outside Saturn's orbit in the solar system's first few million years, which could have stopped outer dust from drifting inward.",
+      {
+        "h2": "The limits"
+      },
+      "The study rests on just 12 grains, and their Kuiper Belt origin is inferred from track counts rather than traced directly. The isotope value is a model-based upper limit, and the giant-planet barrier is a hypothesis drawn from simulations. With no way to sample the Kuiper Belt directly for now, dust that falls to Earth remains one of the few windows onto it."
+    ],
+    "sources": [
+      {
+        "name": "Phys.org",
+        "url": "https://phys.org/news/2026-11-space-particles-ancient-heavy-oxygen.html"
+      },
+      {
+        "name": "ScienceAlert",
+        "url": "https://www.sciencealert.com/breaking-scientists-find-evidence-of-primordial-water-hidden-at-the-edge-of-the-solar-system"
+      },
+      {
+        "name": "NASA Science",
+        "url": "https://science.nasa.gov/blogs/science-news/2026/11/18/nasa-scientists-find-clues-to-ancient-ice-beyond-neptune/"
+      },
+      {
+        "name": "Science Advances (paper)",
+        "url": "https://doi.org/10.1126/sciadv.aeg1602"
+      }
+    ],
+    "img": {
+      "file": "File:NASA ER-2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/NASA_ER-2.jpg",
+      "author": "NASA/Carla Thomas",
+      "license": "Public domain",
+      "alt": "A NASA ER-2 high-altitude research aircraft banking in flight above snow-covered mountains"
+    },
+    "card": {
+      "title": "NASA planes caught dust that came from beyond Neptune",
+      "sub": "12 tiny grains point to an ancient store of heavy water at the solar system's edge"
+    }
+  },
+  {
+    "slug": "euclid-dr1-foundation-900-million-galaxies",
+    "cat": "space",
+    "headline": "Euclid's first big data haul maps 900 million galaxies, and it covers only 14% of the job",
+    "dek": "ESA's dark-universe telescope has opened 13 months of survey data, including about 15,000 possible gravitational lenses. The measurements needed for cosmology arrive in 2027.",
+    "date": "2026-11-12",
+    "location": "European Space Agency (ESAC), Spain",
+    "read": 4,
+    "body": [
+      "Euclid, the European Space Agency telescope launched in July 2023 to study dark matter and dark energy, released its first large batch of survey data on 12 November. Called DR1-Foundation, it covers about 13 months of observations, from spring 2024 to spring 2025, and serves as a preview: the complete first data release is due in mid-2027.",
+      "The release spans roughly 1,900 square degrees of sky, an area equal to about 9,500 full Moons, and takes in light from more than a billion objects. Among them are more than 900 million galaxies, over 60 million candidate quasars (the bright cores of galaxies whose central black holes are feeding), and spectra for more than 160 million sources, which help astronomers pin down distances and chemical makeup. The whole package comes to about 1.7 petabytes, built from around 10,000 science images taken by Euclid's visible-light camera, VIS, and its near-infrared instrument, NISP.",
+      "For comparison, Euclid's earlier public data covered just a few days of observations over about 60 square degrees.",
+      {
+        "quote": "\"These are far more than beautiful pictures; today marks a scientific milestone in our study of the cosmos.\" (Carole Mundell, ESA Director of Science, via Phys.org)"
+      },
+      {
+        "h2": "A record number of lenses"
+      },
+      "When a massive galaxy sits in front of a more distant one, its gravity bends and magnifies the light from behind, sometimes into arcs or complete rings. These strong gravitational lenses let astronomers weigh the foreground galaxy, dark matter included, and spot faint galaxies that would otherwise be out of reach. DR1-Foundation contains about 15,000 lens candidates, found with a mix of machine learning, visual checks and help from citizen scientists. That is more than all earlier lens catalogues put together.",
+      {
+        "quote": "\"Before Euclid, we had fewer than 1,000 confirmed strong lenses. Now we have 15,000 new candidates.\" (Hrishabh Srivastava, University of British Columbia, via Phys.org)"
+      },
+      "Over its planned six-year survey, Euclid is expected to turn up more than 100,000 strong lenses.",
+      {
+        "h2": "Why the map matters"
+      },
+      "Dark matter and dark energy together account for about 95% of the universe's matter and energy, yet neither has been directly detected. Euclid's plan is to chart billions of galaxies across roughly a third of the sky, measuring how their shapes are slightly warped by matter along the line of sight (weak lensing) and how they cluster. Together with distances, that builds a 3D map of how the cosmic web grew over time, which is where the effects of the dark components should show up.",
+      {
+        "h2": "Not cosmology yet"
+      },
+      "This release covers only about 14% of the area the full survey will map, and the lens candidates still need follow-up observations to confirm them. The higher-level weak-lensing and galaxy-clustering products, which the first dark energy measurements will depend on, are not part of it; ESA says they will be published in mid-2027 to complete Data Release 1, with cosmology results to follow. More than 2,500 researchers at over 300 institutions in the Euclid Consortium are already working with the data."
+    ],
+    "sources": [
+      {
+        "name": "ESA (Euclid DR1)",
+        "url": "https://www.cosmos.esa.int/web/euclid/euclid-dr1"
+      },
+      {
+        "name": "Phys.org (data release)",
+        "url": "https://phys.org/news/2026-11-euclid-3d-universe-date.html"
+      },
+      {
+        "name": "Phys.org (strong lenses)",
+        "url": "https://phys.org/news/2026-11-euclid-strong-gravitational-lenses.html"
+      },
+      {
+        "name": "Space.com",
+        "url": "https://www.space.com/astronomy/dark-matter-breakthrough-coming-euclid-space-telescope-unveils-its-1st-look-into-the-dark-universe-video"
+      },
+      {
+        "name": "Live Science",
+        "url": "https://www.livescience.com/space/astronomy/far-more-than-beautiful-pictures-euclid-space-telescope-images-900-million-galaxies-on-its-quest-to-make-the-largest-3d-map-of-the-universe"
+      },
+      {
+        "name": "IFLScience",
+        "url": "https://www.iflscience.com/15000-gravitational-lens-candidates-revealed-in-foundational-data-from-esas-dark-universe-hunter-85167"
+      }
+    ],
+    "img": {
+      "file": "File:Euclid Spacecraft in Cleanroom (PIA25783).jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Euclid_Spacecraft_in_Cleanroom_(PIA25783).jpg",
+      "author": "NASA Jet Propulsion Laboratory",
+      "license": "Public domain",
+      "alt": "ESA's Euclid space telescope in a cleanroom, being attached to the adapter of a SpaceX Falcon 9 rocket before its 2023 launch, with black solar panels along one side"
+    },
+    "card": {
+      "title": "Euclid just mapped 900 million galaxies. It's 14% done",
+      "sub": "The haul includes 15,000 possible gravitational lenses; under 1,000 were confirmed before"
+    }
+  },
+  {
+    "slug": "ai-reimages-m87-black-hole-ring-csiro",
+    "cat": "space",
+    "headline": "An AI that had never seen a black hole was asked to image M87*. It drew the same ring",
+    "dek": "Astronomers at CSIRO rebuilt the famous Event Horizon Telescope picture from public data, using a method that avoids calibration errors and assumes nothing about black holes. The ring came back the same size.",
+    "date": "2026-11-11",
+    "location": "CSIRO, Australia",
+    "read": 4,
+    "body": [
+      "In April 2019 the Event Horizon Telescope (EHT) collaboration showed the world its first picture of a black hole: a lopsided ring of light around M87*, the giant black hole at the heart of the galaxy Messier 87, some 55 million light-years away. A small team at CSIRO, Australia's national science agency, has now rebuilt that picture from the same public data with a method of its own, and the ring is still there. The work was published in Nature on 11 November.",
+      "Why check at all? The EHT links radio dishes across the planet into one Earth-sized telescope, but it only samples the sky at scattered points, so any picture has to be reconstructed from incomplete information. The original image came from four separate imaging teams. All four found a ring, yet they disagreed on finer features, and a few outside reanalyses went further and questioned whether the ring was real or a side effect of processing choices.",
+      {
+        "h2": "Triplets instead of pairs"
+      },
+      "The CSIRO approach, led by astronomer Samuel Lai with project leader Nithyanandan Thyagarajan, tackles two weak spots. First, instead of working with pairs of telescopes, it combines measurements from three or more at a time into quantities called closure invariants. In those combinations, many errors added by Earth's atmosphere and by individual telescopes cancel out, so the result does not hinge on how each dish was calibrated.",
+      "Second, the images are produced by a machine-learning tool the team built, called GenDIReCT. It was trained on everyday pictures such as cats, dogs and cars rather than on simulated black holes, so it had no built-in expectation of a ring. The team tested it on shapes that are not rings and on real data from another galaxy, Centaurus A, and froze its settings before running it on M87*, to keep their own expectations out of the result.",
+      {
+        "quote": "\"This is the first truly independent validation of the EHT image, an important step in the scientific process.\" (Samuel Lai, CSIRO, via Phys.org)"
+      },
+      {
+        "h2": "Same ring, three different years"
+      },
+      "The team used the publicly released EHT measurements from 2017, 2018 and 2021, eight observing nights in all. Every dataset produced a compact ring. On the best night of each year the ring had a consistent size and orientation, and the team measured its diameter at 42.2 millionths of an arcsecond, give or take 1.5. That fits a black hole of about 6.5 billion times the Sun's mass, seen roughly 20 degrees from the direction of its jet, in line with the EHT's own results. A more traditional statistical imaging method, run on the same triplet-based data, backed up the shape.",
+      "The ring's orientation also shifted between the 2017 and 2018 observations, which the authors attribute to the turbulent flow of gas around the black hole. Some of the change seen within 2017 itself may instead come from the patchier coverage on two of that year's nights.",
+      {
+        "quote": "\"Independent validation is at the heart of the scientific process.\" (Laurent Loinard, director of the EHT Collaboration, via Space.com)"
+      },
+      {
+        "h2": "What it doesn't settle"
+      },
+      "The agreement is about the overall shape. The new images differ from the EHT's in finer details, such as the thickness of the ring and how its brightness varies around the circle, and on a few lower-quality nights the reconstructions were less clean. Because the study reuses the EHT's own observations, it checks how the image was made rather than offering a new look at the black hole. Thyagarajan says the triplet technique might one day help in other fields, such as medical imaging or earthquake mapping, but that has not been tried yet."
+    ],
+    "sources": [
+      {
+        "name": "Phys.org (CSIRO)",
+        "url": "https://phys.org/news/2026-11-independent-technique-validates-landmark-m87.html"
+      },
+      {
+        "name": "Phys.org (The Conversation)",
+        "url": "https://phys.org/news/2026-11-iconic-black-hole-image-accurate.html"
+      },
+      {
+        "name": "Space.com",
+        "url": "https://www.space.com/astronomy/black-holes/einstein-was-right-scientists-verify-1st-image-of-a-black-hole-ever-captured"
+      },
+      {
+        "name": "Nature (paper)",
+        "url": "https://doi.org/10.1038/s41586-026-11241-9"
+      }
+    ],
+    "img": {
+      "file": "File:Optical Jet in Galaxy M87 (1992-07-56).jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Optical_Jet_in_Galaxy_M87_(1992-07-56).jpg",
+      "author": "F. Duccio Macchetto/NASA/ESA",
+      "license": "Public domain",
+      "alt": "Hubble Space Telescope ultraviolet view of the long jet of plasma shooting out of the core of the galaxy M87; this shows the galaxy's jet, not the black hole image"
+    },
+    "card": {
+      "title": "An AI trained on cats and dogs re-imaged a black hole",
+      "sub": "It found the same ring the 2019 picture showed, in data from three different years"
+    }
+  },
+  {
+    "slug": "earliest-compact-quasar-pair-j1602-4228-webb-gemini",
+    "cat": "space",
+    "headline": "Two giant black holes were already feeding side by side 900 million years after the Big Bang",
+    "dek": "Webb spotted a second quasar hiding next to a known one, and Gemini North split the pair apart. It is the most compact quasar pair yet found from cosmic dawn, and its black holes are bigger than theory comfortably allows.",
+    "date": "2026-11-10",
+    "location": "NSF NOIRLab / International Gemini Observatory, United States",
+    "read": 4,
+    "body": [
+      "A quasar is a supermassive black hole swallowing gas so fast that the material around it outshines its whole galaxy. Finding even one in the young universe raises the question of how such a heavy object grew so quickly. Astronomers have now found two of them close together, seen as they were roughly 900 million years after the Big Bang, when the universe was about a thirteenth of its present age.",
+      "The pair is catalogued as J1602+4228AB and has been given the Hawaiian name Nāpōwawāʻenakaulua. The study, led by Silvia Onorato, a postdoctoral researcher at NSF NOIRLab and the International Gemini Observatory, appears in The Astrophysical Journal Letters.",
+      {
+        "h2": "Webb found it, Gemini split it"
+      },
+      "The second quasar showed up during a visual check of data from Aether, a survey led by Emanuele Paolo Farina of NOIRLab/Gemini that uses the NIRSpec instrument on the James Webb Space Telescope. Aether has gathered spectra of about 200 quasars, which the team says is 43% of those known from that era. In the data for one known quasar, J1602+4228A, the team noticed a companion. Earlier ground-based images had shown the two as a single source.",
+      "Follow-up with the GNIRS spectrograph on the Gemini North telescope on Maunakea, Hawaii, resolved the two quasars as separate objects. Onorato said the sky was clear and steady enough that the data took only two nights. A second Gemini instrument, GMOS, was used to test whether the fainter quasar might be a mirror image of the brighter one, created by a foreground galaxy bending its light.",
+      {
+        "quote": "\"There is no definitive theoretical explanation for how a single one of these giant quasars exists so early.\" (Silvia Onorato, NSF NOIRLab, via Phys.org)"
+      },
+      {
+        "h2": "Heavy, hungry and close"
+      },
+      "According to the paper, the two quasars sit at a redshift of about 6.08 and lie just under one arcsecond apart on the sky, which works out to about 5.6 kiloparsecs, or roughly 18,100 light-years. That is around a fifth of the width of the Milky Way. Their black holes weigh about 1.5 billion and 400 million times the mass of the Sun, and both are taking in matter at or slightly above the rate usually thought of as a natural limit.",
+      "It is only the third quasar pair known from this early period and the most compact. The authors compared its existence with how strongly early quasars are expected to cluster, and found that a pair this close should be hundreds to thousands of times rarer than it appears to be. They suggest either that galaxy mergers in the young universe often switched on two quasars at once, or that this pair lives in an unusually crowded region.",
+      "Caveats remain. The paper calls the system a candidate pair: the GMOS spectra of the two sources differ, which favours two real quasars, but the team says a model of possible gravitational lensing is still needed to rule out a single quasar seen twice. A single system is also too few to say how common such pairs were."
+    ],
+    "sources": [
+      {
+        "name": "Phys.org",
+        "url": "https://phys.org/news/2026-11-earliest-compact-quasar-pair-poses.html"
+      },
+      {
+        "name": "Space.com",
+        "url": "https://www.space.com/astronomy/black-holes/astronomers-stunned-after-james-webb-space-telescope-discovers-the-earliest-pair-of-black-hole-powered-quasars"
+      },
+      {
+        "name": "NSF NOIRLab via EurekAlert! (release)",
+        "url": "https://www.eurekalert.org/news-releases/1151327"
+      },
+      {
+        "name": "The Astrophysical Journal Letters (paper)",
+        "url": "https://doi.org/10.3847/2041-8213/aeb11f"
+      }
+    ],
+    "img": {
+      "file": "File:Dual Quasar (Artist's Illustration) (2023-002).jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dual_Quasar_(Artist's_Illustration)_(2023-002).jpg",
+      "author": "NASA, ESA, Joseph Olmsted (STScI)",
+      "license": "Public domain",
+      "alt": "Artist's illustration of two bright quasars glowing at the centres of two merging galaxies"
+    },
+    "card": {
+      "title": "Two monster black holes, far too early in cosmic history",
+      "sub": "Seen 900 million years after the Big Bang, they sit just 18,000 light-years apart"
+    }
+  },
+  {
+    "slug": "asteroid-1998-ky26-acceleration-too-warm-for-ice-hayabusa2",
+    "cat": "space",
+    "headline": "A tiny asteroid is drifting off course, and the hidden-ice explanation just got harder to believe",
+    "dek": "Asteroid 1998 KY26 is being nudged by something other than gravity. New thermal simulations suggest it is far too warm to hold the buried ice that would make it a 'dark comet', and Japan has just called off its probe's visit.",
+    "date": "2026-11-10",
+    "location": "Georgia Institute of Technology, United States",
+    "read": 4,
+    "body": [
+      "Asteroid 1998 KY26 is small even by asteroid standards. Observations with the European Southern Observatory's Very Large Telescope in 2024 showed it is only about 11 metres wide, three to four times smaller than earlier estimates, and that it completes a full turn in roughly five and a half minutes. That makes it one of the fastest-spinning asteroids known.",
+      "It also moves in a way gravity alone does not explain. A 2023 analysis of its orbit found a small but statistically significant push, including a component sideways out of the plane of its orbit around the Sun. KY26 was one of six near-Earth objects in that study with this kind of unexplained drift, and the authors floated the idea that they might be \"dark comets\": bodies that release gas, like a comet, but too faintly to show a visible tail or fuzzy coma.",
+      {
+        "h2": "Running the thermometer"
+      },
+      "A study by Korbin Hansen and Masatoshi Hirabayashi of the Georgia Institute of Technology, published in the journal Icarus, put that idea to a direct test. The pair built a three-dimensional thermal model of KY26 and tracked how hot its surface and interior get over a full orbit. They ran 13 versions, changing the asteroid's size, how much light it reflects, how well its rock conducts heat and which way its spin axis points.",
+      "For water ice to last in the vacuum of space over long periods, it has to stay below about 145 kelvin, or around minus 128 degrees Celsius. In every version of the model, even the coldest parts of KY26 averaged more than 60 degrees warmer than that. No sheltered pocket, on the surface or deep inside, stayed cold enough.",
+      {
+        "quote": "\"The water outgassing rate on 1998 KY26 would be too high to maintain buried ice.\" (Korbin Hansen and Masatoshi Hirabayashi, Georgia Institute of Technology, via ScienceAlert)"
+      },
+      "Even if ice once made up 1 per cent of the asteroid's mass, the model suggests it would all be gone in about 2,000 years, a blink in the life of an asteroid. The authors conclude a dark comet is highly unlikely. They favour a gentler explanation: the pressure of sunlight hitting the asteroid, combined with the heat its surface radiates back into space, which can add up to a noticeable shove on something this small and light. Earlier measurements of reflected light also point to a bright, rocky body with little water.",
+      {
+        "h2": "No close-up any time soon"
+      },
+      "The best way to settle the question would have been to go and look. KY26 was the final target of JAXA's Hayabusa2, the probe that brought samples of asteroid Ryugu back to Earth in 2020, with a rendezvous planned for 2031. On 17 November JAXA said it was dropping that plan after a problem with the spacecraft's ion engines was found in August. Hayabusa2 will instead make a fast, close flyby of a different small asteroid, 2015 BM510, in April 2028, with no landing.",
+      "A fringe idea has also been aired: Harvard astrophysicist Avi Loeb has proposed that KY26 is a lost Soviet spacecraft. Coverage of that claim notes it relies on an engine burn for which there is no evidence, and it is not supported by other researchers.",
+      "The new study has limits. It is a model, built on what little is known about KY26, and the asteroid's past orbit is uncertain, so the authors do not rule out every trace of ice. It also tests one explanation rather than measuring what is actually pushing the asteroid."
+    ],
+    "sources": [
+      {
+        "name": "ScienceAlert",
+        "url": "https://www.sciencealert.com/a-mysterious-asteroid-is-accelerating-in-space-and-were-running-out-of-explanations"
+      },
+      {
+        "name": "Phys.org",
+        "url": "https://phys.org/news/2026-11-simulations-unusual-asteroid-dark-comet.html"
+      },
+      {
+        "name": "IFLScience",
+        "url": "https://www.iflscience.com/japans-hayabusa2-is-racing-towards-asteroid-1998-ky26-observations-show-this-object-is-accelerating-but-nobody-knows-why-85142"
+      },
+      {
+        "name": "IFLScience",
+        "url": "https://www.iflscience.com/japan-cancels-mission-to-asteroid-1998-ky26-as-astrophysicist-avi-loeb-argues-it-is-human-made-anyway-85205"
+      },
+      {
+        "name": "Space.com",
+        "url": "https://www.space.com/space-exploration/asteroid-comet-missions/no-more-asteroid-landing-engine-trouble-forces-japans-hayabusa2-probe-to-change-plans"
+      },
+      {
+        "name": "Icarus (paper)",
+        "url": "https://doi.org/10.1016/j.icarus.2026.117361"
+      }
+    ],
+    "img": {
+      "file": "File:Bennu mosaic OSIRIS-REx.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bennu_mosaic_OSIRIS-REx.jpg",
+      "author": "NASA/Goddard/University of Arizona",
+      "license": "Public domain",
+      "alt": "The rocky, boulder-covered asteroid Bennu photographed by NASA's OSIRIS-REx spacecraft; Bennu is a much larger near-Earth asteroid shown for comparison, not 1998 KY26"
+    },
+    "card": {
+      "title": "A tiny asteroid is speeding up. Ice probably isn't why",
+      "sub": "And Japan has just called off its probe's visit after engine trouble"
+    }
+  },
+  {
+    "slug": "toi-2535b-hot-jupiter-transits-vanish-hidden-planet",
+    "cat": "space",
+    "headline": "A giant planet stopped crossing its star while TESS was watching, and an unseen neighbour is to blame",
+    "dek": "For seven years NASA's TESS saw the hot Jupiter TOI-2535 b pass in front of its star. Then the crossings shrank and stopped. Astronomers say the pull of a second, hidden giant planet has tipped its orbit out of line with Earth.",
+    "date": "2026-11-09",
+    "location": "University of California, Los Angeles, United States",
+    "read": 4,
+    "body": [
+      "Most of the planets known beyond the Solar System were found because they pass in front of their star and dim it slightly once per orbit. That trick depends on luck: the orbit has to be lined up almost edge-on to Earth. A study published on 9 November in The Astrophysical Journal Letters describes the first confirmed planet around a single star whose crossings have been seen to fade out and stop altogether.",
+      "The planet is TOI-2535 b, a hot Jupiter with roughly the mass of Jupiter that circles its star every 8.24 days, far closer in than Mercury sits to the Sun. Its host is an old orange dwarf, a little less massive than the Sun and about 9.7 billion years old, roughly 1,100 light-years from Earth. The work was led by Samuel Yee, a 51 Pegasi b Fellow at UCLA, with Erik Petigura and an international team.",
+      {
+        "h2": "Late, early, shallower, gone"
+      },
+      "NASA's Transiting Exoplanet Survey Satellite (TESS) looked at the system in five stretches between April 2019 and March 2026. Almost nothing about the planet's crossings stayed constant. They arrived up to about six hours earlier or later than a steady orbit would predict, one of the largest timing swings known for a hot Jupiter. Each crossing also got shorter and shallower, a sign that the planet's path was sliding toward the edge of the star's disc. In the last TESS look, in early 2026, no crossing showed up at all.",
+      "Ground-based telescopes in the Las Cumbres Observatory network and at several smaller observatories caught extra crossings along the way. The NEID spectrograph on the WIYN telescope at Kitt Peak, Arizona, measured the star's wobble to confirm that the object is a planet and not a second star.",
+      {
+        "quote": "\"The planet's orbit is tilting so quickly that its transit disappeared while we were watching.\" (Samuel Yee, UCLA, via Space.com)"
+      },
+      {
+        "h2": "A hidden partner doing the tilting"
+      },
+      "The planet is not gone, and nothing went wrong with the telescope. Its orbit is slowly swivelling, like a spinning top that wobbles. When the team modelled the timing and shape changes together, the best explanation was a second planet nearby, orbiting on a plane tilted at least about 5 degrees from the first. Their gravity makes both orbits precess, with one full cycle taking roughly 30 to 50 years. That means TOI-2535 b should start crossing its star again within a few decades.",
+      "The hidden neighbour has not been seen directly. Its existence is inferred from its gravitational effects. The models suggest it is at least as massive as Saturn and probably locked in a regular rhythm with the hot Jupiter, most likely completing two orbits for every one of TOI-2535 b's, or three for every two. The exact mass, period and tilt are not yet pinned down, and the leftover scatter in the data hints that more than one unseen planet could be involved. The authors say a dense campaign of star-wobble measurements is now the best way to find it.",
+      "The system also matters for how hot Jupiters end up so close to their stars. A giant planet with a close giant neighbour probably did not get flung inward on a wild, stretched orbit. It more likely drifted in slowly through the disc of gas it formed in. Such discs tend to leave planets in flat systems, though, so something must have tilted these two orbits later, and what did it is still an open question."
+    ],
+    "sources": [
+      {
+        "name": "Space.com",
+        "url": "https://www.space.com/astronomy/exoplanets/a-distant-exoplanet-mysteriously-vanished-from-sight-astronomers-just-discovered-why"
+      },
+      {
+        "name": "ScienceAlert",
+        "url": "https://www.sciencealert.com/for-the-first-time-astronomers-watched-a-giant-planet-disappear-now-they-think-they-know-why"
+      },
+      {
+        "name": "IFLScience",
+        "url": "https://www.iflscience.com/first-disappearing-planet-was-pulled-from-the-stage-by-its-hidden-neighbor-85164"
+      },
+      {
+        "name": "Popular Science",
+        "url": "https://www.popsci.com/science/wobbly-exoplanet-vanished-explanation/"
+      },
+      {
+        "name": "UCLA (release)",
+        "url": "https://newsroom.ucla.edu/releases/first-known-disappearing-planet-neighbor-wobble-like-top"
+      },
+      {
+        "name": "The Astrophysical Journal Letters (paper)",
+        "url": "https://doi.org/10.3847/2041-8213/aeb4a4"
+      }
+    ],
+    "img": {
+      "file": "File:PIA07490 - Blinded by the Light (Artist Concept).jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/PIA07490_-_Blinded_by_the_Light_(Artist_Concept).jpg",
+      "author": "NASA/JPL-Caltech",
+      "license": "Public domain",
+      "alt": "Artist's illustration of a hot gas giant planet orbiting close to a bright, fiery star",
+      "crop": [
+        0.5,
+        0,
+        1,
+        1
+      ]
+    },
+    "card": {
+      "title": "This planet vanished while astronomers were watching",
+      "sub": "A hidden giant world tipped its orbit out of view. It may be gone for decades",
+      "focus_y": 0.85
+    }
+  },
+  {
+    "slug": "earth-mini-moon-2026-qq8-temporary-capture",
+    "cat": "space",
+    "headline": "Earth has had a second moon since spring, and it is only about the size of a person",
+    "dek": "A tiny asteroid called 2026 QQ8 was pulled into a loose loop around Earth in April. Astronomers confirmed it is a natural rock, not space junk, and it is due to slip away within weeks.",
+    "date": "2026-10-29",
+    "location": "IAU Minor Planet Center, United States",
+    "read": 4,
+    "body": [
+      "On the night of 19 to 20 August, Hungarian astronomer Krisztián Sárneczky picked up a faint moving dot in images from the Piszkéstető mountain station in Hungary. Follow-up tracking showed it was not passing Earth on its own path around the Sun. It was going around Earth.",
+      "The object, now designated 2026 QQ8, is a temporary mini-moon: a small asteroid briefly held by Earth's gravity before the Sun's pull takes it away again. The International Astronomical Union's Minor Planet Center announced it on 29 October in an electronic circular titled \"Temporarily Captured Object\".",
+      {
+        "quote": "\"Orbit integrations indicate that this object is temporarily bound to the Earth.\" (Minor Planet Center, MPEC 2026-U95)"
+      },
+      {
+        "h2": "Rock or rubbish?"
+      },
+      "Small things circling Earth are often spent rocket stages, so the first question was whether 2026 QQ8 is natural. In early September even orbit-watchers were unsure. The Minor Planet Center's circular settled it as far as current data allow: its orbit fit, which includes the small push from sunlight, found no link to any known artificial object, and it is listed as a natural asteroid.",
+      "It is very small. Its brightness puts it at roughly 1 to 3 metres across, depending on how reflective its surface is; Live Science, citing the IAU, gives about 2 metres. A rock that size poses no danger. If it ever did hit the atmosphere it would most likely break up and burn as a bright fireball.",
+      {
+        "h2": "A loose, short-lived orbit"
+      },
+      "Orbit calculations from NASA's JPL suggest 2026 QQ8 drifted into Earth's neighbourhood in April and passed about 1.2 million kilometres from Earth on 1 May before being caught. Its closest pass so far came on 18 August, at roughly 537,000 kilometres, about 1.4 times the Moon's distance, the day before it was spotted.",
+      "The stay will be brief. JPL's orbit shows one more pass on 13 December at around 1.35 million kilometres, after which it should break free. Coverage differs slightly on timing, from mid-December to January 2027. Around the Sun, the asteroid takes 359 days per lap, almost exactly a year, so it keeps returning near Earth about once a decade. The next close approach in the current orbit solution is in 2058.",
+      {
+        "h2": "Not the first, and not the last"
+      },
+      "Earth has caught visitors like this before. 2006 RH120, a few metres wide, circled for about a year in 2006 and 2007. 2020 CD3, discovered in February 2020, had been bound for more than a year before it left that spring. 2024 PT5, about 10 metres across, stayed for roughly two months in late 2024, and its colour suggests it may be a chip knocked off the Moon. Researchers think Earth holds at least one tiny mini-moon at most times; most are simply too small and faint to find.",
+      "Its size is an estimate, since nobody has measured it directly, and its exit date depends on an orbit based on about three months of observations. New survey telescopes such as the Vera C. Rubin Observatory in Chile are expected to catch many more of these brief companions."
+    ],
+    "sources": [
+      {
+        "name": "Live Science",
+        "url": "https://www.livescience.com/space/meteoroids/astronomers-confirm-a-tiny-new-moon-is-orbiting-earth-and-itll-stick-around-for-the-holidays"
+      },
+      {
+        "name": "IFLScience",
+        "url": "https://www.iflscience.com/earth-has-a-tiny-new-mini-moon-its-so-small-at-first-we-thought-it-was-just-a-piece-of-junk-85121"
+      },
+      {
+        "name": "Minor Planet Center (MPEC 2026-U95)",
+        "url": "https://www.minorplanetcenter.net/mpec/K26/K26U95.html"
+      },
+      {
+        "name": "NASA JPL Small-Body Database",
+        "url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=2026%20QQ8"
+      }
+    ],
+    "img": {
+      "file": "File:From a Million Miles Away, NASA Camera Shows Moon Crossing Face of Earth (20323156471).jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/From_a_Million_Miles_Away,_NASA_Camera_Shows_Moon_Crossing_Face_of_Earth_(20323156471).jpg",
+      "author": "NASA Goddard Space Flight Center (NASA/NOAA DSCOVR EPIC)",
+      "license": "Public domain",
+      "alt": "Earth and our Moon seen together from about 1.5 million kilometres away by NASA's EPIC camera on the DSCOVR spacecraft, with the Moon's far side crossing in front of Earth"
+    },
+    "card": {
+      "title": "Earth has a second moon. It's about the size of a person",
+      "sub": "A tiny asteroid has looped around us since spring and will break free within weeks"
+    }
+  },
+  {
     "slug": "small-star-merges-with-supergiant-andromeda-webb",
     "cat": "space",
     "headline": "A star smaller than the Sun spiralled into a supergiant, and Webb caught the aftermath",
