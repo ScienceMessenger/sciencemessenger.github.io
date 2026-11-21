@@ -14,32 +14,26 @@ B1-1 Voyager 1 (card link post) was published right away on Thu Nov 19 13:51 at 
 | Fri Nov 20 16:00 | B1-6 Basal ganglia atlas |
 | Fri Nov 20 20:00 | B1-7 West Antarctica |
 | Sat Nov 21 04:00 | B1-8 Carbon budget |
-| Sat Nov 21 16:00 | B1-9 Statins trial |
+| Sat Nov 21 16:00 | B3-4 8-minute radio pulses |
 | Sat Nov 21 20:00 | B1-10 Webb digital twin |
-| Sun Nov 22 04:00 | B1-11 Lancet Countdown |
-| Sun Nov 22 16:00 | B1-12 Ultrathin chips |
+| Sun Nov 22 04:00 | B3-5 Kuiper Belt dust |
+| Sun Nov 22 16:00 | B3-6 M87* AI reanalysis |
 | Sun Nov 22 20:00 | B3-1 BepiColombo at Mercury |
 | Mon Nov 23 04:00 | B1-2 Homo erectus (repost) |
 | Mon Nov 23 16:00 | B2-1 Star merger |
 | Mon Nov 23 20:00 | B2-2 Dark-magic mushroom |
-| Tue Nov 24 04:00 | B2-3 Measles |
+| Tue Nov 24 04:00 | B3-7 Earliest quasar pair |
 | Tue Nov 24 16:00 | B2-4 Neanderthal DAAM1 |
 | Tue Nov 24 20:00 | B2-5 Nuclear blast |
 | Wed Nov 25 04:00 | B2-6 Mundafan paleolake |
-| Wed Nov 25 16:00 | B2-7 Data centres |
+| Wed Nov 25 16:00 | B3-8 Asteroid 1998 KY26 |
 | Wed Nov 25 20:00 | B2-8 Hera |
-| Thu Nov 26 04:00 | B2-9 Rodhals Man |
+| Thu Nov 26 04:00 | B3-9 Euclid DR1 |
 | Thu Nov 26 16:00 | B3-2 TOI-2535 b vanishing planet |
 | Thu Nov 26 20:00 | B3-3 Mini-moon 2026 QQ8 |
-| Fri Nov 27 04:00 | B3-4 8-minute radio pulses |
-| Fri Nov 27 16:00 | B3-5 Kuiper Belt dust |
-| Fri Nov 27 20:00 | B3-6 M87* AI reanalysis |
-| Sat Nov 28 04:00 | B3-7 Earliest quasar pair |
-| Sat Nov 28 16:00 | B3-8 Asteroid 1998 KY26 |
-| Sat Nov 28 20:00 | B3-9 Euclid DR1 |
 
-On 2026-11-21 batch 3 was booked as card link posts; all 23 slots from Sat Nov 21 16:00 to Sat Nov 28 20:00 were checked in Business Suite's Scheduled list (one post each).
-**Empty slots: Sun Nov 29 04:00 onward.** Add new stories before about Thu Nov 26 (keep 2 days booked). Next-batch candidates (aliens/life/new physics first): primordial black holes ruled out as dark matter (PRL, Phys.org + Space.com); lifeless-Earth biosignature baseline (PSJ, Phys.org + Space.com).
+On 2026-11-21 batch 3 was booked as card link posts. The same day, at the user's request, 6 weaker non-space posts were deleted from the schedule (B1-9 Statins, B1-11 Lancet Countdown, B1-12 Ultrathin chips, B2-3 Measles, B2-7 Data centres, B2-9 Rodhals Man; their articles stay on the site), and the last 6 batch-3 posts were rescheduled into the freed slots. Checked in Business Suite's Scheduled list: 17 posts, one per slot, Sat Nov 21 16:00 to Thu Nov 26 20:00.
+**Empty slots: Fri Nov 27 04:00 onward.** Add new stories before about Wed Nov 25 (keep 2 days booked). Next-batch candidates (aliens/life/new physics first): primordial black holes ruled out as dark matter (PRL, Phys.org + Space.com); lifeless-Earth biosignature baseline (PSJ, Phys.org + Space.com).
 
 ---
 
