@@ -1,5 +1,516 @@
 [
   {
+    "slug": "welopoai-red-dwarf-hidden-white-dwarf-triple-system-28-light-years",
+    "cat": "space",
+    "headline": "Astronomers went looking for planets 28 light-years away and found a dead star instead",
+    "dek": "A wobbling red dwarf turned out to be circling a hidden white dwarf, making its system the closest known trio with two white dwarfs. The researchers say they cannot yet explain how it formed.",
+    "date": "2026-11-18",
+    "location": "Trottier Institute for Research on Exoplanets, Université de Montréal, Canada",
+    "read": 4,
+    "body": [
+      "A team from the Université de Montréal was measuring a faint red dwarf star for the tiny back-and-forth wobble that an orbiting planet would cause. What they got was a wobble far too big for any planet, and a star system that its own discoverers say they cannot fully account for.",
+      {
+        "quote": "\"We were actually looking for planets.\" (Étienne Artigau, Trottier Institute for Research on Exoplanets, Université de Montréal, via Phys.org)"
+      },
+      "The star, catalogued as IRAS 21500+5903, sits about 28 light-years away. It now has a Hawaiian name, Welopōʻai, chosen through a naming programme run by the ʻImiloa Astronomy Center of Hawaiʻi. The name is usually translated as \"path of family traits\". The study, led by Artigau, is published in Astronomy & Astrophysics.",
+      {
+        "h2": "Too heavy, too dim"
+      },
+      "The team tracked the red dwarf for almost five years with SPIRou, a spectrograph on the Canada-France-Hawaii Telescope on Maunakea. Its speed toward and away from Earth swung by about 16 kilometres per second from one extreme to the other, roughly a thousand times more than the researchers expected from a planet.",
+      "Whatever was pulling on the star had to weigh more than half as much as the Sun, yet it gave off almost no light. A neutron star or black hole was considered and set aside; a cool white dwarf, the dense leftover core of a dead star, fit best. Speckle imaging with the ʻAlopeke instrument on the Gemini North telescope, also on Maunakea, then picked out the faint companion directly, less than an arcsecond from the red dwarf.",
+      "Combining the star's motion with the images gave precise numbers. The red dwarf has about 42 per cent of the Sun's mass. The white dwarf has about 62 per cent, measured to within 0.7 per cent, which the authors say makes it the most precise mass of this kind for any white dwarf within about 65 light-years. The two circle each other every 9.8 years at a distance of about 4.6 times the Earth-Sun distance, a bit less than Jupiter's distance from the Sun. A second white dwarf, already known, orbits the pair from roughly 124 times the Earth-Sun distance.",
+      {
+        "h2": "Why it is a puzzle"
+      },
+      "Before it died, the inner white dwarf was a star about 40 per cent more massive than the Sun. Late in life it would have swollen into a giant hundreds of times its original size, big enough to engulf the space where the red dwarf now orbits. Stars caught inside a giant like that are expected to spiral inward and end up in very tight orbits, or merge. Instead, the red dwarf sits on a wide, nearly circular path.",
+      {
+        "quote": "\"This system should not exist.\" (Patrick Dufour, Université de Montréal, via Phys.org)"
+      },
+      "There are other oddities. The white dwarfs point to an old system, while the red dwarf looks younger, and the infrared data show a tentative hint of dust around the inner white dwarf. The authors say this is the closest known triple system containing more than one white dwarf and that it offers a rare test of how stars behave when one engulfs another.",
+      "The explanation is still open. The team plans to keep watching the system and to model how the three stars' gravity could have shaped its history, and the dust signal has yet to be confirmed."
+    ],
+    "sources": [
+      {
+        "name": "Phys.org (Université de Montréal release)",
+        "url": "https://phys.org/news/2026-11-astronomers-remarkable-triple-star-years.html"
+      },
+      {
+        "name": "Popular Science",
+        "url": "https://www.popsci.com/science/rare-triple-star-system-near-earth/"
+      },
+      {
+        "name": "IFLScience",
+        "url": "https://www.iflscience.com/unexpected-triple-star-system-just-28-light-years-away-could-reshape-models-of-stellar-evolution-85244"
+      },
+      {
+        "name": "Astronomy & Astrophysics (paper)",
+        "url": "https://doi.org/10.1051/0004-6361/202661214"
+      }
+    ],
+    "img": {
+      "file": "File:Dead Star Acts Like Magnifying Glass.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dead_Star_Acts_Like_Magnifying_Glass.jpg",
+      "author": "NASA/JPL-Caltech",
+      "license": "Public domain",
+      "alt": "Artist's illustration of a small white dwarf passing in front of a red star; it shows a different system, KOI-256, not Welopōʻai"
+    },
+    "card": {
+      "title": "They were hunting planets. They found a dead star instead",
+      "sub": "A hidden white dwarf 28 light-years away is in an orbit its discoverers can't explain"
+    }
+  },
+  {
+    "slug": "black-hole-mergers-failed-supernovae-10-solar-mass-peak",
+    "cat": "space",
+    "headline": "Most merging black holes weigh about 10 Suns, and the stars that made them may never have exploded",
+    "dek": "A Caltech-led look at a decade of gravitational-wave detections finds a crowd of black holes near 10 solar masses and an odd shortage just above them. The pattern fits stars that collapsed quietly instead of going supernova.",
+    "date": "2026-11-10",
+    "location": "California Institute of Technology (Caltech), USA",
+    "read": 4,
+    "body": [
+      "The textbook ending for a very massive star is a supernova: the core collapses, the outer layers blast away, and a neutron star or black hole is left behind. Theorists have long suspected there is a quieter route too. In a failed supernova, the collapsing core swallows the star almost whole and the explosion never gets going, so a bright star simply winks out and a black hole is left in its place.",
+      "A new study in Physical Review D, published on 10 November, argues that gravitational waves may be showing the results of that quieter route on a large scale. The work was led by Katerina Chatziioannou, a physics professor at Caltech, with Isaac Legred, who did the work as a Caltech graduate student and is now a postdoctoral researcher at the University of Illinois Urbana-Champaign, and Jacob Golomb, also a former Caltech PhD student.",
+      {
+        "h2": "A crowd at 10, almost nobody at 14"
+      },
+      "The LIGO, Virgo and KAGRA detectors pick up ripples in spacetime from pairs of black holes spiralling together and merging, and each signal carries the masses of the two objects. According to Caltech, the team studied 257 such mergers recorded over about ten years. The paper's main analysis uses 153 events from the GWTC-4.0 catalogue, and the authors report that their conclusions hold with the newer GWTC-5.0 catalogue.",
+      "Two features stand out. About three-quarters of the black holes in the sample cluster around 10 times the mass of the Sun. Just above that, the numbers collapse: the paper finds the merger rate falls by roughly a factor of 100 between about 10 and 15 solar masses, and for the heavier black hole in each pair it is consistent with zero between about 12 and 16 solar masses, at 90 per cent confidence. Above roughly 16 solar masses the rate picks up again.",
+      {
+        "quote": "\"A vast majority of the merging black holes in the universe are about 10 times the mass of our sun.\" (Katerina Chatziioannou, Caltech, via Phys.org)"
+      },
+      "The spins point the same way. Caltech says the 10-solar-mass black holes spin within a narrower range than the sample as a whole, which suggests they share a common history rather than being a random mix.",
+      {
+        "h2": "Why a quiet collapse would leave a pile-up"
+      },
+      "The authors argue that ordinary differences in how compact stellar cores are can explain part of the excess near 10 solar masses, but not a drop this steep. Their proposal is that direct collapse is especially efficient at making black holes in a narrow mass window near 10 solar masses, creating a separate group, possibly set apart from heavier black holes by a gap. The 12-to-16 solar mass shortage was not something the team had predicted, and what causes it remains open.",
+      "Failed supernovae themselves have not been confirmed. The best-known candidate, mentioned in Space.com's coverage, is N6946-BH1, a giant star in another galaxy that appears in Hubble Space Telescope images from 2007 but had vanished by 2015, probably after collapsing into a black hole without a visible explosion.",
+      {
+        "h2": "What the study does not show"
+      },
+      "The result is a statistical inference about a population, not a direct sighting of any star failing to explode. The authors say the data are consistent with a failed-supernova origin for most of these black holes, and Legred has said more research is needed. Other formation stories could still play a part, and the shape of the mass distribution will be tested as LIGO, Virgo and KAGRA keep adding detections."
+    ],
+    "sources": [
+      {
+        "name": "Phys.org",
+        "url": "https://phys.org/news/2026-11-gravitational-hint-black-holes-born.html"
+      },
+      {
+        "name": "Space.com",
+        "url": "https://www.space.com/astronomy/black-holes/astronomers-discover-rare-black-holes-that-formed-when-stars-failed-to-go-supernova"
+      },
+      {
+        "name": "Caltech (release via EurekAlert!)",
+        "url": "https://www.eurekalert.org/news-releases/1151330"
+      },
+      {
+        "name": "Physical Review D (paper)",
+        "url": "https://doi.org/10.1103/mnzq-w1b5"
+      },
+      {
+        "name": "arXiv (preprint)",
+        "url": "https://arxiv.org/abs/2604.01420"
+      }
+    ],
+    "img": {
+      "file": "File:LIGO Hanford aerial 05.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/LIGO_Hanford_aerial_05.jpg",
+      "author": "LIGO Laboratory",
+      "license": "Public domain",
+      "alt": "Aerial view of the LIGO Hanford gravitational-wave observatory in Washington state, with its long detector arms stretching across the desert"
+    },
+    "card": {
+      "title": "These black holes may come from stars that never exploded",
+      "sub": "Three in four merging black holes weigh about 10 Suns. Almost none weigh 12 to 16"
+    }
+  },
+  {
+    "slug": "lpt-j1555-5631-radio-pulses-every-62-minutes-then-silence",
+    "cat": "space",
+    "headline": "Something in the Milky Way pulsed every 62 minutes, then went quiet",
+    "dek": "Radio telescopes caught an object flashing twice per cycle, with each flash twisted in the opposite direction. It has not been seen since 2022, and astronomers still cannot say whether it is a white dwarf or a neutron star.",
+    "date": "2026-11-06",
+    "location": "Sweet Briar College, USA",
+    "read": 4,
+    "body": [
+      "Most pulsars, the spinning remains of dead stars, flash many times a second. A small group of objects found over the past few years does the same trick on a scale of minutes or hours, and nobody is sure what they are. A newly reported member of that group was caught during a single burst of activity in May 2022 and has not been detected since.",
+      "Astronomers call these objects long-period radio transients. The newest one, named LPT J1555−5631, is described in The Astrophysical Journal by a team led by Scott Hyman of Sweet Briar College in Virginia, with colleagues from Curtin University in Australia, the US National Radio Astronomy Observatory and the US Naval Research Laboratory.",
+      {
+        "h2": "Found by accident"
+      },
+      "Hyman was searching archived data from South Africa's MeerKAT radio telescope, taken for a survey of supernova remnants, when he spotted a source that flashed like a pulsar but many minutes apart. Australia's ASKAP telescope happened to have watched the same patch of sky for about 10 hours on the same day, 14 May 2022. Together the two datasets cover about 15 hours and pin the period at 62.2 minutes. Earlier and later observations, going back and forward about five years, show no pulses, which means the active spell lasted somewhere between 15 hours and 10 months.",
+      "Each cycle held two flashes of similar brightness. The wider main pulse was a mix of linearly and circularly polarised radio waves. The narrower second pulse was almost entirely circularly polarised, and its circular polarisation always had the opposite sign, or handedness, to the main pulse's.",
+      {
+        "h2": "Two poles, slightly out of line"
+      },
+      "That pattern is familiar from ordinary pulsars. When a star's magnetic axis lies almost at right angles to its spin axis, Earth sees a beam from one magnetic pole and then from the other on every turn, and the magnetic field points toward us at one pole and away at the other. The team classes the object as this kind of near-orthogonal rotator.",
+      "In a simple magnetic field the two pulses would be exactly half a turn apart. Here they are separated by 165.4 degrees instead of 180, which the authors read as a sign that the field is lopsided or more complex than a simple bar magnet.",
+      {
+        "quote": "\"The observed deviation is an important clue pointing to a more complicated magnetic field structure.\" (Scott Hyman, Sweet Briar College, via ScienceAlert)"
+      },
+      {
+        "h2": "White dwarf or magnetar?"
+      },
+      "The study does not settle what the object is. A neutron star, possibly a highly magnetic one called a magnetar, is an obvious candidate, but a 62-minute spin is far too slow for the way normal pulsars are thought to produce radio waves. A magnetic white dwarf, perhaps paired with a companion star, is the other main option, but the authors say they know of no white dwarf system that falls completely silent like this. Their analysis shows the emission could work in either case.",
+      "There are other gaps. The team could not measure a reliable distance; a rough estimate puts it nearly 18,000 light-years away, which they say should be treated with caution. No X-ray source was found, and a faint star near the position may be a chance alignment in a crowded part of the sky. The object could be emitting pulses too faint for past data to catch, so the researchers plan to keep watching in case it switches back on."
+    ],
+    "sources": [
+      {
+        "name": "ScienceAlert",
+        "url": "https://www.sciencealert.com/a-mysterious-object-in-space-pulsed-every-62-minutes-then-it-vanished"
+      },
+      {
+        "name": "Phys.org",
+        "url": "https://phys.org/news/2026-11-strange-radio-space-dead-star.html"
+      },
+      {
+        "name": "The Astrophysical Journal (paper)",
+        "url": "https://doi.org/10.3847/1538-4357/aeb002"
+      },
+      {
+        "name": "arXiv (accepted manuscript)",
+        "url": "https://arxiv.org/abs/2609.34102"
+      }
+    ],
+    "img": {
+      "file": "File:Artist’s concept of magnetar 1E 1547.0-5408.png",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Artist%E2%80%99s_concept_of_magnetar_1E_1547.0-5408.png",
+      "author": "NASA/Pablo Garcia",
+      "license": "Public domain",
+      "alt": "Artist's illustration of a magnetar, a neutron star with blue magnetic field lines looping from its poles; it shows magnetar 1E 1547.0-5408, not LPT J1555-5631"
+    },
+    "card": {
+      "title": "It pulsed every 62 minutes. Then it vanished",
+      "sub": "Two flashes per cycle, twisted in opposite directions, and no one knows what made them"
+    }
+  },
+  {
+    "slug": "mars-alba-mons-hydrogen-chloride-hidden-magma-trace-gas-orbiter",
+    "cat": "space",
+    "headline": "A gas that should be missing keeps turning up over one Martian volcano",
+    "dek": "Europe's ExoMars orbiter caught hydrogen chloride above fresh cracks on Alba Mons in a season when the gas is normally absent. The team's best explanation is magma still cooling beneath the surface.",
+    "date": "2026-11-04",
+    "location": "Space Research Institute of the Russian Academy of Sciences (IKI), Russia",
+    "read": 4,
+    "body": [
+      "Mars looks like a dead world from the outside. No one has ever watched a lava flow form there, and its giant volcanoes are usually described as extinct. A new study suggests at least one of them may still have something warm going on underneath.",
+      "Using the ExoMars Trace Gas Orbiter (TGO), run by the European Space Agency (ESA), an international team led by Alexander Trokhimovskiy of the Space Research Institute of the Russian Academy of Sciences found hydrogen chloride gas collecting over Alba Mons, the Martian volcano that covers the most ground. The results are published in Science Advances.",
+      {
+        "h2": "Wrong place, wrong season"
+      },
+      "Hydrogen chloride is not new on Mars. TGO's Atmospheric Chemistry Suite first picked it up in results published in 2021, and it turns out to follow a yearly rhythm: it appears across the planet at levels of a few parts per billion when Mars swings closest to the Sun, and nearly vanishes in the colder part of the orbit. Researchers link that seasonal pattern to dust and water in the air, not to volcanoes.",
+      "The new detections break that rhythm. They came in early northern summer, when Mars is farthest from the Sun and the gas is normally scarce, and they were confined to the Alba Mons region on the northern edge of the Tharsis volcanic plateau.",
+      "When the team pointed TGO's CaSSIS camera at the area, it found fresh-looking fissures less than a metre wide, some running for hundreds of metres, with odd colour changes on the ground around them. On Earth, similar staining forms around fumaroles, where volcanic gases leave minerals behind.",
+      {
+        "h2": "A sleeping magma chamber?"
+      },
+      "The researchers propose that gas from magma deep below Alba Mons leaks up through these cracks. In winter, when temperatures drop to around minus 120 degrees Celsius, ice may plug them; as the frost disappears in early summer, the pathways reopen. In the paper's own words, the results are best explained by ongoing igneous processes inside Mars. Coverage of the study notes the authors also weighed other options, including mud volcanoes and chlorine-bearing minerals breaking down at the surface.",
+      {
+        "quote": "\"Mars has retained enough internal heat to support volcanic activity until recently, and possibly still does\" (Daniel Mège, Space Research Centre of the Polish Academy of Sciences, via ScienceDaily)"
+      },
+      "That fits other recent hints. Instruments on the surface have recorded marsquakes, and some Martian volcanoes appear to have erupted within the last few million years. Mège, co-lead author of the study, has also pointed out that if magma meets buried ice, it could create warm, wet pockets underground, which would make the Alba Mons fissures a sensible place to look for signs of microbial life.",
+      {
+        "h2": "What it does not show"
+      },
+      "The signal is faint, a matter of parts per billion, and the source may switch on and off. The study does not show that Mars is erupting, that liquid water exists under Alba Mons, or that anything lives there. The team had to rule out ordinary atmospheric chemistry as the cause, and the volcanic explanation remains an interpretation rather than a direct observation of a vent. A firmer answer will need more seasons of monitoring and a search for other volcanic gases, such as sulphur dioxide, which has never been detected on Mars."
+    ],
+    "sources": [
+      {
+        "name": "ScienceAlert",
+        "url": "https://www.sciencealert.com/a-stinky-gas-seeping-from-the-bowels-of-mars-may-reveal-the-planet-is-still-volcanically-active"
+      },
+      {
+        "name": "ESA via ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261106174525.htm"
+      },
+      {
+        "name": "ESA (release via EurekAlert)",
+        "url": "https://www.eurekalert.org/news-releases/1150079"
+      },
+      {
+        "name": "Science Advances (paper)",
+        "url": "https://doi.org/10.1126/sciadv.aeb9422"
+      }
+    ],
+    "img": {
+      "file": "File:Alba Mons zoom.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alba_Mons_zoom.jpg",
+      "author": "NASA/JPL/USGS",
+      "license": "Public domain",
+      "alt": "The broad, low shield volcano Alba Mons on Mars seen from above, cropped from a Viking orbiter mosaic of the Tharsis region"
+    },
+    "card": {
+      "title": "A gas that shouldn't be there is leaking from a Mars volcano",
+      "sub": "It shows up over fresh cracks, in a season when it is missing everywhere else"
+    }
+  },
+  {
+    "slug": "uranus-neptune-tilted-magnetic-fields-conductivity-dynamo",
+    "cat": "space",
+    "headline": "Uranus and Neptune have the strangest magnetic fields in the solar system. Their insides may explain why",
+    "dek": "Computer models in which the planets' interiors conduct electricity better with depth reproduce the lopsided fields Voyager 2 found. They also suggest those fields may have shifted a lot since the 1980s.",
+    "date": "2026-11-03",
+    "location": "University of Texas at Austin, USA",
+    "read": 4,
+    "body": [
+      "Only one spacecraft has ever visited Uranus and Neptune. Voyager 2 flew past Uranus in January 1986 and Neptune in August 1989, and its magnetometer found something no one expected. Earth's magnetic field is close to a neat bar magnet, tilted about 11 degrees from the planet's spin axis. Uranus's is tilted about 59 degrees and Neptune's about 47, and both fields are messy and lopsided, with their main magnetic axis passing well away from the planet's centre.",
+      "A study published on 3 November in Communications Physics offers an explanation. It was led by Chi Yan, a research associate at the University of Texas Institute for Geophysics in UT Austin's Jackson School of Geosciences, with Krista Soderlund of UT Austin, Jonathan Aurnou and Hao Cao of UCLA, Adam Masters of Imperial College London and Henrik Melin of Northumbria University.",
+      {
+        "h2": "A conductor that changes with depth"
+      },
+      "Planetary magnetic fields come from a dynamo: electrically conducting fluid churning inside a spinning planet. On Earth that fluid is molten iron in the outer core. Uranus and Neptune, about 14.5 and 17 times Earth's mass, are thought to hold deep layers of water, ammonia and methane under huge pressures and temperatures, around a rocky core, though their exact make-up is uncertain.",
+      "Under those conditions, water molecules can break apart into ions, so the material should conduct electricity better the deeper you go. The team built numerical dynamo models with that kind of conductivity profile and tested a range of interior structures. The models produced large-scale, tilted and uneven fields consistent with what Voyager 2 measured, and the paper names the way conductivity changes with depth as a critical ingredient.",
+      {
+        "h2": "Fields that may not sit still"
+      },
+      "The simulated fields also changed quickly over time, though the pace varied and sometimes slowed for a while. In some model runs the tilt moved by tens of degrees within a few decades; in other stretches it barely shifted.",
+      {
+        "quote": "\"In some stretches the tilt swings by tens of degrees within decades.\" (Chi Yan, University of Texas at Austin, via UT Jackson School of Geosciences)"
+      },
+      "That matters because more than 30 years have passed since Voyager 2. If the models are right, today's fields could look noticeably different from the ones in the textbooks. Earth's tilt, by comparison, drifts only about a degree every 50 years.",
+      {
+        "h2": "How to check"
+      },
+      "These are simulations, and each planet's field has been measured up close only once, so how much it has actually changed is unknown. Tom Stallard of Northumbria University, who leads James Webb Space Telescope observations of the planets' faint infrared auroras, says the position of those auroras could reveal how the fields have moved since the 1980s. That work is still under way.",
+      "A firm answer will need new spacecraft. Space.com notes that a NASA mission to Uranus has been ranked a top priority, and that China's Tianwen-4 mission, due to launch toward Jupiter in 2029, plans to send a small probe on to Uranus. The authors say any possible change in the fields should be taken into account when planning such missions."
+    ],
+    "sources": [
+      {
+        "name": "Space.com",
+        "url": "https://www.space.com/astronomy/uranus/scientists-may-finally-understand-the-weird-magnetic-fields-of-uranus-and-neptune"
+      },
+      {
+        "name": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261114202204.htm"
+      },
+      {
+        "name": "UT Austin Jackson School of Geosciences (release)",
+        "url": "https://www.jsg.utexas.edu/news/2026/11/wacky-magnetic-fields-of-ice-giants-explained/"
+      },
+      {
+        "name": "Communications Physics (paper)",
+        "url": "https://doi.org/10.1038/s42005-026-02841-y"
+      }
+    ],
+    "img": {
+      "file": "File:Uranus2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Uranus2.jpg",
+      "author": "NASA/JPL-Caltech",
+      "license": "Public domain",
+      "alt": "Uranus as a smooth pale blue-green globe, photographed by NASA's Voyager 2 spacecraft in 1986"
+    },
+    "card": {
+      "title": "Uranus's magnetic field is tilted 59°. Now we may know why",
+      "sub": "Models suggest its poles can swing tens of degrees within decades. Earth's barely move"
+    }
+  },
+  {
+    "slug": "earth-without-life-simulation-biosignature-baseline",
+    "cat": "space",
+    "headline": "To recognise life on other worlds, scientists first built an Earth where life never began",
+    "dek": "A University of Washington-led model runs a lifeless Earth over five billion years and still ends up with oceans and an atmosphere. It gives astronomers a baseline for telling a merely habitable planet from an inhabited one.",
+    "date": "2026-11-02",
+    "location": "University of Washington, USA",
+    "read": 4,
+    "body": [
+      "How would anyone know that a planet light-years away is alive? Future telescopes will try to read the air of rocky planets around Sun-like stars, but a gas only points to life if ordinary geology and chemistry cannot make it. Answering that means knowing what a planet looks like with no life at all. A team led from the University of Washington has now built that picture for Earth.",
+      "The work appeared in The Planetary Science Journal in September 2026 and was publicised by the university on 2 November. It was led by Samantha Gilbert-Janizek, who did it as a UW astronomy doctoral student and is now a postdoctoral fellow at the University of California, Riverside, with UW astronomer Rory Barnes as senior author and co-authors at the Carnegie Institution for Science, the SETI Institute and NASA.",
+      {
+        "h2": "A planet from core to sky"
+      },
+      "The model links the planet's layers into one system: core, mantle, crust, oceans and atmosphere. It follows how heat, carbon dioxide and water move between them over time while the young Sun slowly brightens. It extends VPLanet, software from Barnes's group whose earlier version handled the interior and starlight but not the surface or the air. The run starts 50 million years after Earth formed and continues to the 5-billion-year mark, about 500 million years beyond today.",
+      "As a test, the team compared the simulated planet at an age of 4.5 billion years with 19 measured properties of the real, pre-industrial Earth, including heat flow through the mantle, the strength of the magnetic field, the mass and acidity of the oceans, carbon dioxide and water vapour in the air, and average surface temperature. All 19 fell within the measurement uncertainties. The pre-industrial period was chosen because modern warming has pushed today's climate out of balance.",
+      {
+        "h2": "Oceans without life"
+      },
+      "The lifeless Earth kept liquid oceans and an atmosphere throughout, and the authors write that life may not be needed to keep a planet habitable over the long term. The university notes they cannot rule out that life on the real Earth helps steady the climate. Their model air is nitrogen with carbon dioxide and water vapour but no oxygen, since Earth's oxygen came from photosynthesis.",
+      "That baseline is the point. If the model can reproduce a planet's observed atmosphere without life, that planet probably has no life as we know it. If it cannot, the planet becomes a stronger candidate, although a mismatch alone would not prove anything. Earth's own air shows why: oxygen and methane destroy each other, so finding both suggests something keeps replenishing them.",
+      {
+        "quote": "\"This model can help us see how habitable but nonliving planets might mimic living planets.\" (Samantha Gilbert-Janizek, UC Riverside, via Phys.org)"
+      },
+      "The team also produced a simulated spectrum of the light the lifeless planet would reflect, covering the wavelengths planned for NASA's proposed Habitable Worlds Observatory. The James Webb Space Telescope and future giant ground-based telescopes are also probing exoplanet atmospheres.",
+      {
+        "h2": "The limits"
+      },
+      "This is a simplified, one-dimensional computer model, not an observation. It assumes plate tectonics throughout Earth's history, a fixed one-bar nitrogen atmosphere and no loss of gas to space, and it was checked only against pre-industrial Earth, not the poorly known early Earth. Using it for other planets means trusting it beyond the one world it was tuned on, and it does not identify any inhabited exoplanet."
+    ],
+    "sources": [
+      {
+        "name": "Phys.org",
+        "url": "https://phys.org/news/2026-11-scientists-earth-simulation-life-planets.html"
+      },
+      {
+        "name": "Space.com",
+        "url": "https://www.space.com/space-exploration/search-for-life/scientists-simulate-an-earth-without-life-to-help-hunt-for-aliens-and-inhabited-worlds"
+      },
+      {
+        "name": "University of Washington (release)",
+        "url": "https://www.washington.edu/news/2026/11/02/whole-earth-simulation-exoplanets-alien-life/"
+      },
+      {
+        "name": "The Planetary Science Journal (paper)",
+        "url": "https://doi.org/10.3847/PSJ/ae9d79"
+      },
+      {
+        "name": "arXiv (preprint)",
+        "url": "https://arxiv.org/abs/2602.02267"
+      }
+    ],
+    "img": {
+      "file": "File:Big Blue Marble - GPN-2002-000112.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Big_Blue_Marble_-_GPN-2002-000112.jpg",
+      "author": "NASA",
+      "license": "Public domain",
+      "alt": "The real Earth seen from space by a GOES weather satellite, used as a stand-in; the study's lifeless Earth exists only as a computer model"
+    },
+    "card": {
+      "title": "Scientists simulated an Earth where life never began",
+      "sub": "It still kept oceans and air for billions of years, a baseline for spotting alien life"
+    }
+  },
+  {
+    "slug": "comets-unlikely-delivered-life-ingredients-earth-hcn",
+    "cat": "space",
+    "headline": "Comets are packed with life's raw ingredients, but on Earth they almost always crashed too hard to deliver them",
+    "dek": "Cambridge simulations of early Earth's comet bombardment suggest hydrogen cyanide rarely survived the impact in useful amounts. Mars, with thinner air and slower impacts, may have had better odds.",
+    "date": "2026-10-28",
+    "location": "Institute of Astronomy, University of Cambridge, UK",
+    "read": 4,
+    "body": [
+      "Comets are full of organic molecules, which has made them a favourite suspect for supplying the chemistry that eventually led to life on Earth. A new modelling study argues that the delivery would almost never have worked, because comets arrive too fast and break up or burn their cargo on the way in.",
+      "The paper was published on 28 October in Scientific Reports. Lead author Richard Anslow did the work at the University of Cambridge's Institute of Astronomy and is now at the UK Met Office, and his co-authors are Catriona McDonald, Amy Bonsor, Paul Rimmer and Auriol Rae.",
+      {
+        "h2": "Following one tough molecule"
+      },
+      "The team tracked hydrogen cyanide, a simple molecule of hydrogen, carbon and nitrogen that is common in comets and can feed reactions that build more complex organic compounds. It is also fairly hardy, so if it does not make it, more fragile molecules would fare worse.",
+      "The researchers combined a model of how short-period comets formed beyond Neptune and were later scattered inward with models of how comets break up in an atmosphere and how much hydrogen cyanide survives the impact. They then simulated Earth's early bombardment many times over, counting an impact as useful only if it left hydrogen cyanide above 10 millimoles per litre, the concentration they treat as relevant for prebiotic chemistry.",
+      {
+        "h2": "Too fast, too steep, too wet"
+      },
+      "Comets smaller than about 100 metres blew apart high in the air and scattered their molecules thinly. Bigger ones reached the ground, but at an average of about 28 kilometres per second, fast enough to destroy most of their hydrogen cyanide. Only rare slow impacts at shallow angles kept enough intact. Out of more than 100,000 comets bigger than 100 metres hitting the young Earth, the typical simulation produced no successful delivery at all.",
+      "Where a comet landed mattered too. A splashdown in the ocean dilutes the molecules at once, and early Earth may have had very little dry land. The paper estimates that any successful hit most likely came about 4.4 billion years ago, over 100 million years before the earliest indirect signs of life, and the authors say chemistry would have had to get going quickly before the molecules dispersed.",
+      {
+        "quote": "\"It's kind of a romantic idea, but our results suggest it's highly unlikely.\" (Richard Anslow, University of Cambridge, via ScienceDaily)"
+      },
+      {
+        "h2": "Mars may have had better luck"
+      },
+      "Mars is smaller and has thinner air, so comets hit it more slowly, at about 20 kilometres per second on average, and almost all of the larger ones survive the descent. Setting aside the question of dry land, the simulations gave Mars about 744 useful impacts against about 87 for Earth and 24 for Venus. The authors stress that this does not mean life's chemistry actually started on Mars.",
+      "If not comets, then what? The researchers point to asteroid impacts, which were far more common, and to chemistry on the young Earth itself. Science News also mentions carbon-rich meteorites, volcanoes and hydrothermal vents as candidate sources.",
+      {
+        "h2": "The limits"
+      },
+      "This is a computer study built on models of comet orbits, atmospheres and impacts, and the authors do not fully rule out comet delivery. Science News notes that the impact calculations used an atmosphere like today's, and that the likely denser early atmosphere would have made survival even harder. In other planetary systems with tightly packed planets, comets might be slowed enough to deliver their cargo, which the team suggests could help future telescopes such as the proposed Habitable Worlds Observatory choose targets."
+    ],
+    "sources": [
+      {
+        "name": "Science News",
+        "url": "https://www.sciencenews.org/article/comet-chemistry-life-earth-speed-sharp"
+      },
+      {
+        "name": "Phys.org",
+        "url": "https://phys.org/news/2026-10-comets-didnt-seed-life-earth.html"
+      },
+      {
+        "name": "University of Cambridge via ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261105224553.htm"
+      },
+      {
+        "name": "Scientific Reports (paper)",
+        "url": "https://doi.org/10.1038/s41598-026-74214-y"
+      },
+      {
+        "name": "arXiv (preprint)",
+        "url": "https://arxiv.org/abs/2611.02924"
+      }
+    ],
+    "img": {
+      "file": "File:Hartley2jets2 epoxi big.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hartley2jets2_epoxi_big.jpg",
+      "author": "NASA/JPL-Caltech/UMD",
+      "license": "Public domain",
+      "alt": "The nucleus of comet Hartley 2 venting jets of gas and dust, photographed by NASA's EPOXI spacecraft in 2010",
+      "crop": [
+        0.0,
+        0.36,
+        1.0,
+        1.0
+      ]
+    },
+    "card": {
+      "title": "Comets carry life's ingredients. Most hit Earth too fast",
+      "sub": "In simulations of early Earth, useful deliveries almost never happened. Mars did better"
+    }
+  },
+  {
+    "slug": "stupendously-large-primordial-black-holes-not-dark-matter-cmb",
+    "cat": "space",
+    "headline": "Could black holes as heavy as whole galaxies be the dark matter? The universe's oldest light says not in any big way",
+    "dek": "Physicists in Mainz and Abu Dhabi worked out the mark that giant black holes from the Big Bang would leave on the cosmic microwave background. The mark isn't there, which also weakens one explanation for Webb's surprisingly heavy early galaxies.",
+    "date": "2026-10-26",
+    "location": "Mainz Institute for Theoretical Physics, Johannes Gutenberg University Mainz, Germany",
+    "read": 4,
+    "body": [
+      "There is roughly five times more dark matter in the universe than ordinary matter, and nobody knows what it is made of. One idea that has never quite gone away is that some of it could be black holes born in the first instants after the Big Bang. A study published on 26 October in Physical Review Letters now shuts the door on the heaviest version of that idea: black holes of at least 100 billion solar masses.",
+      {
+        "h2": "Black holes that never needed stars"
+      },
+      "These objects, called primordial black holes, are still hypothetical. If they exist, they would have formed straight out of unusually dense pockets of the infant universe rather than from dying stars, so in principle they could have almost any mass. None has been confirmed.",
+      "At the extreme end sit what researchers have nicknamed stupendously large black holes, with masses above about 10¹¹ Suns. Some would outweigh entire galaxies. They are too big to live inside galaxies, so they could never be all of the dark matter, but earlier work had left room for them to be a sizeable fraction, for masses between roughly 10¹⁴ and 10¹⁹ Suns.",
+      {
+        "h2": "A universe that would look grainy"
+      },
+      "The new paper comes from Christopher Gerlach, Yann Gouttenoire and Nicholas Leister at the Mainz Institute for Theoretical Physics and Antonio Iovino of New York University Abu Dhabi. Their starting point is simple: if dark matter came in a small number of enormous lumps scattered at random, some regions would end up with more lumps than others. At first, extra black holes in one place are balanced by a shortfall of radiation there. As the universe expanded and radiation faded, that balance broke, and the uneven spread of black holes began to tug on everything around it.",
+      "That unevenness would be stamped on the cosmic microwave background, the light released about 380,000 years after the Big Bang, whose temperature changes by only about one part in 100,000 across the sky. The team calculated the expected pattern and set it against limits from the Planck satellite's maps of that light, combined with surveys of how galaxies are spread across space. The predicted signal came out stronger than the data allow, across masses from about 10⁸ to 10¹⁹ Suns.",
+      {
+        "quote": "\"So these black holes can't be a significant part of the dark matter.\" (Nicholas Leister, Mainz Institute for Theoretical Physics, via Space.com)"
+      },
+      {
+        "h2": "A knock for one idea about Webb's early galaxies"
+      },
+      "The James Webb Space Telescope has spotted early galaxy candidates that look surprisingly massive for their age. One proposal is that giant primordial black holes helped matter clump together faster. The authors say their limits challenge that scenario, and also strengthen the case that the gravitational-wave background seen by pulsar timing arrays is not made by these black holes merging.",
+      {
+        "h2": "What is still open"
+      },
+      "The study does not show that such objects cannot exist, only that they cannot carry much of the dark matter. It is a calculation tested against existing data, not a new observation, and it assumes every black hole has the same mass; a population with a spread of masses still needs to be checked. Upcoming microwave experiments such as LiteBIRD and the Simons Observatory should tighten the limits.",
+      "Lighter primordial black holes are a different story. According to the paper, the one mass range where they could still account for all of the dark matter is the so-called asteroid window, roughly 10⁻¹⁶ to 10⁻¹² solar masses, comparable to the mass of asteroids. The Mainz team told Space.com it is now looking at whether that window can be closed too."
+    ],
+    "sources": [
+      {
+        "name": "Phys.org",
+        "url": "https://phys.org/news/2026-11-stupendously-large-primordial-black-holes.html"
+      },
+      {
+        "name": "Space.com",
+        "url": "https://www.space.com/astronomy/dark-universe/stupendously-large-black-holes-arent-a-major-component-of-dark-matter-study-finds"
+      },
+      {
+        "name": "Physical Review Letters (paper)",
+        "url": "https://doi.org/10.1103/qlf9-thf4"
+      },
+      {
+        "name": "arXiv (preprint)",
+        "url": "https://arxiv.org/abs/2508.08238"
+      }
+    ],
+    "img": {
+      "file": "File:WMAP 2012.png",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/WMAP_2012.png",
+      "author": "NASA / WMAP Science Team",
+      "license": "Public domain",
+      "alt": "Oval all-sky map of the cosmic microwave background from NASA's WMAP satellite, showing tiny temperature differences as blue and orange speckles",
+      "crop": [
+        0.2,
+        0.12,
+        0.8,
+        0.88
+      ]
+    },
+    "card": {
+      "title": "Black holes as heavy as galaxies? Not the dark matter",
+      "sub": "The oldest light in the universe would carry their mark, and it isn't there"
+    }
+  },
+  {
     "slug": "bepicolombo-arrives-mercury-orbit-mixs-xray-telescope",
     "cat": "space",
     "headline": "After eight years and nine planetary flybys, BepiColombo has reached Mercury",

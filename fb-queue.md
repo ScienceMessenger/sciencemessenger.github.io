@@ -142,3 +142,33 @@ https://sciencemessenger.github.io/news/asteroid-1998-ky26-acceleration-too-warm
 
 9. (Sat Nov 28 20:00) A space telescope just mapped 900 million galaxies. That's only about 14% of the sky it plans to cover.
 https://sciencemessenger.github.io/news/euclid-dr1-foundation-900-million-galaxies.html
+
+---
+
+# Batch 4: 8 space posts (card link posts), DRAFT, awaiting approval
+
+Written 2026-11-21; stories committed locally, not pushed yet. Life / new-physics topics first. Proposed slots: Fri Nov 27 04:00 to Sun Nov 29 16:00 in this order.
+
+1. (Fri Nov 27 04:00) To know what alien life looks like from far away, scientists first had to build an Earth where life never began.
+https://sciencemessenger.github.io/news/earth-without-life-simulation-biosignature-baseline.html
+
+2. (Fri Nov 27 16:00) A gas that shouldn't be there keeps showing up over one Martian volcano. It may mean Mars is not as dead inside as it looks.
+https://sciencemessenger.github.io/news/mars-alba-mons-hydrogen-chloride-hidden-magma-trace-gas-orbiter.html
+
+3. (Fri Nov 27 20:00) Could black holes as heavy as whole galaxies be the universe's missing dark matter? The oldest light in the cosmos has an answer.
+https://sciencemessenger.github.io/news/stupendously-large-primordial-black-holes-not-dark-matter-cmb.html
+
+4. (Sat Nov 28 04:00) Astronomers were hunting for planets 28 light-years away. They found a dead star hiding there instead, in an orbit they can't explain.
+https://sciencemessenger.github.io/news/welopoai-red-dwarf-hidden-white-dwarf-triple-system-28-light-years.html
+
+5. (Sat Nov 28 16:00) Comets are full of life's raw ingredients. So did they deliver them to early Earth? A new study says they almost always hit too hard.
+https://sciencemessenger.github.io/news/comets-unlikely-delivered-life-ingredients-earth-hcn.html
+
+6. (Sat Nov 28 20:00) Something in our galaxy flashed every 62 minutes, twice per cycle. Then it went silent.
+https://sciencemessenger.github.io/news/lpt-j1555-5631-radio-pulses-every-62-minutes-then-silence.html
+
+7. (Sun Nov 29 04:00) Most black holes that crash into each other weigh about 10 Suns. The stars that made them may never have exploded.
+https://sciencemessenger.github.io/news/black-hole-mergers-failed-supernovae-10-solar-mass-peak.html
+
+8. (Sun Nov 29 16:00) Uranus's magnetic field is tilted 59 degrees and doesn't even pass through the planet's centre. Scientists may finally know why.
+https://sciencemessenger.github.io/news/uranus-neptune-tilted-magnetic-fields-conductivity-dynamo.html
