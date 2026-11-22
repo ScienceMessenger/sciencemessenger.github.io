@@ -7,7 +7,7 @@ Writes, per story:
   img/fb/<slug>.jpg  1080x1350 (4:5) picture for Facebook image posts
   img/og/<slug>.jpg  1200x630 (1.91:1) og:image, same style, for link previews
 
-Layout: thin blue rules with the Farlight mark (white star in a ring with a pale gold dot on it) and "Farlight" wordmark on top, a big serif headline, a short grey
+Layout: thin blue rules with the Farlight mark and wordmark (small red "NEWS" under it) (white star in a ring with a pale gold dot on it) and "Farlight" wordmark on top, a big serif headline, a short grey
 teaser line under it, and the story's hero photo below fading into black.
 Text comes from the story's "card": {"title": ..., "sub": ...} in tools/stories.json.
 No photo credit or watermark goes on the card; the mark is the only branding.
@@ -30,6 +30,7 @@ SKY = (108, 182, 255)
 WHITE = (250, 250, 250)
 GREY = (205, 210, 216)
 
+NEWS_RED = (255, 59, 48)  # sharp news red, only for the "NEWS" tag
 TITLE_MAX, SUB_MAX = 60, 90  # characters: keep cards short
 
 
@@ -109,6 +110,15 @@ def label(card, d, cx, y, W, margin, scale=1.0):
     ty = y
     d.text((tx, ty), "Far", font=wf, fill=WHITE, anchor="lm")
     d.text((tx + w1, ty), "light", font=wf, fill=make_logo.GOLD, anchor="lm")
+    # "NEWS" in small spaced news-red capitals, centred under the wordmark
+    nf = font(F + "segoeuib.ttf", 15 * scale)
+    track = 6 * scale
+    word = "NEWS"
+    nw = sum(d.textlength(c, font=nf) for c in word) + track * (len(word) - 1)
+    nx = tx + (w1 + w2 - nw) / 2
+    for c in word:
+        d.text((nx, ty + 31 * scale), c, font=nf, fill=NEWS_RED, anchor="lm")
+        nx += d.textlength(c, font=nf) + track
     return y + h / 2
 
 

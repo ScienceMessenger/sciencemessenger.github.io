@@ -91,6 +91,18 @@ body { overflow-x: clip; }
 }
 .brand img { width: 34px; height: 34px; margin-right: 10px; }
 .brand span { color: #f0e1b6; }  /* pale gold, matches the logo dot */
+.brand small {
+  margin-left: 10px;
+  padding-left: 10px;
+  border-left: 1px solid rgba(255, 255, 255, .25);
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  color: #ff3b30;  /* sharp news red, only for the NEWS tag */
+  line-height: 1.6;
+}
 
 .catnav { flex: 1; min-width: 0; }
 .catnav ul {

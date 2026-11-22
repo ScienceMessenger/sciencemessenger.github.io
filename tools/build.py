@@ -201,7 +201,7 @@ def page(title, active, body, prefix="", desc="", og=""):
 <body id="top">
   <header class="sitehead">
     <div class="sitehead-inner">
-      <a href="{prefix}index.html" class="brand" aria-label="{SITE} home"><img src="{prefix}brand/mark-136.png" alt="" width="34" height="34">Far<span>light</span></a>
+      <a href="{prefix}index.html" class="brand" aria-label="{SITE} home"><img src="{prefix}brand/mark-136.png" alt="" width="34" height="34">Far<span>light</span><small>News</small></a>
       <nav class="catnav" aria-label="Categories">
         <ul>
 {nav}
@@ -218,7 +218,7 @@ def page(title, active, body, prefix="", desc="", og=""):
   <footer class="footer">
     <div class="wrap">
       <div class="footer-brand">
-        <a href="{prefix}index.html" class="brand"><img src="{prefix}brand/mark-136.png" alt="" width="34" height="34" loading="lazy">Far<span>light</span></a>
+        <a href="{prefix}index.html" class="brand"><img src="{prefix}brand/mark-136.png" alt="" width="34" height="34" loading="lazy">Far<span>light</span><small>News</small></a>
         <p>Discoveries worth interrupting your day for.</p>
       </div>
       <nav aria-label="Footer">{foot}<a href="{prefix}credits.html">Image credits</a></nav>
