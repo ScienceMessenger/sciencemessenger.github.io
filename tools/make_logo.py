@@ -17,6 +17,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "brand")
 NAVY = (13, 27, 46); BLUE = (11, 95, 165); SKY = (108, 182, 255); CREAM = (244, 246, 248); WHITE = (255, 255, 255); GOLD = (240, 225, 182)  # pale gold, close to white
 BLACK = (6, 6, 8)  # background for the profile icon, favicons and cover
+NEWS_RED = (255, 59, 48)  # sharp news red, only for the "NEWS" tag
 F = "C:/Windows/Fonts/"
 SS = 4  # supersampling factor
 
@@ -50,6 +51,33 @@ def logo(size, stars=True, bg=True, small=False):
     d.ellipse([cx + k - pr, cy - k - pr, cx + k + pr, cy - k + pr], fill=GOLD)
     im = im.resize((size, size), Image.LANCZOS)
     return im.convert("RGB") if bg else im.crop(im.getbbox())
+
+
+def spaced(d, x, cy, word, fnt, track, fill):
+    """Draw word in letter-spaced capitals, vertically centred on cy; returns the end x."""
+    for c in word:
+        d.text((x, cy), c, font=fnt, fill=fill, anchor="lm")
+        x += d.textlength(c, font=fnt) + track
+    return x - track
+
+
+def profile(size=1024):
+    """Facebook profile picture: the mark with a red "NEWS" tag under it, on black with faint stars."""
+    im = Image.new("RGBA", (size, size), BLACK + (255,))
+    d = ImageDraw.Draw(im)
+    rnd = random.Random(3)
+    for _ in range(50):
+        x, y, r = rnd.random() * size, rnd.random() * size, rnd.choice([1, 1, 2]) * size / 1024 * 2
+        d.ellipse([x - r, y - r, x + r, y + r], fill=(255, 255, 255, rnd.randint(30, 90)))
+    mark = logo(size * 2, bg=False)
+    m = round(size * 0.56)
+    mark = mark.resize((m, round(m * mark.height / mark.width)), Image.LANCZOS)
+    im.alpha_composite(mark, ((size - m) // 2, round(size * 0.15)))
+    fnt = ImageFont.truetype(F + "segoeuib.ttf", round(size * 0.085))
+    track = size * 0.03
+    w = sum(d.textlength(c, font=fnt) for c in "NEWS") + track * 3
+    spaced(d, (size - w) / 2, size * 0.8, "NEWS", fnt, track, NEWS_RED)
+    return im.convert("RGB")
 
 
 def cover():
@@ -100,6 +128,11 @@ def cover():
     im.alpha_composite(mark, (x - 4, 118))
     d.text((x, 270), "Far", font=big, fill=CREAM)
     d.text((x + d.textlength("Far", font=big), 270), "light", font=big, fill=GOLD)
+    # red "NEWS" tag right of the wordmark after a thin divider, like the site header
+    wx = x + d.textlength("Far", font=big) + d.textlength("light", font=big) + 22
+    cy = 270 + big.getbbox("Far")[3] / 2 + 6
+    d.line([(wx, cy - 22), (wx, cy + 22)], fill=(255, 255, 255, 70), width=2)
+    spaced(d, wx + 22, cy, "NEWS", ImageFont.truetype(F + "segoeuib.ttf", 24), 7, NEWS_RED)
     d.text((x + 4, 378), "Discoveries worth interrupting your day for.", font=ital, fill=(190, 202, 216))
     cats = "SPACE  ·  HEALTH  ·  EARTH  ·  LIFE  ·  PHYSICS  ·  TECH  ·  MIND"
     d.text((x + 4, 440), cats, font=sans, fill=(170, 186, 204))
@@ -109,7 +142,7 @@ def cover():
 def main():
     big = logo(1024)
     big.save(os.path.join(OUT, "logo-1024.png"))
-    big.save(os.path.join(OUT, "profile-1024.png"))
+    profile(1024).save(os.path.join(OUT, "profile-1024.png"))
     # address-bar icon: tight crop on the mark, heavier rings so it stays legible at 16-32px, no stars
     icon = logo(2048, stars=False, small=True).crop((230, 230, 1818, 1818))
     for n in (32, 180, 192, 512):
