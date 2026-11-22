@@ -70,9 +70,9 @@ body { overflow-x: clip; }
   color: #e6edf3;
 }
 .sitehead-inner {
-  max-width: 1400px;
+  max-width: var(--max);  /* same column as the page content */
   margin: 0 auto;
-  padding: 0 12px 0 20px;
+  padding: 0 16px;
   min-height: 60px;
   display: flex;
   align-items: center;
@@ -96,9 +96,9 @@ body { overflow-x: clip; }
   padding-left: 10px;
   border-left: 1px solid rgba(255, 255, 255, .25);
   font-family: var(--sans);
-  font-size: 11px;
+  font-size: 15px;
   font-weight: 700;
-  letter-spacing: .22em;
+  letter-spacing: .2em;
   text-transform: uppercase;
   color: #ff3b30;  /* sharp news red, only for the NEWS tag */
   line-height: 1.6;
@@ -143,6 +143,7 @@ body { overflow-x: clip; }
   color: #e6edf3;
   cursor: pointer;
 }
+.theme-toggle { margin-right: -11px; }  /* icon edge lines up with the content column */
 .theme-toggle:hover { background: rgba(255, 255, 255, .1); }
 
 .bleed { width: 100vw; margin-left: calc(50% - 50vw); }
@@ -185,7 +186,11 @@ body { overflow-x: clip; }
 .meta { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: .1em; color: var(--muted); }
 
 /* ---------- Hero: full-bleed photo, headline underneath ---------- */
-.hero-media { display: block; background: #0b1220; }
+.hero-media { display: block; margin-top: 28px; }
+/* Home/section lead photo: same width as the text column below it, no dark band;
+   the page background (and its star effect) shows around it. */
+.hero-media .wide { background: none; }
+.hero-media .wide img { width: 100%; max-height: 64vh; }
 /* Full-width photo band (build.py wide_img). The photo keeps one fixed shape at every size:
    it grows with the screen up to 1920px (or its own pixel width, so it never blurs), never
    taller than 64% of the window; any space left at the sides is plain dark. */
@@ -339,7 +344,7 @@ body { overflow-x: clip; }
   .wide img { --ratio: 1.8; }
   .sitehead-inner { flex-wrap: wrap; gap: 0 8px; padding: 0 4px 0 16px; }
   .brand { min-height: 56px; }
-  .theme-toggle { margin-left: auto; }
+  .theme-toggle { margin-left: auto; margin-right: 0; }
   .catnav { order: 3; flex-basis: 100%; margin: 0 -4px 0 -16px; border-top: 1px solid rgba(255,255,255,.08); }
   .catnav ul {
     justify-content: flex-start;
@@ -377,7 +382,10 @@ body { overflow-x: clip; }
 
 /* ---------- Article page ---------- */
 .article { max-width: var(--measure); margin: 0 auto; padding: 0 0 24px; }
-.article-hero { margin-top: 0; margin-bottom: 40px; background: #070e1b; }
+.article-hero { margin: 28px 0 40px; }
+/* Story photo: same width as the story text, no dark band; the star background shows around it. */
+.article-hero .wide { background: none; }
+.article-hero .wide img { width: 100%; max-height: 64vh; }
 .article-hero figcaption { max-width: 1200px; margin: 0 auto; padding: 8px 16px; font-size: 12px; color: #9aa6b2; text-align: right; }
 .article-hero figcaption a { text-decoration: underline; text-underline-offset: 2px; }
 .article-head { text-align: center; }

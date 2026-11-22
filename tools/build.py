@@ -273,7 +273,7 @@ def lead(main, side, prefix="", hl="h1", side_title="Also new"):
     aside = (f'      <aside class="hero-side">\n        <h2 class="side-title">{e(side_title)}</h2>\n'
              + "\n".join(mini(o, prefix) for o in side) + "\n      </aside>") if side else ""
     return f"""    <section class="hero">
-      <a class="bleed hero-media" href="{href}" tabindex="-1" aria-hidden="true">{wide_img(main['img'], eager=True, prefix=prefix)}</a>
+      <a class="hero-media" href="{href}" tabindex="-1" aria-hidden="true">{wide_img(main['img'], eager=True, prefix=prefix)}</a>
       <div class="hero-grid{'' if side else ' solo'}">
         <article class="card hero-main">
           {tag(main, prefix)}
@@ -398,7 +398,7 @@ def article_page(s):
     more_title = f"More {CATNAME[s['cat']]}" if same else "More science"
     hero_img = s["img"]
     body = f"""    <article class="article">
-      <figure class="bleed article-hero">
+      <figure class="article-hero">
         {wide_img(hero_img, eager=True, prefix="../")}
       </figure>
       <header class="article-head">
@@ -469,7 +469,7 @@ def build():
             rows.append(f'      <li><a href="news/{s["slug"]}.html">{e(s["headline"])}</a> — {credit(img)}</li>')
     hero_img = s["img"]
     body = f"""    <article class="article">
-      <figure class="bleed article-hero">
+      <figure class="article-hero">
         {wide_img(hero_img, eager=True, prefix="../")}
       </figure>
       <header class="article-head"><h1>Image credits</h1>
