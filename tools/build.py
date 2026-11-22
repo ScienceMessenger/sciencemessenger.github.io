@@ -360,7 +360,7 @@ def pager(s):
             f'{cell(next_s, "Next story →", "next")}</nav>')
 
 
-SITE_URL = "https://sciencemessenger.github.io"
+SITE_URL = "https://farlightnews.github.io"
 # Wikimedia robot policy: identify the client with a contact URL or downloads get 429-blocked.
 USER_AGENT = f"FarlightBot/1.0 ({SITE_URL}) python-urllib"
 
