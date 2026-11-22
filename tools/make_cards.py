@@ -7,7 +7,7 @@ Writes, per story:
   img/fb/<slug>.jpg  1080x1350 (4:5) picture for Facebook image posts
   img/og/<slug>.jpg  1200x630 (1.91:1) og:image, same style, for link previews
 
-Layout: thin blue rules with the Farlight mark (ringed planet with signal arcs) and "Farlight" wordmark on top, a big serif headline, a short grey
+Layout: thin blue rules with the Farlight mark (white star in a ring with a pale gold dot on it) and "Farlight" wordmark on top, a big serif headline, a short grey
 teaser line under it, and the story's hero photo below fading into black.
 Text comes from the story's "card": {"title": ..., "sub": ...} in tools/stories.json.
 No photo credit or watermark goes on the card; the mark is the only branding.
@@ -106,9 +106,9 @@ def label(card, d, cx, y, W, margin, scale=1.0):
     d.line([(x0 + gw + gap, y), (W - margin, y)], fill=RULE, width=lw)
     card.paste(mark, (round(x0), round(y - h / 2)), mark)
     tx = x0 + mark.width + inner
-    ty = y - h * 0.06  # optical centre: the bubble's tail pulls the mark down
+    ty = y
     d.text((tx, ty), "Far", font=wf, fill=WHITE, anchor="lm")
-    d.text((tx + w1, ty), "light", font=wf, fill=SKY, anchor="lm")
+    d.text((tx + w1, ty), "light", font=wf, fill=make_logo.GOLD, anchor="lm")
     return y + h / 2
 
 

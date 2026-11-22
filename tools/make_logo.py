@@ -1,7 +1,8 @@
-"""Farlight logo (ringed planet sending signal arcs) and photo cover for Facebook.
+"""Farlight logo (white star in a ring with a pale gold dot on it) and photo cover for Facebook.
 
 Usage:  python tools/make_logo.py
-Writes brand/logo-1024.png (profile picture), brand/favicon-{32,180,192,512}.png, favicon.ico
+Writes brand/logo-1024.png (profile picture), brand/favicon-{32,180,192,512}.png, favicon.ico,
+brand/mark-136.png (transparent header mark)
 and brand/cover-photo-1640x624.png.
 
 Cover photo: "Earthrise" (Apollo 8, NASA), Wikimedia Commons File:Earth-moon.jpg, public domain.
@@ -14,50 +15,38 @@ from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "brand")
-NAVY = (13, 27, 46); BLUE = (11, 95, 165); SKY = (108, 182, 255); CREAM = (244, 246, 248)
+NAVY = (13, 27, 46); BLUE = (11, 95, 165); SKY = (108, 182, 255); CREAM = (244, 246, 248); WHITE = (255, 255, 255); GOLD = (240, 225, 182)  # pale gold, close to white
 F = "C:/Windows/Fonts/"
 SS = 4  # supersampling factor
 
 
-def logo(size, stars=True, bg=True):
-    """bg=False: just the mark on a transparent background (RGBA), used on share cards."""
+def logo(size, stars=True, bg=True, small=False):
+    """Corona mark: a white star inside one soft white ring, with a pale gold dot riding on the ring.
+    Drawn on a 40-unit grid. bg=False: just the mark on transparent (RGBA), cropped to its bounds,
+    used in the site header and on share cards. small=True: heavier rings so favicons stay legible."""
     S = size * SS
+    u = S / 40
     im = Image.new("RGBA", (S, S), NAVY + (255,) if bg else (0, 0, 0, 0))
     d = ImageDraw.Draw(im)
     rnd = random.Random(3)
-    for _ in range(60 if stars and bg else 0):
+    for _ in range(50 if stars and bg else 0):
         x, y, r = rnd.random() * S, rnd.random() * S, rnd.choice([1, 1, 2]) * S / 1024 * 2
-        d.ellipse([x - r, y - r, x + r, y + r], fill=(255, 255, 255, rnd.randint(40, 120)))
+        d.ellipse([x - r, y - r, x + r, y + r], fill=(255, 255, 255, rnd.randint(30, 90)))
 
-    # planet centre sits lower-left; "message" signal arcs radiate to the upper right
-    cx, cy, R = S * 0.45, S * 0.55, S * 0.235
-    sig = Image.new("RGBA", (S, S), (0, 0, 0, 0))
-    g = ImageDraw.Draw(sig)
-    for i, (k, a) in enumerate(((0.98, 255), (1.24, 200), (1.50, 150))):
-        r = R * k
-        g.arc([cx - r, cy - r, cx + r, cy + r], -78, -12, fill=CREAM + (a,), width=max(2, int(S * 0.026)))
-    im.alpha_composite(sig)
-
-    # ringed planet: back half of ring, planet, front half of ring
-    pr, rx, ry, w = R * 0.50, R * 0.98, R * 0.27, max(2, int(S * 0.03))
-    tilt = -18
-
-    def ring(front):
-        L = Image.new("RGBA", (S, S), (0, 0, 0, 0))
-        ImageDraw.Draw(L).ellipse([cx - rx, cy - ry, cx + rx, cy + ry], outline=CREAM, width=w)
-        cut = Image.new("L", (S, S), 0)
-        ImageDraw.Draw(cut).rectangle([0, cy if front else 0, S, S if front else cy], fill=255)
-        L.putalpha(Image.composite(L.getchannel("A"), Image.new("L", (S, S), 0), cut))
-        return L.rotate(tilt, resample=Image.BICUBIC, center=(cx, cy))
-
-    im.alpha_composite(ring(False))
+    # one ring and a solid star, scaled up to fill the 40-unit grid
+    cx = cy = 20 * u
+    w = max(1, round((2.0 if small else 1.15) * u))
+    r = 12 * u
+    L = Image.new("RGBA", (S, S), (0, 0, 0, 0))
+    ImageDraw.Draw(L).ellipse([cx - r, cy - r, cx + r, cy + r], outline=WHITE + (round(255 * (0.85 if small else 0.6)),), width=w)
+    im.alpha_composite(L)
     d = ImageDraw.Draw(im)
-    d.ellipse([cx - pr, cy - pr, cx + pr, cy + pr], fill=SKY)
-    # simple shading band and a highlight so it reads as a sphere
-    d.chord([cx - pr, cy - pr, cx + pr, cy + pr], 20, 160, fill=(84, 160, 238))
-    h = pr * 0.22
-    d.ellipse([cx - pr * 0.45 - h, cy - pr * 0.45 - h, cx - pr * 0.45 + h, cy - pr * 0.45 + h], fill=(170, 214, 255))
-    im.alpha_composite(ring(True))
+    sr = (6.4 if small else 5.7) * u
+    d.ellipse([cx - sr, cy - sr, cx + sr, cy + sr], fill=WHITE)
+    # pale gold dot riding on the ring, upper right (45 degrees)
+    k = 12 * u * 0.7071
+    pr = (3.0 if small else 2.4) * u
+    d.ellipse([cx + k - pr, cy - k - pr, cx + k + pr, cy - k + pr], fill=GOLD)
     im = im.resize((size, size), Image.LANCZOS)
     return im.convert("RGB") if bg else im.crop(im.getbbox())
 
@@ -106,11 +95,10 @@ def cover():
     ital = ImageFont.truetype(F + "georgiai.ttf", 27)
     sans = ImageFont.truetype(F + "segoeuib.ttf", 19)
     x = 290
-    mark = logo(132)
-    m = Image.new("L", mark.size, 0); ImageDraw.Draw(m).ellipse([0, 0, *mark.size], fill=255)
-    im.paste(mark, (x, 120), m)
+    mark = logo(200, bg=False)
+    im.alpha_composite(mark, (x - 4, 118))
     d.text((x, 270), "Far", font=big, fill=CREAM)
-    d.text((x + d.textlength("Far", font=big), 270), "light", font=big, fill=SKY)
+    d.text((x + d.textlength("Far", font=big), 270), "light", font=big, fill=GOLD)
     d.text((x + 4, 378), "Discoveries worth interrupting your day for.", font=ital, fill=(190, 202, 216))
     cats = "SPACE  ·  HEALTH  ·  EARTH  ·  LIFE  ·  PHYSICS  ·  TECH  ·  MIND"
     d.text((x + 4, 440), cats, font=sans, fill=(170, 186, 204))
@@ -121,13 +109,15 @@ def main():
     big = logo(1024)
     big.save(os.path.join(OUT, "logo-1024.png"))
     big.save(os.path.join(OUT, "profile-1024.png"))
-    # address-bar icon: tight crop on the bubble so it stays legible at 16-32px, no stars
-    icon = logo(2048, stars=False).crop((250, 250, 1798, 1798))
+    # address-bar icon: tight crop on the mark, heavier rings so it stays legible at 16-32px, no stars
+    icon = logo(2048, stars=False, small=True).crop((230, 230, 1818, 1818))
     for n in (32, 180, 192, 512):
         icon.resize((n, n), Image.LANCZOS).save(os.path.join(OUT, f"favicon-{n}.png"))
     icon.resize((256, 256), Image.LANCZOS).save(os.path.join(ROOT, "favicon.ico"), sizes=[(16, 16), (32, 32), (48, 48)])
+    mark = logo(136 * 4, bg=False)
+    mark.resize((136, round(136 * mark.height / mark.width)), Image.LANCZOS).save(os.path.join(OUT, "mark-136.png"))
     cover().save(os.path.join(OUT, "cover-photo-1640x624.png"))
-    print("wrote brand/logo-1024.png, profile-1024.png, favicons, cover-photo-1640x624.png")
+    print("wrote brand/logo-1024.png, profile-1024.png, favicons, mark-136.png, cover-photo-1640x624.png")
 
 
 if __name__ == "__main__":

@@ -81,17 +81,16 @@ body { overflow-x: clip; }
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
   flex: none;
   font-family: var(--serif);
-  font-weight: 900;
-  font-size: 22px;
+  font-weight: 700;
+  font-size: 24px;
   letter-spacing: -.01em;
   line-height: 1;
   color: #fff;
 }
-.brand img { width: 34px; height: 34px; border-radius: 22%; }
-.brand span { color: #6cb6ff; margin-left: .2em; font-weight: 700; font-style: italic; }
+.brand img { width: 34px; height: 34px; margin-right: 10px; }
+.brand span { color: #f0e1b6; }  /* pale gold, matches the logo dot */
 
 .catnav { flex: 1; min-width: 0; }
 .catnav ul {
