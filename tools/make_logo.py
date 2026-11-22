@@ -16,6 +16,7 @@ from PIL import Image, ImageDraw, ImageFilter, ImageFont
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "brand")
 NAVY = (13, 27, 46); BLUE = (11, 95, 165); SKY = (108, 182, 255); CREAM = (244, 246, 248); WHITE = (255, 255, 255); GOLD = (240, 225, 182)  # pale gold, close to white
+BLACK = (6, 6, 8)  # background for the profile icon, favicons and cover
 F = "C:/Windows/Fonts/"
 SS = 4  # supersampling factor
 
@@ -26,7 +27,7 @@ def logo(size, stars=True, bg=True, small=False):
     used in the site header and on share cards. small=True: heavier rings so favicons stay legible."""
     S = size * SS
     u = S / 40
-    im = Image.new("RGBA", (S, S), NAVY + (255,) if bg else (0, 0, 0, 0))
+    im = Image.new("RGBA", (S, S), BLACK + (255,) if bg else (0, 0, 0, 0))
     d = ImageDraw.Draw(im)
     rnd = random.Random(3)
     for _ in range(50 if stars and bg else 0):
@@ -53,10 +54,10 @@ def logo(size, stars=True, bg=True, small=False):
 
 def cover():
     W, H = 1640, 624
-    im = Image.new("RGBA", (W, H), (8, 14, 26, 255))
+    im = Image.new("RGBA", (W, H), BLACK + (255,))
     # soft navy glow behind the text
     glow = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    ImageDraw.Draw(glow).ellipse([60, -200, 1300, 820], fill=NAVY + (255,))
+    ImageDraw.Draw(glow).ellipse([60, -200, 1300, 820], fill=(22, 22, 26, 255))
     im.alpha_composite(glow.filter(ImageFilter.GaussianBlur(120)))
     rnd = random.Random(11)
     st = Image.new("RGBA", (W, H), (0, 0, 0, 0)); sd = ImageDraw.Draw(st)
