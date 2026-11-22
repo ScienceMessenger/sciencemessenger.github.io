@@ -42,6 +42,7 @@ B1-1 Voyager 1 (card link post) was published right away on Thu Nov 19 13:51 at 
 
 On 2026-11-21 batch 3 was booked as card link posts. The same day, at the user's request, 6 weaker non-space posts were deleted from the schedule (B1-9 Statins, B1-11 Lancet Countdown, B1-12 Ultrathin chips, B2-3 Measles, B2-7 Data centres, B2-9 Rodhals Man; their articles stay on the site), and the last 6 batch-3 posts were rescheduled into the freed slots. Checked in Business Suite's Scheduled list: 17 posts, one per slot, Sat Nov 21 16:00 to Thu Nov 26 20:00.
 On 2026-11-22 batch 4 was pushed and booked as card link posts (Fri Nov 27 04:00 to Sun Nov 29 16:00), each checked once in the Scheduled list.
+On 2026-11-22 the site moved to https://farlightnews.github.io (GitHub org renamed to farlightnews). All 22 scheduled posts (Sun Nov 22 16:00 to Sun Nov 29 16:00) were edited in place in Business Suite: link in the caption and link preview switched to the new address, so they show the new Farlight card. Posts published before that (up to Sun Nov 22 04:00) still link to sciencemessenger.github.io, which no longer resolves.
 **Empty slots: Sun Nov 29 20:00 onward.** Add new stories before about Fri Nov 27 (keep 2 days booked). Next-batch candidates (aliens/life/new physics first): primordial black holes ruled out as dark matter (PRL, Phys.org + Space.com); lifeless-Earth biosignature baseline (PSJ, Phys.org + Space.com).
 
 ---
