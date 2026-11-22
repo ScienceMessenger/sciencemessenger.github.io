@@ -1,6 +1,6 @@
 # Farlight
 
-Science news in plain words, with every story linked to the original research. Static site served by GitHub Pages at https://sciencemessenger.github.io.
+Science news in plain words, with every story linked to the original research. Static site served by GitHub Pages at https://farlightnews.github.io.
 
 ## How it works
 - `tools/stories.json`: every story (headline, dek, body, sources, Wikimedia Commons images). Newest editorial picks go first; the first four fill the homepage lead.
