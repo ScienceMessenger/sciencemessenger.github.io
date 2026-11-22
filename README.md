@@ -1,4 +1,4 @@
-# Science Messenger
+# Farlight
 
 Science news in plain words, with every story linked to the original research. Static site served by GitHub Pages at https://sciencemessenger.github.io.
 

@@ -1,4 +1,4 @@
-"""Profile picture, favicons and Facebook cover for Science Messenger.
+"""Profile picture, favicons and Facebook cover for Farlight.
 
 Usage:  python tools/make_brand.py [out_dir]   (default: brand/)
 """
@@ -86,10 +86,10 @@ def cover(K=2):
     d.text((W - 60 * K, 44 * K), "EST. 2026", font=sans(15 * K), fill=MUTED, anchor="rs")
     d.text((cx, 44 * K), "EVERY STORY LINKS TO THE RESEARCH", font=sans(15 * K), fill=CREAM, anchor="ms")
     mf = bold(112 * K)
-    w1 = d.textlength("Science", font=mf); w2 = d.textlength("Messenger", font=mf)
+    w1 = d.textlength("Far", font=mf); w2 = d.textlength("light", font=mf)
     x = cx - (w1 + w2) / 2; base = 222 * K
-    d.text((x, base), "Science", font=mf, fill=CREAM, anchor="ls")
-    d.text((x + w1, base), "Messenger", font=mf, fill=SKY, anchor="ls")
+    d.text((x, base), "Far", font=mf, fill=CREAM, anchor="ls")
+    d.text((x + w1, base), "light", font=mf, fill=SKY, anchor="ls")
     d.rectangle([x, 246 * K, x + w1 + w2, 249 * K], fill=CREAM)
     d.text((cx, 300 * K), "Discoveries worth interrupting your day for.",
            font=ital(25 * K), fill=MUTED, anchor="ms")

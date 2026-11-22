@@ -1,6 +1,6 @@
 # Story sources
 
-Science Messenger takes its story ideas from the biggest science news pages on Facebook (the **reference pages** below). Facts still have to match the paper or the official release behind each story.
+Farlight takes its story ideas from the biggest science news pages on Facebook (the **reference pages** below). Facts still have to match the paper or the official release behind each story.
 
 ## Two-source rule (hard rule)
 - Only use a topic when **at least 2 different reference pages** covered the same finding (same paper, mission or event). One page alone is not enough, however good the story.

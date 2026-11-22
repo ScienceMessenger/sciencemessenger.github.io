@@ -1,4 +1,4 @@
-"""Science Messenger logo (ringed planet sending signal arcs) and photo cover for Facebook.
+"""Farlight logo (ringed planet sending signal arcs) and photo cover for Facebook.
 
 Usage:  python tools/make_logo.py
 Writes brand/logo-1024.png (profile picture), brand/favicon-{32,180,192,512}.png, favicon.ico
@@ -109,8 +109,8 @@ def cover():
     mark = logo(132)
     m = Image.new("L", mark.size, 0); ImageDraw.Draw(m).ellipse([0, 0, *mark.size], fill=255)
     im.paste(mark, (x, 120), m)
-    d.text((x, 270), "Science", font=big, fill=CREAM)
-    d.text((x + d.textlength("Science", font=big), 270), "Messenger", font=big, fill=SKY)
+    d.text((x, 270), "Far", font=big, fill=CREAM)
+    d.text((x + d.textlength("Far", font=big), 270), "light", font=big, fill=SKY)
     d.text((x + 4, 378), "Discoveries worth interrupting your day for.", font=ital, fill=(190, 202, 216))
     cats = "SPACE  ·  HEALTH  ·  EARTH  ·  LIFE  ·  PHYSICS  ·  TECH  ·  MIND"
     d.text((x + 4, 440), cats, font=sans, fill=(170, 186, 204))

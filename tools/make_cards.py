@@ -7,7 +7,7 @@ Writes, per story:
   img/fb/<slug>.jpg  1080x1350 (4:5) picture for Facebook image posts
   img/og/<slug>.jpg  1200x630 (1.91:1) og:image, same style, for link previews
 
-Layout: thin blue rules with the Science Messenger mark (ringed planet with signal arcs) and "Science Messenger" wordmark on top, a big serif headline, a short grey
+Layout: thin blue rules with the Farlight mark (ringed planet with signal arcs) and "Farlight" wordmark on top, a big serif headline, a short grey
 teaser line under it, and the story's hero photo below fading into black.
 Text comes from the story's "card": {"title": ..., "sub": ...} in tools/stories.json.
 No photo credit or watermark goes on the card; the mark is the only branding.
@@ -89,14 +89,14 @@ _MARK = {}
 
 
 def label(card, d, cx, y, W, margin, scale=1.0):
-    """Rule — logo mark + "Science Messenger" wordmark — rule, centred on cx. Returns the bottom edge."""
+    """Rule — logo mark + "Farlight" wordmark — rule, centred on cx. Returns the bottom edge."""
     h = round(84 * scale)
     if h not in _MARK:
         m = make_logo.logo(512, bg=False)
         _MARK[h] = m.resize((round(m.width * h / m.height), h), Image.LANCZOS)
     mark = _MARK[h]
     wf = font(SERIF, 40 * scale)
-    w1, w2 = d.textlength("Science", font=wf), d.textlength("Messenger", font=wf)
+    w1, w2 = d.textlength("Far", font=wf), d.textlength("light", font=wf)
     inner = 14 * scale
     gw = mark.width + inner + w1 + w2  # whole badge width
     x0 = cx - gw / 2
@@ -107,8 +107,8 @@ def label(card, d, cx, y, W, margin, scale=1.0):
     card.paste(mark, (round(x0), round(y - h / 2)), mark)
     tx = x0 + mark.width + inner
     ty = y - h * 0.06  # optical centre: the bubble's tail pulls the mark down
-    d.text((tx, ty), "Science", font=wf, fill=WHITE, anchor="lm")
-    d.text((tx + w1, ty), "Messenger", font=wf, fill=SKY, anchor="lm")
+    d.text((tx, ty), "Far", font=wf, fill=WHITE, anchor="lm")
+    d.text((tx + w1, ty), "light", font=wf, fill=SKY, anchor="lm")
     return y + h / 2
 
 
