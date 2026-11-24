@@ -12,7 +12,7 @@ Read SOURCES.md before adding stories and FACEBOOK.md before posting.
   `python tools/fetch_image_meta.py` → `python tools/fetch_images.py` → `python tools/make_cards.py` → `python tools/build.py`, then commit `img/`.
 
 ## Facebook image posts (hard rule)
-- Every Facebook image post uses the news-card style from `tools/make_cards.py` (`img/fb/<slug>.jpg`): our logo mark + "Farlight" wordmark (small red "NEWS" under it) between thin blue rules on top, big serif headline, one short grey teaser line, story photo below on black.
+- Every Facebook image post uses the news-card style from `tools/make_cards.py` (`img/fb/<slug>.jpg`): our logo mark + "Farlight" wordmark between thin blue rules on top, then a big spaced red "NEWS" topic tag on its own line between the logo and the headline, big serif headline, one short grey teaser line, story photo below on black.
 - Every story needs `"card": {"title", "sub"}` in tools/stories.json: title ≤60 chars, sub ≤90, short and clickbaity but literally true (see FACEBOOK.md).
 - No photo credit or watermark text on images or Facebook share cards.
 
