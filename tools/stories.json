@@ -1,5 +1,84 @@
 [
   {
+    "slug": "first-human-test-of-cell-rejuvenation-therapy-early-hints",
+    "cat": "health",
+    "headline": "The first human test of a therapy built to make old cells act young has its first, very early results",
+    "dek": "A gene therapy that partially rewinds the epigenetic clock of eye nerve cells was safe in its first three patients, and two scored better on a vision test. The data come from the company, cover only three people and have no comparison group.",
+    "date": "2026-11-24",
+    "location": "Boston, United States",
+    "read": 4,
+    "body": [
+      "For years, labs have shown that a few genes can push old cells in mice back toward a more youthful state. This year that idea moved into people for the first time. A Boston biotech company, Life Biosciences, is testing a one-shot gene therapy called ER-100 in the eye, and it has now shared its first numbers.",
+      "The target is not ageing in general. The trial enrols adults with open-angle glaucoma, the most common form of the disease, in which the nerve cells that carry signals from the retina to the brain slowly die, and with NAION, a sudden loss of blood flow to the optic nerve sometimes called an eye stroke. Lost vision in both conditions is usually permanent.",
+      {
+        "h2": "Three genes and an antibiotic switch"
+      },
+      "ER-100 uses a harmless virus to deliver three genes, OCT4, SOX2 and KLF4, into the retinal ganglion cells whose long fibres make up the optic nerve. They are three of the four Yamanaka factors, which can turn adult cells all the way back into stem cells. The fourth, a gene linked to cancer, is left out, and the three are only switched on while the patient takes the antibiotic doxycycline, here for eight weeks. The goal is to reset the chemical tags on DNA that drift with age without erasing what the cell is.",
+      "The approach comes from David Sinclair's lab at Harvard Medical School. In a 2020 paper in Nature, his team reported that the same three genes restored lost vision in mice with a glaucoma-like condition and in elderly mice, and that the treated cells regained more youthful DNA tag patterns. Sinclair co-founded Life Biosciences, which licensed the therapy.",
+      {
+        "img2": true
+      },
+      "The US Food and Drug Administration cleared the trial in January, and the company announced in June that its first participant had been treated. The study is small by design: up to 12 people with glaucoma and up to six with NAION, each followed for years, with the main question being whether the treatment is safe.",
+      {
+        "h2": "What three patients can and cannot tell us"
+      },
+      "On 8 October the company reported interim results for the first three glaucoma patients, all on the lowest dose. Over 56 days there were no serious side effects and no problems it attributed to ER-100 itself; the side effects seen were put down to the injection, the steroid given alongside it or existing conditions. In two of the three, at least 28% of the points on a standard visual field test improved by more than 4 decibels. An independent safety board has approved moving to a higher dose.",
+      "Those vision numbers need care. They come from a company release, not a peer-reviewed paper. The trial has no placebo group, everyone knows they were treated, and visual field scores can swing from one test to the next. Three people cannot show whether ER-100 works, and nothing in the data shows that a person, or even a whole eye, has been made biologically younger.",
+      {
+        "quote": "\"The technology is still really early, and the potential for catastrophic side effects is high.\" (Matt Kaeberlein, Optispan, via Nature)"
+      },
+      "The main fear is that pushing cells toward a stem-cell-like state could tip some into growing out of control, as early mouse experiments with all four factors did. Other scientists point out that ER-100 does nothing about the high eye pressure that drives glaucoma, so any benefit might fade. If the safety picture holds as doses rise and more patients join, the result would still be a first step for one eye disease, not a treatment for ageing."
+    ],
+    "sources": [
+      {
+        "name": "Nature (via Scientific American)",
+        "url": "https://www.scientificamerican.com/article/world-first-therapy-to-make-cells-young-again-given-to-a-person/"
+      },
+      {
+        "name": "ScienceAlert",
+        "url": "https://www.sciencealert.com/world-first-patient-receives-high-risk-therapy-to-make-cells-young-again"
+      },
+      {
+        "name": "IFLScience",
+        "url": "https://www.iflscience.com/world-first-trial-to-reprogram-broken-cells-in-glaucoma-begins-in-humans-but-is-it-just-hype-83826"
+      },
+      {
+        "name": "National Geographic",
+        "url": "https://www.nationalgeographic.com/health/article/end-of-aging-cellular-reprogramming-longevity"
+      },
+      {
+        "name": "Life Biosciences release, 8 Oct 2026 (interim data, not peer reviewed)",
+        "url": "https://www.globenewswire.com/news-release/2026/10/08/3377649/0/en/life-biosciences-announces-first-in-human-data-from-ongoing-phase-1-trial-evaluating-er-100-in-optic-neuropathies.html"
+      },
+      {
+        "name": "Trial registration NCT07290244",
+        "url": "https://clinicaltrials.gov/study/NCT07290244"
+      },
+      {
+        "name": "Lu et al., Nature (2020), mouse study",
+        "url": "https://doi.org/10.1038/s41586-020-2975-4"
+      }
+    ],
+    "img": {
+      "file": "File:Layers of nerve cells in the retina.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Layers_of_nerve_cells_in_the_retina.jpg",
+      "author": "National Institutes of Health (NIH)",
+      "license": "Public domain",
+      "alt": "Microscope image of the stacked layers of nerve cells in a retina, the tissue the therapy targets"
+    },
+    "img2": {
+      "file": "File:Fundus photograph-normal retina EDA06.JPG",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fundus_photograph-normal_retina_EDA06.JPG",
+      "author": "National Eye Institute, National Institutes of Health",
+      "license": "Public domain",
+      "alt": "Photograph of the back of a healthy human eye, showing the pale optic disc where the optic nerve leaves the retina"
+    },
+    "card": {
+      "title": "First test of a cell 'age reset' in people: early hints",
+      "sub": "Two of three patients did better on a vision test, but the trial has no comparison group"
+    }
+  },
+  {
     "slug": "welopoai-red-dwarf-hidden-white-dwarf-triple-system-28-light-years",
     "cat": "space",
     "headline": "Astronomers went looking for planets 28 light-years away and found a dead star instead",
@@ -83,6 +162,9 @@
         "h2": "Why a quiet collapse would leave a pile-up"
       },
       "The authors argue that ordinary differences in how compact stellar cores are can explain part of the excess near 10 solar masses, but not a drop this steep. Their proposal is that direct collapse is especially efficient at making black holes in a narrow mass window near 10 solar masses, creating a separate group, possibly set apart from heavier black holes by a gap. The 12-to-16 solar mass shortage was not something the team had predicted, and what causes it remains open.",
+      {
+        "img2": true
+      },
       "Failed supernovae themselves have not been confirmed. The best-known candidate, mentioned in Space.com's coverage, is N6946-BH1, a giant star in another galaxy that appears in Hubble Space Telescope images from 2007 but had vanished by 2015, probably after collapsing into a black hole without a visible explosion.",
       {
         "h2": "What the study does not show"
@@ -121,6 +203,13 @@
     "card": {
       "title": "These black holes may come from stars that never exploded",
       "sub": "Three in four merging black holes weigh about 10 Suns. Almost none weigh 12 to 16"
+    },
+    "img2": {
+      "file": "File:Giant star N6946-BH1 before and after it vanished out of sight by imploding to form a black hole.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Giant_star_N6946-BH1_before_and_after_it_vanished_out_of_sight_by_imploding_to_form_a_black_hole.jpg",
+      "author": "NASA/ESA/C. Kochanek (OSU)",
+      "license": "Public domain",
+      "alt": "Two Hubble images side by side: in 2007 a bright star sits inside a blue circle, and in 2015 the same spot is nearly empty"
     }
   },
   {
@@ -199,6 +288,9 @@
       },
       "Hydrogen chloride is not new on Mars. TGO's Atmospheric Chemistry Suite first picked it up in results published in 2021, and it turns out to follow a yearly rhythm: it appears across the planet at levels of a few parts per billion when Mars swings closest to the Sun, and nearly vanishes in the colder part of the orbit. Researchers link that seasonal pattern to dust and water in the air, not to volcanoes.",
       "The new detections break that rhythm. They came in early northern summer, when Mars is farthest from the Sun and the gas is normally scarce, and they were confined to the Alba Mons region on the northern edge of the Tharsis volcanic plateau.",
+      {
+        "img2": true
+      },
       "When the team pointed TGO's CaSSIS camera at the area, it found fresh-looking fissures less than a metre wide, some running for hundreds of metres, with odd colour changes on the ground around them. On Earth, similar staining forms around fumaroles, where volcanic gases leave minerals behind.",
       {
         "h2": "A sleeping magma chamber?"
@@ -241,6 +333,13 @@
     "card": {
       "title": "A gas that shouldn't be there is leaking from a Mars volcano",
       "sub": "It shows up over fresh cracks, in a season when it is missing everywhere else"
+    },
+    "img2": {
+      "file": "File:Alba Mons MOLA zoom 64.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alba_Mons_MOLA_zoom_64.jpg",
+      "author": "NASA / JPL-Caltech / Arizona State University",
+      "license": "Public domain",
+      "alt": "Colour-coded elevation map of the broad, low Martian volcano Alba Mons, its summit in red and pink, surrounded by long fractures, with the Tharsis volcanoes at the lower edge"
     }
   },
   {
@@ -258,6 +357,9 @@
         "h2": "A conductor that changes with depth"
       },
       "Planetary magnetic fields come from a dynamo: electrically conducting fluid churning inside a spinning planet. On Earth that fluid is molten iron in the outer core. Uranus and Neptune, about 14.5 and 17 times Earth's mass, are thought to hold deep layers of water, ammonia and methane under huge pressures and temperatures, around a rocky core, though their exact make-up is uncertain.",
+      {
+        "img2": true
+      },
       "Under those conditions, water molecules can break apart into ions, so the material should conduct electricity better the deeper you go. The team built numerical dynamo models with that kind of conductivity profile and tested a range of interior structures. The models produced large-scale, tilted and uneven fields consistent with what Voyager 2 measured, and the paper names the way conductivity changes with depth as a critical ingredient.",
       {
         "h2": "Fields that may not sit still"
@@ -301,6 +403,13 @@
     "card": {
       "title": "Uranus's magnetic field is tilted 59°. Now we may know why",
       "sub": "Models suggest its poles can swing tens of degrees within decades. Earth's barely move"
+    },
+    "img2": {
+      "file": "File:Neptune Full.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Neptune_Full.jpg",
+      "author": "NASA/JPL (Voyager 2)",
+      "license": "Public domain",
+      "alt": "Neptune seen by Voyager 2 in 1989, a deep blue globe with the Great Dark Spot and white clouds"
     }
   },
   {
@@ -323,6 +432,9 @@
         "h2": "Oceans without life"
       },
       "The lifeless Earth kept liquid oceans and an atmosphere throughout, and the authors write that life may not be needed to keep a planet habitable over the long term. The university notes they cannot rule out that life on the real Earth helps steady the climate. Their model air is nitrogen with carbon dioxide and water vapour but no oxygen, since Earth's oxygen came from photosynthesis.",
+      {
+        "img2": true
+      },
       "That baseline is the point. If the model can reproduce a planet's observed atmosphere without life, that planet probably has no life as we know it. If it cannot, the planet becomes a stronger candidate, although a mismatch alone would not prove anything. Earth's own air shows why: oxygen and methane destroy each other, so finding both suggests something keeps replenishing them.",
       {
         "quote": "\"This model can help us see how habitable but nonliving planets might mimic living planets.\" (Samantha Gilbert-Janizek, UC Riverside, via Phys.org)"
@@ -365,6 +477,13 @@
     "card": {
       "title": "Scientists simulated an Earth where life never began",
       "sub": "It still kept oceans and air for billions of years, a baseline for spotting alien life"
+    },
+    "img2": {
+      "file": "File:Habitable Worlds Observatory Beauty Pass Animations and Stills (SVS14594 - S3).png",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Habitable_Worlds_Observatory_Beauty_Pass_Animations_and_Stills_%28SVS14594_-_S3%29.png",
+      "author": "NASA's Scientific Visualization Studio",
+      "license": "Public domain",
+      "alt": "Artist's concept of NASA's proposed Habitable Worlds Observatory, a gold-coloured space telescope with solar panels, against a starry background"
     }
   },
   {
@@ -525,6 +644,9 @@
         "h2": "The long way round"
       },
       "BepiColombo launched in October 2018 as a stack of three craft: ESA's Mercury Planetary Orbiter (MPO), JAXA's Mercury Magnetospheric Orbiter, known as Mio, and a propulsion stage called the Mercury Transfer Module. To lose speed it swung past Earth once, Venus twice and Mercury six times.",
+      {
+        "img2": true
+      },
       "The trip did not go to plan. In 2024 a power fault stopped the transfer module's electric thrusters from running at full strength, and the team had to redesign the route. That pushed arrival back from December 2025 to November 2026 and meant flying just 165 kilometres above Mercury on the fourth flyby, closer than the 200 kilometres originally treated as safe. The transfer module was released on 3 September 2026, its job done.",
       {
         "quote": "\"For the first time, we'll have a single mission with two orbiters going around the same planet.\" (Geraint Jones, ESA BepiColombo project scientist, via IFLScience)"
@@ -572,6 +694,13 @@
     "card": {
       "title": "Only one probe has ever orbited Mercury. Now two more arrive",
       "sub": "Europe and Japan's BepiColombo took eight years and nine flybys to get there"
+    },
+    "img2": {
+      "file": "File:BepiColombo spacecraft model.png",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/BepiColombo_spacecraft_model.png",
+      "author": "NASA",
+      "license": "Public domain",
+      "alt": "Rendering of the BepiColombo spacecraft: ESA's Mercury Planetary Orbiter with its solar panel, a cylindrical sunshade, and JAXA's octagonal Mio orbiter"
     }
   },
   {
@@ -657,6 +786,9 @@
         "h2": "Scars from a long trip"
       },
       "To work out where a grain came from, the researchers counted tracks left in it by energetic particles from the Sun. The longer a grain drifts through space, the more of these tracks it collects, and dust from the far reaches of the solar system spends a long time spiralling inward. These 12 carried roughly 100 times as many tracks as expected for dust from the asteroid belt or from comets in Jupiter's family, which points to the Kuiper Belt. In 2022, Keller and George Flynn of the State University of New York estimated that up to a quarter of the interplanetary dust reaching the inner solar system may come from there.",
+      {
+        "img2": true
+      },
       "Inside, the grains are dominated by clays such as saponite and serpentine and other minerals that form only when rock reacts with fluids, in this case water mixed with carbon dioxide at low temperatures. They are also rich in carbon, about four times more than some carbon-rich meteorites. The authors suggest the starting material was glassy silicate grains dotted with tiny specks of iron-nickel metal and sulfides.",
       {
         "h2": "Heavy water from a separate store"
@@ -700,6 +832,13 @@
     "card": {
       "title": "NASA planes caught dust that came from beyond Neptune",
       "sub": "12 tiny grains point to an ancient store of heavy water at the solar system's edge"
+    },
+    "img2": {
+      "file": "File:Comet dust microscopic photo.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Comet_dust_microscopic_photo.jpg",
+      "author": "NASA",
+      "license": "Public domain",
+      "alt": "Electron microscope image of a fluffy, porous grain of interplanetary dust collected high in Earth's atmosphere"
     }
   },
   {
@@ -787,6 +926,9 @@
         "h2": "Triplets instead of pairs"
       },
       "The CSIRO approach, led by astronomer Samuel Lai with project leader Nithyanandan Thyagarajan, tackles two weak spots. First, instead of working with pairs of telescopes, it combines measurements from three or more at a time into quantities called closure invariants. In those combinations, many errors added by Earth's atmosphere and by individual telescopes cancel out, so the result does not hinge on how each dish was calibrated.",
+      {
+        "img2": true
+      },
       "Second, the images are produced by a machine-learning tool the team built, called GenDIReCT. It was trained on everyday pictures such as cats, dogs and cars rather than on simulated black holes, so it had no built-in expectation of a ring. The team tested it on shapes that are not rings and on real data from another galaxy, Centaurus A, and froze its settings before running it on M87*, to keep their own expectations out of the result.",
       {
         "quote": "\"This is the first truly independent validation of the EHT image, an important step in the scientific process.\" (Samuel Lai, CSIRO, via Phys.org)"
@@ -832,6 +974,13 @@
     "card": {
       "title": "An AI trained on cats and dogs re-imaged a black hole",
       "sub": "It found the same ring the 2019 picture showed, in data from three different years"
+    },
+    "img2": {
+      "file": "File:JCMT on Mauna Kea.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/JCMT_on_Mauna_Kea.jpg",
+      "author": "A. Woodcraft",
+      "license": "Public domain",
+      "alt": "The James Clerk Maxwell Telescope enclosure on the red cinder slopes of Mauna Kea, with the Caltech Submillimeter Observatory dome in front and Submillimeter Array buildings to the right"
     }
   },
   {
@@ -849,6 +998,9 @@
         "h2": "Webb found it, Gemini split it"
       },
       "The second quasar showed up during a visual check of data from Aether, a survey led by Emanuele Paolo Farina of NOIRLab/Gemini that uses the NIRSpec instrument on the James Webb Space Telescope. Aether has gathered spectra of about 200 quasars, which the team says is 43% of those known from that era. In the data for one known quasar, J1602+4228A, the team noticed a companion. Earlier ground-based images had shown the two as a single source.",
+      {
+        "img2": true
+      },
       "Follow-up with the GNIRS spectrograph on the Gemini North telescope on Maunakea, Hawaii, resolved the two quasars as separate objects. Onorato said the sky was clear and steady enough that the data took only two nights. A second Gemini instrument, GMOS, was used to test whether the fainter quasar might be a mirror image of the brighter one, created by a foreground galaxy bending its light.",
       {
         "quote": "\"There is no definitive theoretical explanation for how a single one of these giant quasars exists so early.\" (Silvia Onorato, NSF NOIRLab, via Phys.org)"
@@ -888,6 +1040,13 @@
     "card": {
       "title": "Two monster black holes, far too early in cosmic history",
       "sub": "Seen 900 million years after the Big Bang, they sit just 18,000 light-years apart"
+    },
+    "img2": {
+      "file": "File:JWST Final image- nirspec1b.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/JWST_Final_image-_nirspec1b.jpg",
+      "author": "Chris Gunn (NASA)",
+      "license": "Public domain",
+      "alt": "The Near Infrared Spectrograph for the James Webb Space Telescope, wrapped in silver foil inside the instrument frame in a NASA clean room"
     }
   },
   {
@@ -905,6 +1064,9 @@
         "h2": "Running the thermometer"
       },
       "A study by Korbin Hansen and Masatoshi Hirabayashi of the Georgia Institute of Technology, published in the journal Icarus, put that idea to a direct test. The pair built a three-dimensional thermal model of KY26 and tracked how hot its surface and interior get over a full orbit. They ran 13 versions, changing the asteroid's size, how much light it reflects, how well its rock conducts heat and which way its spin axis points.",
+      {
+        "img2": true
+      },
       "For water ice to last in the vacuum of space over long periods, it has to stay below about 145 kelvin, or around minus 128 degrees Celsius. In every version of the model, even the coldest parts of KY26 averaged more than 60 degrees warmer than that. No sheltered pocket, on the surface or deep inside, stayed cold enough.",
       {
         "quote": "\"The water outgassing rate on 1998 KY26 would be too high to maintain buried ice.\" (Korbin Hansen and Masatoshi Hirabayashi, Georgia Institute of Technology, via ScienceAlert)"
@@ -953,6 +1115,13 @@
     "card": {
       "title": "A tiny asteroid is speeding up. Ice probably isn't why",
       "sub": "And Japan has just called off its probe's visit after engine trouble"
+    },
+    "img2": {
+      "file": "File:Asteroid 1998 KY26.faces model.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Asteroid_1998_KY26.faces_model.jpg",
+      "author": "NASA/JPL",
+      "license": "Public domain",
+      "alt": "Three views of a computer shape model of the small, rounded asteroid 1998 KY26"
     }
   },
   {
@@ -970,6 +1139,9 @@
         "h2": "Late, early, shallower, gone"
       },
       "NASA's Transiting Exoplanet Survey Satellite (TESS) looked at the system in five stretches between April 2019 and March 2026. Almost nothing about the planet's crossings stayed constant. They arrived up to about six hours earlier or later than a steady orbit would predict, one of the largest timing swings known for a hot Jupiter. Each crossing also got shorter and shallower, a sign that the planet's path was sliding toward the edge of the star's disc. In the last TESS look, in early 2026, no crossing showed up at all.",
+      {
+        "img2": true
+      },
       "Ground-based telescopes in the Las Cumbres Observatory network and at several smaller observatories caught extra crossings along the way. The NEID spectrograph on the WIYN telescope at Kitt Peak, Arizona, measured the star's wobble to confirm that the object is a planet and not a second star.",
       {
         "quote": "\"The planet's orbit is tilting so quickly that its transit disappeared while we were watching.\" (Samuel Yee, UCLA, via Space.com)"
@@ -1024,6 +1196,13 @@
       "title": "This planet vanished while astronomers were watching",
       "sub": "A hidden giant world tipped its orbit out of view. It may be gone for decades",
       "focus_y": 0.85
+    },
+    "img2": {
+      "file": "File:TESS alone high res.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/TESS_alone_high_res.jpg",
+      "author": "Orbital ATK / NASA",
+      "license": "Public domain",
+      "alt": "The TESS space telescope on a stand in a clean room, with its four camera hoods on top and two solar panels unfolded"
     }
   },
   {
@@ -1101,6 +1280,9 @@
         "h2": "A slow build-up, then a fast ending"
       },
       "Several telescopes picked up the warning signs. Archival data from NASA's NEOWISE mission show the system shining steadily until 2018, then varying by early 2023. A ground-based infrared survey called WINTER saw it brighten and make dust in 2024, and NASA's SPHEREx mission recorded it fading in visible light while growing brighter in the infrared in mid-2025. On 17 October 2025 the Zwicky Transient Facility in California spotted the eruption itself, and Swift and the Gemini North telescope followed up.",
+      {
+        "img2": true
+      },
       "The James Webb Space Telescope looked on 24 December 2025, 47 days after the outburst peaked, under a fast-track observing slot. Lead author Viraj Karambelkar, a NASA Hubble Fellow at Columbia University, says no event of this kind has been followed up that early. Webb's mid-infrared view recorded dust the system had shed over centuries, which let the team test computer models of the merger.",
       {
         "quote": "\"Stellar mergers are very, very difficult to observe in real time because they are hard to predict.\" (Viraj Karambelkar, Columbia University, via Phys.org)"
@@ -1142,6 +1324,13 @@
     "card": {
       "title": "A star dove into a supergiant. Webb saw the aftermath",
       "sub": "The final plunge took about seven orbits, not the thousands seen in other mergers"
+    },
+    "img2": {
+      "file": "File:WISE artist concept (PIA17254, crop).jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/WISE_artist_concept_%28PIA17254%2C_crop%29.jpg",
+      "author": "NASA/JPL-Caltech",
+      "license": "Public domain",
+      "alt": "Artist's concept of NASA's WISE spacecraft, later renamed NEOWISE, orbiting above Earth"
     }
   },
   {
@@ -1159,6 +1348,9 @@
         "h2": "What DART changed"
       },
       "NASA's Double Asteroid Redirection Test (DART) spacecraft, which weighed about 580 kilograms, hit Dimorphos on 26 September 2022 at roughly 6 kilometres per second. The impact cut the time Dimorphos takes to orbit Didymos by about 33 minutes, a much bigger change than scientists had expected. It was the first time people had measurably changed the path of a natural object in the Solar System.",
+      {
+        "img2": true
+      },
       "What DART could not reveal was the full aftermath: the size of the crater, how much rock was blasted away, and the masses and internal makeup of the two asteroids. Those details matter for working out how hard you would need to hit a more dangerous asteroid to nudge it aside. Hera's job is to fill those gaps.",
       {
         "h2": "A side nobody had seen"
@@ -1194,6 +1386,13 @@
     "card": {
       "title": "Four years after NASA rammed an asteroid, Hera is there",
       "sub": "Its first close-up shows the side of Didymos that DART's camera never saw"
+    },
+    "img2": {
+      "file": "File:High-Resolution Didymos and Dimorphos - North Up.png",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/High-Resolution_Didymos_and_Dimorphos_-_North_Up.png",
+      "author": "NASA/Johns Hopkins APL",
+      "license": "Public domain",
+      "alt": "The large asteroid Didymos and its small moonlet Dimorphos, photographed by NASA's DART spacecraft shortly before impact"
     }
   },
   {
@@ -1221,6 +1420,9 @@
       },
       "Disabled satellites cannot steer out of each other's way. The authors estimate around 20 collisions in the first two years, and ScienceAlert reports some 3,900 new debris fragments after a decade. Replacement satellites would fly straight into the lingering radiation, so restoring services could take years.",
       "This is not purely hypothetical. In 1962 the United States tested a 1.4-megaton warhead, Starfish Prime, about 400 kilometres above the Pacific, and it disabled several of the few satellites then in orbit. The following year the Partial Test Ban Treaty banned nuclear tests in space.",
+      {
+        "img2": true
+      },
       "The numbers come from a computer model, and they depend on its assumptions about how much radiation satellites can withstand and how the trapped particles behave. They are best read as an estimate of scale, not a forecast."
     ],
     "sources": [
@@ -1247,6 +1449,13 @@
     "card": {
       "title": "One nuclear blast vs 13,000 satellites: a grim model",
       "sub": "In the simulation, 98% were disabled within a week, and the danger lingered"
+    },
+    "img2": {
+      "file": "File:Starfish Prime aurora from Honolulu 1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Starfish_Prime_aurora_from_Honolulu_1.jpg",
+      "author": "U.S. government",
+      "license": "Public domain",
+      "alt": "Night sky over Honolulu lit orange and red by the glow of the 1962 Starfish Prime high-altitude nuclear test, with city lights along the shore"
     }
   },
   {
@@ -1272,6 +1481,9 @@
         "h2": "Concentrated, and still growing"
       },
       "The demand is clustered. Virginia, Oregon, Ohio and Iowa together accounted for more than half of the electricity used by the facilities studied. Hundreds more hyperscale centres are planned or under construction.",
+      {
+        "img2": true
+      },
       "The authors stress that their numbers are estimates, not metered readings. Data were not available for every hyperscale site, and the method cannot separate ordinary cloud computing from AI workloads. Because the building boom has continued since April 2025, Guidi expects today's figures to be higher. The study also did not measure health effects from the extra power-plant pollution; Dominici says that is the team's next step.",
       "Kasparas Spokas of the Clean Air Task Force, who was not involved, told National Geographic the findings should be a wake-up call, since the way new data-centre demand is met will shape power-sector emissions for decades."
     ],
@@ -1299,6 +1511,13 @@
     "card": {
       "title": "403 buildings may use nearly as much power as a US state",
       "sub": "Over half of that electricity came from burning gas and coal, a Harvard study finds"
+    },
+    "img2": {
+      "file": "File:Data centers in Ashburn.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Data_centers_in_Ashburn.jpg",
+      "author": "Theodore Christopher",
+      "license": "CC0",
+      "alt": "Aerial view of large windowless data centre buildings and an electrical substation in Loudoun County near Ashburn, Virginia"
     }
   },
   {
@@ -1316,6 +1535,9 @@
         "h2": "A tiny deletion with a long history"
       },
       "The variant is a deletion of four DNA letters on chromosome 14, close to a gene called DAAM1 that is involved in building the brain. According to ScienceAlert, all five Neanderthal genomes the pair examined carry the deletion, while the two Denisovan genomes do not. The Neanderthal-like stretch of DNA around it is nearly 60,000 letters long, a sign that it arrived through interbreeding rather than being inherited from an older shared ancestor. Today it turns up only in people whose ancestry lies outside sub-Saharan Africa.",
+      {
+        "img2": true
+      },
       "Carriers show altered DAAM1 activity. Using genetic and brain data from the UK Biobank, the researchers also found that they have an occipital lobe, the part at the back of the brain that handles vision, about 0.85 cubic centimetres smaller for each copy of the variant. In data from the Psychiatric Genomics Consortium, each copy went with roughly 5% lower odds of schizophrenia, and people with two copies had odds almost 10% lower. Neanderthal ancestry as a whole showed no such pattern.",
       {
         "h2": "What it does not show"
@@ -1355,6 +1577,13 @@
     "card": {
       "title": "Neanderthal DNA is still tied to how our brains are built",
       "sub": "Two copies of one variant go with almost 10% lower odds of schizophrenia"
+    },
+    "img2": {
+      "file": "File:Lobes of the brain NL.svg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lobes_of_the_brain_NL.svg",
+      "author": "Henry Vandyke Carter (Gray's Anatomy)",
+      "license": "Public domain",
+      "alt": "Side view of the human brain with its lobes coloured: frontal in blue, parietal in yellow, temporal in green and the occipital lobe at the back in pink"
     }
   },
   {
@@ -1491,6 +1720,9 @@
       },
       "Elimination does not mean zero cases. Travellers can still bring the virus in, and outbreaks can still happen. A country only loses the label when a single chain of infections, caused by the same genetic lineage of the virus, keeps spreading without interruption for 12 months or longer.",
       "According to PAHO, the US chain began on 20 January 2025 and crossed the 12-month line on 20 January 2026. Mexico's began on 1 February 2025. Canada lost its own status in November 2025, after an outbreak that started in October 2024, and that loss also cost the Americas as a whole their regional elimination status.",
+      {
+        "img2": true
+      },
       "The numbers behind the decision are stark. The CDC counted 5,412 confirmed US cases in 2026 as of 12 November, reported from 47 jurisdictions, with 43 new outbreaks this year. That compares with 2,289 cases in all of 2025. The CDC lists six deaths so far in 2026, while state health officials have reported about 10, a gap IFLScience attributes to the CDC's narrower definition. Across the Americas, PAHO counted 58,213 cases this year.",
       {
         "quote": "\"Elimination is not a trophy that we win once and put on a shelf.\" (Jarbas Barbosa, PAHO director)"
@@ -1538,6 +1770,13 @@
     "card": {
       "title": "The US has officially lost its measles-free status",
       "sub": "One chain of infections ran for over a year. Here's what that means and what comes next"
+    },
+    "img2": {
+      "file": "File:RougeoleDP.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/RougeoleDP.jpg",
+      "author": "CDC/NIP/Barbara Rice",
+      "license": "Public domain",
+      "alt": "Young child with the blotchy red rash of measles across the face, chest and arms on the fourth day of illness"
     }
   },
   {
@@ -1615,6 +1854,9 @@
         "h2": "Nearly half a century on the road"
       },
       "Voyager 1 launched on 5 September 1977, about two weeks after its twin Voyager 2, on a faster path. It flew past Jupiter and Saturn, where its findings included active volcanoes on Jupiter's moon Io. In 2012 it became the first spacecraft to cross into interstellar space, the region beyond the bubble of particles blown out by the Sun. Voyager 2 followed in 2018.",
+      {
+        "img2": true
+      },
       "The probe now travels at about 61,000 kilometres per hour and is roughly 173 times farther from the Sun than Earth is, according to ABC News. NASA's Deep Space Network, with large antennas in Canberra, California and Madrid, still tracks it. Voyager 2 is not expected to reach the one-light-day mark until 2035.",
       {
         "h2": "Running low on power"
@@ -1650,6 +1892,13 @@
     "card": {
       "title": "Voyager 1 is now one full light-day from Earth",
       "sub": "Every message we send the 49-year-old probe takes 24 hours to arrive"
+    },
+    "img2": {
+      "file": "File:NASA's Deep Space Antenna Upgrade to Affect Voyager.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/NASA%27s_Deep_Space_Antenna_Upgrade_to_Affect_Voyager.jpg",
+      "author": "NASA/Canberra Deep Space Communication Complex",
+      "license": "Public domain",
+      "alt": "The 70-metre DSS-43 radio dish of NASA's Deep Space Network at Canberra, Australia, under a blue sky"
     }
   },
   {
@@ -1907,6 +2156,9 @@
         "h2": "What is in the map"
       },
       "The atlas profiles 25.5 million cells: 21 million from the brains of six people, 3 million from three macaques and 1.5 million from two marmosets. For each cell the teams measured which genes were active and, in many cases, chemical marks on DNA, electrical activity, how the DNA was folded and where the cell sat in the tissue. Comparing the three primate species, they identified 61 cell types shared across humans, macaques and marmosets.",
+      {
+        "img2": true
+      },
       "One study, from Evan Macosko's group at the Broad Institute, examined 1.1 million cells from the striatum, the largest structure in the basal ganglia, taken from 19 deceased donors. Although the striatum has no sharp anatomical borders, the team found six zones with distinct molecular signatures. The differences between zones became less pronounced with age, especially in areas affected by Huntington's and Parkinson's disease.",
       {
         "h2": "Clues to disease"
@@ -1952,6 +2204,13 @@
     "card": {
       "title": "25 million brain cells, mapped in 3 species",
       "sub": "A new atlas of the region that decides when you move"
+    },
+    "img2": {
+      "file": "File:Anatomie-Basalganglien-A.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anatomie-Basalganglien-A.jpg",
+      "author": "Bascon (Wikimedia Commons)",
+      "license": "Public domain",
+      "alt": "Four coronal slices of the human brain with the basal ganglia shaded in colour, including the caudate nucleus, putamen, globus pallidus, subthalamic nucleus and substantia nigra"
     }
   },
   {
@@ -2227,6 +2486,9 @@
         "h2": "Heat deaths at a record"
       },
       "Its headline estimate is that about 710,000 deaths worldwide were linked to heat in 2023, the hottest year in the period studied and the highest toll the team has recorded. The authors attribute 71.5 percent of those deaths to human-caused climate change.",
+      {
+        "img2": true
+      },
       "Across 2016 to 2023, heat was linked to an average of about 540,800 deaths a year, around 36 percent more than in the previous decade. The share attributed to climate change rose from 55 percent to about 68 percent. Marina Romanello, the Countdown's executive director at UCL, summed this up as roughly three million heat-related deaths in the eight years since the 2015 Paris Agreement.",
       {
         "quote": "\"That's roughly equivalent to the entire population of Wales being wiped out in the space of eight years due to heat\" (Marina Romanello, executive director, Lancet Countdown, speaking to AFP)"
@@ -2274,6 +2536,13 @@
     "card": {
       "title": "Heat was linked to a record 710,000 deaths in one year",
       "sub": "The tenth Lancet Countdown report on climate and health"
+    },
+    "img2": {
+      "file": "File:Global Temperature Anomalies from 1880 to 2023 (SVS5207 - 2023AverageTemp 4K).png",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Global_Temperature_Anomalies_from_1880_to_2023_%28SVS5207_-_2023AverageTemp_4K%29.png",
+      "author": "NASA's Scientific Visualization Studio",
+      "license": "Public domain",
+      "alt": "World map of 2023 temperatures compared with the long-term average, with most land and ocean shaded orange to dark red for warmer than normal"
     }
   },
   {

@@ -8,6 +8,10 @@ Read SOURCES.md before adding stories and FACEBOOK.md before posting.
   If an image would need attribution, don't use it: find a PD/CC0 one instead.
 - **No attribution where none is required.** No "Photo: author / license" captions under images on article pages,
   and no credit text on Facebook cards. PD/CC0 needs none.
+- **One extra in-article image, only if it truly fits.** Every story gets a second picture (`"img2"` in tools/stories.json,
+  placed with a `{"img2": true}` body block near the middle of the article, between paragraphs). It must show the story's
+  actual subject (the object, place, instrument, species or thing discussed), be different from the hero photo, and follow
+  all image rules above. If no PD/CC0 image really fits, add nothing: no generic or loosely related filler.
 - **Always self-hosted.** Never hotlink upload.wikimedia.org or any other host. Pipeline after editing stories:
   `python tools/fetch_image_meta.py` → `python tools/fetch_images.py` → `python tools/make_cards.py` → `python tools/build.py`, then commit `img/`.
 

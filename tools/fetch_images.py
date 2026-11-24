@@ -40,6 +40,8 @@ def fetch(url):
             print(f"rate limited, waiting {wait}s")
             time.sleep(wait)
     im = Image.open(io.BytesIO(data))
+    if im.mode.startswith("I"):  # 16-bit greyscale PNG: scale down to 8 bits, or everything clips to white
+        im = im.convert("I").point(lambda v: v * (1 / 256)).convert("L")
     if im.mode in ("RGBA", "LA", "P"):
         im = im.convert("RGBA")
         bg = Image.new("RGB", im.size, (255, 255, 255))
@@ -76,7 +78,11 @@ def main():
         todo = [p for p in paths.values() if force or not os.path.exists(p)]
         if not todo:
             continue
-        src = fetch(build._thumb(img, 10**9))  # original file: thumbnail renders are rate-limited much harder
+        if img["file"].lower().endswith(".svg"):  # PIL can't read SVG: take Commons' PNG render
+            url = build._thumb(img, 10**9).replace("/commons/", "/commons/thumb/", 1)
+            src = fetch(f"{url}/{max_w if max_w < 2000 else 1600}px-{url.rsplit('/', 1)[1]}.png")
+        else:
+            src = fetch(build._thumb(img, 10**9))  # original file: thumbnail renders are rate-limited much harder
         if img.get("crop"):  # [left, top, right, bottom] fractions: cut labels/text out of infographics
             l, t, r, b = img["crop"]
             src = src.crop((round(l * src.width), round(t * src.height),

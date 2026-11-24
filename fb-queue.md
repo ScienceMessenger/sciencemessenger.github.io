@@ -39,11 +39,12 @@ B1-1 Voyager 1 (card link post) was published right away on Thu Nov 19 13:51 at 
 | Sat Nov 28 20:00 | B4-6 62-minute radio transient |
 | Sun Nov 29 04:00 | B4-7 Failed-supernova black holes |
 | Sun Nov 29 16:00 | B4-8 Uranus/Neptune magnetic fields |
+| Sun Nov 29 20:00 | B5-1 Cell rejuvenation therapy, first human data |
 
 On 2026-11-21 batch 3 was booked as card link posts. The same day, at the user's request, 6 weaker non-space posts were deleted from the schedule (B1-9 Statins, B1-11 Lancet Countdown, B1-12 Ultrathin chips, B2-3 Measles, B2-7 Data centres, B2-9 Rodhals Man; their articles stay on the site), and the last 6 batch-3 posts were rescheduled into the freed slots. Checked in Business Suite's Scheduled list: 17 posts, one per slot, Sat Nov 21 16:00 to Thu Nov 26 20:00.
 On 2026-11-22 batch 4 was pushed and booked as card link posts (Fri Nov 27 04:00 to Sun Nov 29 16:00), each checked once in the Scheduled list.
 On 2026-11-22 the site moved to https://farlightnews.github.io (GitHub org renamed to farlightnews). All 22 scheduled posts (Sun Nov 22 16:00 to Sun Nov 29 16:00) were edited in place in Business Suite: link in the caption and link preview switched to the new address, so they show the new Farlight card. Posts published before that (up to Sun Nov 22 04:00) still link to sciencemessenger.github.io, which no longer resolves.
-**Empty slots: Sun Nov 29 20:00 onward.** Add new stories before about Fri Nov 27 (keep 2 days booked). Next-batch candidates (aliens/life/new physics first): primordial black holes ruled out as dark matter (PRL, Phys.org + Space.com); lifeless-Earth biosignature baseline (PSJ, Phys.org + Space.com).
+**Empty slots: Mon Nov 30 04:00 onward.** Add new stories before about Fri Nov 27 (keep 2 days booked). Next-batch candidates (aliens/life/new physics first): primordial black holes ruled out as dark matter (PRL, Phys.org + Space.com); lifeless-Earth biosignature baseline (PSJ, Phys.org + Space.com).
 
 ---
 
@@ -182,3 +183,12 @@ https://farlightnews.github.io/news/black-hole-mergers-failed-supernovae-10-sola
 
 8. (Sun Nov 29 16:00) Uranus's magnetic field is tilted 59 degrees and doesn't even pass through the planet's centre. Scientists may finally know why.
 https://farlightnews.github.io/news/uranus-neptune-tilted-magnetic-fields-conductivity-dynamo.html
+
+---
+
+# Batch 5: 1 post (card link post)
+
+Written 2026-11-24 at the user's request ("immortality" story first; no glaucoma in the title/card/caption). Of the 6 other topics the user asked for (Europa sodium, QCD dark energy, Curiosity water films, four radiation belts, Mira flare, IBEX heliotail), none passed the two-source rule on 2026-11-24 (each only on one reference page); recheck in a few days.
+
+1. (Sun Nov 29 20:00) A gene therapy designed to make old nerve cells behave young again has now been given to people. The first three results are in, and they come with big caveats.
+https://farlightnews.github.io/news/first-human-test-of-cell-rejuvenation-therapy-early-hints.html
