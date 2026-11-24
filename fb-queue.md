@@ -186,9 +186,9 @@ https://farlightnews.github.io/news/uranus-neptune-tilted-magnetic-fields-conduc
 
 ---
 
-# Batch 5: 1 post (card link post)
+# Batch 5: 1 post (card link post), booked
 
-Written 2026-11-24 at the user's request ("immortality" story first; no glaucoma in the title/card/caption). Of the 6 other topics the user asked for (Europa sodium, QCD dark energy, Curiosity water films, four radiation belts, Mira flare, IBEX heliotail), none passed the two-source rule on 2026-11-24 (each only on one reference page); recheck in a few days.
+Written 2026-11-24 at the user's request and booked the same day (Sun Nov 29 20:00, card preview checked in the composer) ("immortality" story first; no glaucoma in the title/card/caption). Of the 6 other topics the user asked for (Europa sodium, QCD dark energy, Curiosity water films, four radiation belts, Mira flare, IBEX heliotail), none passed the two-source rule on 2026-11-24 (each only on one reference page); recheck in a few days.
 
 1. (Sun Nov 29 20:00) A gene therapy designed to make old nerve cells behave young again has now been given to people. The first three results are in, and they come with big caveats.
 https://farlightnews.github.io/news/first-human-test-of-cell-rejuvenation-therapy-early-hints.html
